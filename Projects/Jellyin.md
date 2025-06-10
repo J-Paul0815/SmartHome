@@ -70,7 +70,7 @@ Damit ist auch ein Zugriff von Ausserhalb des Heimnetzes ein Zugriff über die e
 
 ![image](https://github.com/user-attachments/assets/c6ed9d77-b3dc-4460-b559-cfbae97f23e6)
 
-Optional können aus den jeweiligen AppStores (Apple, Google) die entsprechenden Jellyfin Apps geladen werden.
+Optional können aus den jeweiligen AppStores (Apple, Google) die entsprechenden Jellyfin Apps für Handys und Pads geladen werden.
 Für den fireTV Stick kann die Installation direkt aus dem amazon Store angeschoben werden:
 ![image](https://github.com/user-attachments/assets/47276b23-130d-4104-988a-bb668f65899b)
 
