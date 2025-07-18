@@ -27,8 +27,8 @@ Hier um diese externe Temperatur zur Steuerung von Thermostaten zu nutzen, z.B. 
 - ToDo
 - Eingabe der neuen Ziel- (Soll-) Temperatur am Gerät
 - entweder mit Tasten (hoch/runter)
-- Autarke Stromversorgung 
 - oder Drehregler (beides ist einfach möglich)
+- Stromversorgung 
 - Gehäuse designen und drucken
 
   <img width="1280" height="959" alt="image" src="https://github.com/user-attachments/assets/85cc7603-4d15-429c-88c9-a1d3421fd30d" />
