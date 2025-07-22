@@ -1,0 +1,166 @@
+esphome:
+  name: esphome-web-451f6c
+  friendly_name: ESPHome CO2 SCD41
+  min_version: 2025.5.0
+  name_add_mac_suffix: false
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+wifi:
+  ssid: "fritz box new"
+  password: "Passxxxx"
+
+time:
+  - platform: sntp
+    id: sntp_time
+
+logger:
+api:
+ota:
+  platform: esphome
+
+mqtt:
+  broker: 192.168.x.xxx
+  port: 9393
+  username: User_Name
+  password: Password
+  topic_prefix: esphome
+
+i2c:
+  sda: 21
+  scl: 22
+  scan: true
+
+one_wire:
+  - platform: gpio
+    pin: GPIO27
+
+sensor:
+  - platform: dallas_temp
+    name: "DS18B20 Temperatur"
+    id: ds18b20
+    update_interval: 60s
+
+  - platform: scd4x
+    co2:
+      name: "CO2-Wert"
+      id: scd_co2
+    temperature:
+      name: "Raumtemperatur"
+      id: scd_temp
+    humidity:
+      name: "Luftfeuchtigkeit"
+      id: scd_hum
+    address: 0x62
+    update_interval: 60s
+
+  - platform: template
+    name: "Taupunkt"
+    id: scd_dew
+    unit_of_measurement: "C"
+    device_class: temperature
+    accuracy_decimals: 1
+    update_interval: 60s
+    lambda: |-
+      if (isnan(id(ds18b20).state) || isnan(id(scd_hum).state)) return NAN;
+      const float a = 17.62;
+      const float b = 243.12;
+      float temp = id(ds18b20).state;
+      float rh = id(scd_hum).state;
+      float gamma = (a * temp) / (b + temp) + log(rh / 100.0);
+      return (b * gamma) / (a - gamma);
+
+  - platform: rotary_encoder
+    name: "Zieltemperatur Stellrad"
+    id: encoder_temp
+    # Pull-up & Input Mode explizit gesetzt für sauberen Pegel
+    pin_a:
+      number: GPIO14
+      mode:
+        input: true
+        pullup: true
+    pin_b:
+      number: GPIO25
+      mode:
+        input: true
+        pullup: true
+    min_value: 6
+    max_value: 24
+    resolution: 1
+    publish_initial_value: true
+    on_value:
+      then:
+        - lambda: |-
+            static float last_value = NAN;
+            float value = round(x * 2) / 2.0;
+            if (value < 6) value = 6;
+            else if (value > 24) value = 24;
+            // Entprellung: nur Aktualisierung wenn Wert mindestens 0.5 anderes als vorher
+            if (isnan(last_value) || abs(value - last_value) >= 0.5) {
+              id(zieltemperatur).publish_state(value);
+              last_value = value;
+            }
+
+number:
+  - platform: template
+    name: "Zieltemperatur"
+    id: zieltemperatur
+    min_value: 6.0
+    max_value: 24.0
+    step: 0.5
+    optimistic: true
+    initial_value: 20.5
+    on_value:
+      then:
+        - delay: 200ms
+        - lambda: |-
+            if (id(my_display) != nullptr) {
+                id(my_display).update();
+            }
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO33
+      mode: INPUT_PULLUP
+      inverted: true
+    name: "EC11_Taster"
+    id: ec11_taster
+
+spi:
+  clk_pin: 18
+  mosi_pin: 23
+
+font:
+  - file: "Roboto-Regular.ttf"
+    id: small_font
+    size: 18
+  - file: "Roboto-Bold.ttf"
+    id: large_font
+    size: 32
+  - file: "Roboto-Bold.ttf"
+    id: title_font
+    size: 24
+
+display:
+  - platform: waveshare_epaper
+    id: my_display
+    model: 2.90inv2-r2
+    cs_pin: 26
+    dc_pin: 17
+    reset_pin: 16
+    busy_pin: 4
+    rotation: 270
+    update_interval: 120s
+    lambda: |-
+      it.printf(10, 10, id(title_font), TextAlign::TOP_LEFT, "Raumklima");
+      it.strftime(286, 10, id(small_font), TextAlign::TOP_RIGHT, "%d.%m.%y %H:%M", id(sntp_time).now());
+      it.printf(286, 60, id(small_font), TextAlign::TOP_RIGHT, "Solltemperatur");
+      it.printf(286, 80, id(large_font), TextAlign::TOP_RIGHT, "%.1f °C", id(zieltemperatur).state);
+      it.printf(10, 40, id(small_font), TextAlign::TOP_LEFT, "Temperatur : %.1f °C", id(ds18b20).state);
+      it.printf(10, 60, id(small_font), TextAlign::TOP_LEFT, "Taupunkt   : %.1f °C", id(scd_dew).state);
+      it.printf(10, 80, id(small_font), TextAlign::TOP_LEFT, "Luftfeuchte: %.1f %%", id(scd_hum).state);
+      it.printf(10, 100, id(small_font), TextAlign::TOP_LEFT, "CO2: %.0f ppm", id(scd_co2).state);
