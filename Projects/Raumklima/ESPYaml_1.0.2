@@ -26,8 +26,8 @@ ota:
 
 mqtt:
   broker: 192.168.x.xxx
-  port: 9399
-  username: UserName
+  port: 9393
+  username: Username
   password: Passwort
   topic_prefix: esphome
 
@@ -190,14 +190,13 @@ display:
       it.strftime(286, 10, id(small_font), TextAlign::TOP_RIGHT, "%d.%m.%y %H:%M", id(sntp_time).now());
 
       if (id(vorlaufmodus)) {
-      // Hintergrund-Rechtecke weiß zeichnen (vorherige Inhalte löschen)
-      it.filled_rectangle(176, 60, 110, 50, COLOR_ON);  // weißer Hintergrund
-      // Dann Text schwarz drüber (simulierte Invertierung)
-      it.printf(286, 60, id(small_font), COLOR_OFF, TextAlign::TOP_RIGHT, "Solltemperatur");
-      it.printf(286, 80, id(large_font), COLOR_OFF, TextAlign::TOP_RIGHT, "%.1f °C", id(vorlaeufige_zieltemperatur).state);
+        // Weißes Rechteck größer, damit "Solltemperatur" vollständig sichtbar ist
+        it.filled_rectangle(136, 60, 160, 50, COLOR_ON);
+        it.printf(286, 60, id(small_font), COLOR_OFF, TextAlign::TOP_RIGHT, "Solltemperatur");
+        it.printf(286, 80, id(large_font), COLOR_OFF, TextAlign::TOP_RIGHT, "%.1f °C", id(vorlaeufige_zieltemperatur).state);
       } else {
-      it.printf(286, 60, id(small_font), TextAlign::TOP_RIGHT, "Solltemperatur");
-      it.printf(286, 80, id(large_font), TextAlign::TOP_RIGHT, "%.1f °C", id(zieltemperatur).state);
+        it.printf(286, 60, id(small_font), TextAlign::TOP_RIGHT, "Solltemperatur");
+        it.printf(286, 80, id(large_font), TextAlign::TOP_RIGHT, "%.1f °C", id(zieltemperatur).state);
       }
 
       it.printf(10, 40, id(small_font), TextAlign::TOP_LEFT, "Temperatur : %.1f °C", id(ds18b20).state);
