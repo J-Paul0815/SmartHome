@@ -11,7 +11,7 @@ esp32:
 
 wifi:
   ssid: "fritz box new"
-  password: "Passxxxx"
+  password: "paswort"
 
 time:
   - platform: sntp
@@ -24,9 +24,9 @@ ota:
 
 mqtt:
   broker: 192.168.x.xxx
-  port: 9393
-  username: User_Name
-  password: Password
+  port: 9399
+  username: User
+  password: Passwort
   topic_prefix: esphome
 
 i2c:
@@ -76,7 +76,6 @@ sensor:
   - platform: rotary_encoder
     name: "Zieltemperatur Stellrad"
     id: encoder_temp
-    # Pull-up & Input Mode explizit gesetzt für sauberen Pegel
     pin_a:
       number: GPIO14
       mode:
@@ -87,18 +86,17 @@ sensor:
       mode:
         input: true
         pullup: true
-    min_value: 6
-    max_value: 24
-    resolution: 1
+    min_value: 12     # 12 * 0.5 = 6.0 °C
+    max_value: 48     # 48 * 0.5 = 24.0 °C
+    resolution: 1     # Jeder Schritt entspricht 0.5 °C
     publish_initial_value: true
     on_value:
       then:
         - lambda: |-
             static float last_value = NAN;
-            float value = round(x * 2) / 2.0;
+            float value = x * 0.5;
             if (value < 6) value = 6;
             else if (value > 24) value = 24;
-            // Entprellung: nur Aktualisierung wenn Wert mindestens 0.5 anderes als vorher
             if (isnan(last_value) || abs(value - last_value) >= 0.5) {
               id(zieltemperatur).publish_state(value);
               last_value = value;
