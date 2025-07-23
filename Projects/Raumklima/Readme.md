@@ -71,6 +71,16 @@ Hier um diese externe Temperatur zur Steuerung von Thermostaten zu nutzen, z.B. 
 - GND GND
 - GPIO27
 
+##### Stellrad EC11 Rotary Encoder
+<img width="492" height="409" alt="image" src="https://github.com/user-attachments/assets/e9f3d5ca-cd55-4d46-89f1-4ba158f0d7a7" />
+
+- GND + GND -> GND (ESP32)
+- Out A GPIO14
+- Out B GPIO25
+- Switch GPIO33
+
+beim drehen am Stellrad ändert sich der Wert in 0.5 Grad Schritten
+
 ##### Taupunkt 
 - errechnet aus
 - Temperatur DS18B20
@@ -81,7 +91,17 @@ Hier um diese externe Temperatur zur Steuerung von Thermostaten zu nutzen, z.B. 
 
   <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/166a4681-76d2-4803-b34c-8e4009623f1c" />
 
-  
+### Intergrationen
+Integrationen sind an beliebiger Stelle einsehbar und Steuerbar und verteilen sich automatisch (Display, HA, Iobroker)
+
+#### HomeAssistant
+<img width="1175" height="904" alt="image" src="https://github.com/user-attachments/assets/c8c123e4-c719-49e0-b851-9638d1d0eacc" />
+
+
+
+#### Iobroker
+<img width="1258" height="797" alt="image" src="https://github.com/user-attachments/assets/09effbac-043d-4cf7-967b-1bad628a0e35" />
+
   
 
   
