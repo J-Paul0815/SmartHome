@@ -11,23 +11,26 @@ esp32:
 
 wifi:
   ssid: "fritz box new"
-  password: "paswort"
+  password: "Passwort"
 
 time:
   - platform: sntp
     id: sntp_time
 
 logger:
+
 api:
+
 ota:
   platform: esphome
 
 mqtt:
   broker: 192.168.x.xxx
   port: 9399
-  username: User
+  username: UserName
   password: Passwort
   topic_prefix: esphome
+
 
 i2c:
   sda: 21
@@ -37,6 +40,21 @@ i2c:
 one_wire:
   - platform: gpio
     pin: GPIO27
+
+globals:
+  - id: vorlaufmodus
+    type: bool
+    restore_value: no
+    initial_value: 'false'
+
+script:
+  - id: reset_vorlauf_temp
+    mode: restart
+    then:
+      - delay: 5s
+      - lambda: |-
+          id(vorlaufmodus) = false;
+          id(my_display).update();
 
 sensor:
   - platform: dallas_temp
@@ -86,21 +104,20 @@ sensor:
       mode:
         input: true
         pullup: true
-    min_value: 12     # 12 * 0.5 = 6.0 °C
-    max_value: 48     # 48 * 0.5 = 24.0 °C
-    resolution: 1     # Jeder Schritt entspricht 0.5 °C
+    min_value: 12     # entspricht 6.0 °C
+    max_value: 48     # entspricht 24.0 °C
+    resolution: 1
     publish_initial_value: true
     on_value:
       then:
         - lambda: |-
-            static float last_value = NAN;
             float value = x * 0.5;
             if (value < 6) value = 6;
             else if (value > 24) value = 24;
-            if (isnan(last_value) || abs(value - last_value) >= 0.5) {
-              id(zieltemperatur).publish_state(value);
-              last_value = value;
-            }
+            id(vorlaeufige_zieltemperatur).publish_state(value);
+            id(vorlaufmodus) = true;
+        - script.execute: reset_vorlauf_temp
+        - component.update: my_display
 
 number:
   - platform: template
@@ -119,6 +136,15 @@ number:
                 id(my_display).update();
             }
 
+  - platform: template
+    name: "Vorläufige Zieltemperatur"
+    id: vorlaeufige_zieltemperatur
+    min_value: 6.0
+    max_value: 24.0
+    step: 0.5
+    optimistic: true
+    initial_value: 20.5
+
 binary_sensor:
   - platform: gpio
     pin:
@@ -127,6 +153,12 @@ binary_sensor:
       inverted: true
     name: "EC11_Taster"
     id: ec11_taster
+    on_press:
+      then:
+        - lambda: |-
+            id(zieltemperatur).publish_state(id(vorlaeufige_zieltemperatur).state);
+            id(vorlaufmodus) = false;
+        - component.update: my_display
 
 spi:
   clk_pin: 18
@@ -156,8 +188,18 @@ display:
     lambda: |-
       it.printf(10, 10, id(title_font), TextAlign::TOP_LEFT, "Raumklima");
       it.strftime(286, 10, id(small_font), TextAlign::TOP_RIGHT, "%d.%m.%y %H:%M", id(sntp_time).now());
+
+      if (id(vorlaufmodus)) {
+      // Hintergrund-Rechtecke weiß zeichnen (vorherige Inhalte löschen)
+      it.filled_rectangle(176, 60, 110, 50, COLOR_ON);  // weißer Hintergrund
+      // Dann Text schwarz drüber (simulierte Invertierung)
+      it.printf(286, 60, id(small_font), COLOR_OFF, TextAlign::TOP_RIGHT, "Solltemperatur");
+      it.printf(286, 80, id(large_font), COLOR_OFF, TextAlign::TOP_RIGHT, "%.1f °C", id(vorlaeufige_zieltemperatur).state);
+      } else {
       it.printf(286, 60, id(small_font), TextAlign::TOP_RIGHT, "Solltemperatur");
       it.printf(286, 80, id(large_font), TextAlign::TOP_RIGHT, "%.1f °C", id(zieltemperatur).state);
+      }
+
       it.printf(10, 40, id(small_font), TextAlign::TOP_LEFT, "Temperatur : %.1f °C", id(ds18b20).state);
       it.printf(10, 60, id(small_font), TextAlign::TOP_LEFT, "Taupunkt   : %.1f °C", id(scd_dew).state);
       it.printf(10, 80, id(small_font), TextAlign::TOP_LEFT, "Luftfeuchte: %.1f %%", id(scd_hum).state);
