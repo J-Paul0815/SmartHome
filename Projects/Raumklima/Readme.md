@@ -102,6 +102,10 @@ Integrationen sind an beliebiger Stelle einsehbar und Steuerbar und verteilen si
 #### Iobroker
 <img width="1258" height="797" alt="image" src="https://github.com/user-attachments/assets/09effbac-043d-4cf7-967b-1bad628a0e35" />
 
+
+### Im Zulauf:
+<img width="636" height="439" alt="image" src="https://github.com/user-attachments/assets/26ab47fe-1192-444e-8a41-7ea199dde989" />
+
   
 
   
