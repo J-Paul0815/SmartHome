@@ -73,6 +73,7 @@ Hier um diese externe Temperatur zur Steuerung von Thermostaten zu nutzen, z.B. 
 
 ##### Stellrad EC11 Rotary Encoder
 <img width="492" height="409" alt="image" src="https://github.com/user-attachments/assets/e9f3d5ca-cd55-4d46-89f1-4ba158f0d7a7" />
+<img width="555" height="367" alt="image" src="https://github.com/user-attachments/assets/734870b8-46c8-49d9-8cd8-f6fac1c407c5" />
 
 - GND + GND -> GND (ESP32)
 - Out A GPIO14
@@ -87,9 +88,12 @@ beim drehen am Stellrad ändert sich der Wert in 0.5 Grad Schritten
 - Luftfeuchte CSD41
 
 ##### Zieltemperatur
-- Virtuell 6-25 Grad
+- Virtuell 6-24 Grad
 
   <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/166a4681-76d2-4803-b34c-8e4009623f1c" />
+Während des Einstellens der neuen Solltemperatur invertiert die Anzeige. der neue Wert wird durch drücken/bestätigen auf den Stellknopf übernommen:
+<img width="850" height="587" alt="image" src="https://github.com/user-attachments/assets/a60cd772-0238-4662-97eb-ff50299d3f55" />
+ 
 
 ### Intergrationen
 Integrationen sind an beliebiger Stelle einsehbar und Steuerbar und verteilen sich automatisch (Display, HA, Iobroker)
