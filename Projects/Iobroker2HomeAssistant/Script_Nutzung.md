@@ -123,7 +123,8 @@ Das Topic muss also wie im Script definiert auf ```Solltemperatur```
 <img width="1215" height="616" alt="image" src="https://github.com/user-attachments/assets/d23eb395-2a6a-4558-8c47-cf4ad15ea0a2"/>
 
 
-```AllowCreationOfEntityWithUsedTopics: true  ``` legt fest, ob auch andere States mit in dem Gerät aufgenommen werden sollen (true) oder nicht (false)
+```AllowCreationOfEntityWithUsedTopics: true``` 
+legt fest, ob auch andere States mit in dem Gerät aufgenommen werden sollen (true) oder nicht (false)
 
 
 
