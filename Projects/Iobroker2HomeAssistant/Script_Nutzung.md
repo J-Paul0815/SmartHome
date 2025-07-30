@@ -31,7 +31,7 @@ const Topicstart = 'iobroker/'
 - Fertig
 
 ##### States vom Type ```string``` übertragen:
-(ohne Möglichkeit von HA zu Iobrokwer zurück)
+(ohne Möglichkeit von HA zu Iobroker zurück)
 
 <img width="1122" height="646" alt="image" src="https://github.com/user-attachments/assets/555b4144-8a52-4bf6-a6a1-3f49b7ad69c5" />
 
