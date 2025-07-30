@@ -131,6 +131,10 @@ Das Topic muss also wie im Script definiert auf ```Solltemperatur```
 
 
 
+
+
+
+
 <img width="537" height="510" alt="image" src="https://github.com/user-attachments/assets/4f7c2d0e-ca89-417b-a797-57b8aa34a337"/>
 
 
