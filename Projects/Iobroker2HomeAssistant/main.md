@@ -17,6 +17,7 @@ Viele Wege führen nach Rom. Die Beschreibung dieses Projekts zeigt nur eine von
 
 ##### Iobroker Installation 
 Beispiele in der Proxmox Umgebung:
+
 [Iobroker Installation Beschreibung aus dem LoRawan Adapter](https://wiki.hafenmeister.com/de/Installation)
 
 [Offizielle Anleitung](https://www.iobroker.net/#de/documentation/install/linux.md)
@@ -45,6 +46,7 @@ Nach den üblichen Vorbereitungen wie Update/Upgrade, User erstellen, diesem in 
   
   <img width="944" height="709" alt="image" src="https://github.com/user-attachments/assets/71514cb9-d6a2-4621-94ed-1232226079fa" />
   <img width="471" height="562" alt="image" src="https://github.com/user-attachments/assets/4546a829-6110-4a49-af70-ebee36475c66" />
+
   Wurde (wie hier optional beschrieben) in dem LXC Container auch Zigbee2Mqtt installiert, so werden auch alle Zigbee Geräte bereits in HA gelistet:
   <img width="1284" height="836" alt="image" src="https://github.com/user-attachments/assets/c2861fa5-f962-4760-97df-fc345f082a4d" />
 
