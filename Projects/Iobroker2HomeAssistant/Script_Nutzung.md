@@ -80,6 +80,62 @@ Beispiel Blockly, bei dem dieser ```Botton State``` ein Script triggert, der das
 
 <img width="665" height="520" alt="image" src="https://github.com/user-attachments/assets/544828e5-437c-4901-9928-f0ddae83ff9b" />
 
+##### Besonderheit von States vom Type ```climate``` die als ganze Thermostate, Wärmepumpen etc. übertragen werden können:
+Für jedes dieser Climate Geräte muss ein eigener Abschnitt für die Definition im Script vorhanden sein
+Beispiel MClimate LoRaWAN Thermostat Vicki:
+```
+*/
+
+// Definition der Topicnamen für Climat Entitäten
+const ClimateMode = 'TemperaturMode';
+const ClimateSollwert = 'Solltemperatur';
+const ClimateIstwert = 'Isttemperatur';
+
+// Definition der speziellen Geräte (Bspw. CLimate)
+const DeviceDefinitions = [];
+
+
+DeviceDefinitions.push({Type:'climate',
+                        Devicename: 'Vicki 001',
+                        Entityname: 'Thermostat',
+                        MinTemp: 6,
+                        MaxTemp: 24,
+                        Precision: 0.5,
+                        Modes: ['auto', 'heat', 'off'],
+                        AllowCreationOfEntityWithUsedTopics: true
+                        }
+                    );
+
+Hier werden die Topics angegeben, wenn ein Climate Gerät angelegt werden soll, es müssen also Topics so erstellt werden:
+
+```
+const ClimateMode = 'TemperaturMode';
+const ClimateSollwert = 'Solltemperatur';
+const ClimateIstwert = 'Isttemperatur';
+
+```
+Beispiel Hier die (Target) Soll Temperatur, die dann auch von HA aus gesteuert werden kann
+Das Topic muss also wie im Script definiert auf ```Solltemperatur```
+
+<img width="1215" height="616" alt="image" src="https://github.com/user-attachments/assets/d23eb395-2a6a-4558-8c47-cf4ad15ea0a2" />
+
+```AllowCreationOfEntityWithUsedTopics: true  ``` legt fest, ob auch andere States mit in dem Gerät aufgenommen werden sollen (true) oder nicht (false)
+
+<img width="341" height="650" alt="image" src="https://github.com/user-attachments/assets/181ed4b8-f350-4951-a12d-e5ad4c979684" />
+
+<img width="537" height="510" alt="image" src="https://github.com/user-attachments/assets/4f7c2d0e-ca89-417b-a797-57b8aa34a337" />
+
+
+
+
+
+
+
+
+```
+
+
+
 
 
 
