@@ -29,6 +29,13 @@ const Topicstart = 'iobroker/'
 
 <img width="1122" height="646" alt="image" src="https://github.com/user-attachments/assets/555b4144-8a52-4bf6-a6a1-3f49b7ad69c5" />
 
+<img width="1115" height="363" alt="image" src="https://github.com/user-attachments/assets/090408d7-ab08-464c-b98e-b452fa339f1b" />
+
+
+Nach starten des Scripts ist der State als Entität in HA vorhanden und kann über den Stift einem Bereich zugeordnet werden
+<img width="1040" height="692" alt="image" src="https://github.com/user-attachments/assets/0c1ee344-690d-4d3b-9c15-8441d09aab0d" />
+
+
 ##### States vom Type ```bool``` übertragen:
 
 
