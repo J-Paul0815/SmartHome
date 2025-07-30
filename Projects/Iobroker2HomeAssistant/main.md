@@ -4,6 +4,12 @@ Ziel ist es das Beste aus beiden Welten miteinander zu verbinden, da beide Syste
 zu agieren. So kann die gelungene Oberfläche von HomeAssistant mit den einfachen Logik Möglichkeiten von Iobroker z.B. Blockly innerhalb eines einzigen Systems genutzt werden.
 Besonderer Dank an dieser Stelle an Benjamin Schmidt für den beispielosen Einsatz.
 
+
+<img width="531" height="341" alt="image" src="https://github.com/user-attachments/assets/a415bc8a-e110-4f4d-9807-b3d5c11b2302" />
+
+### Visualisierung so einfach wie in Home Assistant und trotzdem einfache Logik Erstellung in Blockly?
+## Willkommen!
+
 #### Hinweis:
 Viele Wege führen nach Rom. Die Beschreibung dieses Projekts zeigt nur eine von vielen Möglichkeiten auf und soll in erster Linie Inspiration sein. Andere Wege, oder Abweichungen können sicher das gleiche Ergebnis liefern.
 
