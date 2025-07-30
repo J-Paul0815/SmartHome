@@ -1,4 +1,4 @@
-### Projekt Bidirektionale Verbindungen der Systeme Iobroker zu HomeAssistant und von HomeAssistant zu Iobroker
+### Projekt Bidirektionale Verbindungen der Systeme Iobroker zu HomeAssistant und von HomeAssistant zu Iobroker mit Auto Discovery. Geräte werden automatisiert korrekt in HA erstellt
 Ziel ist es das Beste aus beiden Welten miteinander zu verbinden, da beide Systeme ihre Stärken auspielen, um als 
 #### Ein Ganzen Royal Hyper System Iobroker2HomeAssistant
 zu agieren. So kann die gelungene Oberfläche von HomeAssistant mit den einfachen Logik Möglichkeiten von Iobroker z.B. Blockly innerhalb eines einzigen Systems genutzt werden.
