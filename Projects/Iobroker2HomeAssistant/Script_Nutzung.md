@@ -1,4 +1,10 @@
 ### Nutzung des Scripts zur automatisierten Einrichtung
+#### Pro Tip
+- Bevor es los geht, empfehle ich das Anlegen einer eigenen Kategorie (Hier HA Entität)
+- Zuordnung von jedem State, der Verbindung zu HA hat
+- So ist ein Auffinden durch filtern sehr einfach
+<img width="1585" height="737" alt="image" src="https://github.com/user-attachments/assets/ae2af894-8938-4273-8bf2-650472754acb" />
+
 
 #### Voraussetzungen siehe Main.md
 
