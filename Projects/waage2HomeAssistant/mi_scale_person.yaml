@@ -1,0 +1,35 @@
+# Gewicht Joerg (≥ 90 kg), gerundet auf 2 Dezimalstellen
+- trigger:
+    - platform: state
+      entity_id: sensor.esphome_ble_xiaomi_mi_scale_gewicht
+      not_to:
+        - 'unavailable'
+        - 'unknown'
+  sensor:
+    - name: "Gewicht Joerg"
+      unit_of_measurement: "kg"
+      state: >
+        {% set w = trigger.to_state.state | float(0) %}
+        {% if w >= 90 %}
+          {{ w | round(2) }}
+        {% else %}
+          {{ states('sensor.gewicht_joerg') | float(0) | round(2) }}
+        {% endif %}
+
+# Gewicht Viola (> 1 kg und < 90 kg), gerundet auf 2 Dezimalstellen
+- trigger:
+    - platform: state
+      entity_id: sensor.esphome_ble_xiaomi_mi_scale_gewicht
+      not_to:
+        - 'unavailable'
+        - 'unknown'
+  sensor:
+    - name: "Gewicht Viola"
+      unit_of_measurement: "kg"
+      state: >
+        {% set w = trigger.to_state.state | float(0) %}
+        {% if (w > 1) and (w < 90) %}
+          {{ w | round(2) }}
+        {% else %}
+          {{ states('sensor.gewicht_viola') | float(0) | round(2) }}
+        {% endif %}
