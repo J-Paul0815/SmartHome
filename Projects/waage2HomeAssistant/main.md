@@ -5,6 +5,7 @@ Nebenbei wird über einen BME280 gleich die Luftfeuchte, Temperatur und Luftdruc
 Da der ESP32 auch Bluetooth kann kann er auch gleich vorhandene BLE Geräte mit einbinden.
 Zum einen die Mi-Flora Sensor für die Hibiskus Pflanze und eben auch die Daten von einer Xiaomi Personenwaage
 Die ESP Home Yaml Datei findet sich hier im Projekt 
+[ESPHome-BLE.yaml](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/waage2HomeAssistant/ESPHome-BLE.yaml)
 
 Nun zur Waage:
 
@@ -26,7 +27,7 @@ In der Configuration.yaml wurde der Ordner /Templates bereit includiert
 template: !include_dir_merge_list templates/
 ```
 In dem Ordner /templates wurde eine neu Datei ```templates/mi_scale_person.yaml``` angelegt.
-Den Inhalt findet man auch hier im Projekt
+Den Inhalt findet man auch hier im Projekt [mi_scale_person.yaml](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/waage2HomeAssistant/mi_scale_person.yaml)
 
 Wichtig ist dass die Quelle der Gewichtsdaten hier ```sensor.esphome_ble_xiaomi_mi_scale_gewicht``` exakt übereinstimmt.
 Die Namen und kg Werte können natürlich angepasst und erweitert werden.
