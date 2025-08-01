@@ -1,0 +1,126 @@
+esphome:
+  name: esphome-ble
+  friendly_name: ESPHome BLE
+
+esp32:
+  board: esp32dev
+  framework:
+    type: esp-idf
+
+wifi:
+  ssid: "fritz box new"               # Hier den Namen deines WIFIs eintragen
+  password: "Dein_Geheimes_Passwort"  # Hier dein WiFi-Passwort eintragen
+
+logger:
+  level: DEBUG
+  logs:
+    sensor: INFO
+    mqtt: INFO
+    component: INFO
+
+api:
+  encryption:
+    key: "eeTLDGua4SVbgHGlqC5TpSVNOis5lqz2gXfWdtXMRqw="
+
+ota:
+  platform: esphome
+
+esp32_ble_tracker:
+  scan_parameters:
+    interval: 1100ms
+    window: 1100ms
+    active: true
+
+# UART für LD2410
+uart:
+  tx_pin: GPIO1      # TX ESP32 -> RX LD2410
+  rx_pin: GPIO3      # RX ESP32 -> TX LD2410
+  baud_rate: 256000
+  parity: NONE
+  stop_bits: 1
+
+# I2C für BME280
+i2c:
+  sda: GPIO21
+  scl: GPIO22
+  scan: true
+
+# Hauptkomponente LD2410 (ohne timeout, max_move_distance und max_still_distance im Block, da dynamisch per Number gesteuert)
+ld2410:
+  # leer lassen
+
+# Timeout, max_move_distance und max_still_distance als Number-Komponenten (ohne Name, da aktuell nicht unterstützt)
+number:
+  - platform: ld2410
+  - platform: ld2410
+  - platform: ld2410
+
+# Binary Sensoren für LD2410 — korrekte Optionen und Namen
+binary_sensor:
+  - platform: ld2410
+    has_target:
+      name: "LD2410 Anwesenheit"
+  - platform: ld2410
+    has_moving_target:
+      name: "LD2410 Bewegung erkannt"
+  - platform: ld2410
+    has_still_target:
+      name: "LD2410 Still erkannt"
+
+# Sensoren
+sensor:
+ # Mi Flora 
+  - platform: xiaomi_hhccjcy01
+    mac_address: "C4:7C:8D:69:FE:E8"
+    temperature:
+      name: "Xiaomi Flora Temperatur"
+    moisture:
+      name: "Xiaomi Flora Feuchtigkeit"
+    illuminance:
+      name: "Xiaomi Flora Lichtstärke"
+    conductivity:
+      name: "Xiaomi Flora Leitfähigkeit"
+  # battery_level:
+  #   name: "Xiaomi Flora Batteriestand"
+
+  # BME280 Sensor über I2C
+  - platform: bme280_i2c
+    temperature:
+      name: "BME280 Temperatur"
+      oversampling: 16x
+    pressure:
+      name: "BME280 Luftdruck"
+    humidity:
+      name: "BME280 Luftfeuchtigkeit"
+    address: 0x76
+    update_interval: 60s
+
+  # Xiaomi Mi Scale (nur falls ESP32 BLE aktiv)
+  - platform: xiaomi_miscale
+    mac_address: "70:87:9e:0c:4c:d8"
+    weight:
+      name: "Xiaomi Mi Scale Gewicht"
+      accuracy_decimals: 2
+      unit_of_measurement: "kg"
+      icon: "mdi:scale-bathroom"
+    
+
+  # LD2410 Distanz- und Energiewerte (ohne signal_strength, da nicht unterstützt)
+  - platform: ld2410
+    moving_distance:
+      name: "LD2410 Bewegungsdistanz"
+      unit_of_measurement: "m"
+  - platform: ld2410
+    still_distance:
+      name: "LD2410 Stilldistanz"
+      unit_of_measurement: "m"
+  - platform: ld2410
+    detection_distance:
+      name: "LD2410 Gesamtdistanz"
+      unit_of_measurement: "m"
+  - platform: ld2410
+    moving_energy:
+      name: "LD2410 Bewegungsenergie"
+  - platform: ld2410
+    still_energy:
+      name: "LD2410 Stillenergie"
