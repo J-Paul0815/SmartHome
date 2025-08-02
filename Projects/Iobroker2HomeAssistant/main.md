@@ -65,7 +65,7 @@ Nach den üblichen Vorbereitungen wie Update/Upgrade, User erstellen, diesem in 
 
 Beschreibung, wie dieser genutzt wird ist in [Script Nutzung](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/Iobroker2HomeAssistant/Script_Nutzung.md) beschrieben
 
-
+Der umgekehrte Weg vom [Home Assistant zu Iobroker](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/Iobroker2HomeAssistant/HomeAssistant2Iobroker.md) ist auch hier im  Projekt beschrieben
 
 ________________________________________
 Optional Zigbee2MQTT
