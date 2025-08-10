@@ -1,5 +1,11 @@
 # Projekt Raumklima Device PoC
 ## Ziel soll sein ein Gerät zu haben, welches als externes Steuerungsgerät für einen Thermostaten dient, ähnlich wie die abgesetzten Geräte beim FHT80B oder den direktvernüpften Geräten bei Homematic. Das Projekt ist ein ESPHome-basiertes Raumklima-Messgerät mit CO2-, Temperatur-, Taupunkt- und Feuchtigkeitsmessung, das eine individuell einstellbare Solltemperatur über Drehgeber und Taster ermöglicht. Beim Einstellen der Zieltemperatur wird der Wert invertiert und vergrößert auf dem Display angezeigt, um eine klare Rückmeldung zu geben, bis die Einstellung durch Tastendruck bestätigt oder nach einer Zeit ohne Bestätigung verworfen wird. Das Display-Layout ist dabei speziell konfiguriert, um Textgröße, Layout und Formatierung für optimale Lesbarkeit zu gewährleisten.
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/cafa2f9a-5cb9-4d31-8ba2-915c30752226" />
+
+
+[Youtube Link](https://youtu.be/6yPGjfqhJRQ?si=A_Ecq9VBpAbna6BA)
+
+
 Hier um diese externe Temperatur zur Steuerung von Thermostaten zu nutzen, z.B. MClimate Vicki, oder dnt-Thermostate
 
 - Erfassen von Raumklima Daten
