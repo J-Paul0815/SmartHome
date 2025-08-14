@@ -17,3 +17,6 @@ Hinweis auf das Projekt LoRaWAN zu Home assistant Bridge:
 - Mini Step-Up Spannungswandler Modul 12V (z.B. Ebay 2,99€, drauf achten, dass bereits 12V voreingestellt ist)
 - 
 
+#### Ultraschall Tof Messung
+
+<img width="495" height="509" alt="image" src="https://github.com/user-attachments/assets/29d36950-493b-4caa-ba2c-d6c6d40a5e0c" />
