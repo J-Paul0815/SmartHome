@@ -8,6 +8,8 @@ Dies ist ein Beispiel für den Aufbau eines Testaufbaus mit minmalsten befehlen,
 ### Anwendung und Ziel
 - Die Anwendung ist die Cloudfreie (Lokale) Nutzung von LoRaWAN inklusive eines Application Servers, der (auch) als LoRaWAN Bridge für Home Assistant genutz werden kann
 - Ziel ist es LoRaWAN in Home Assistant lesend und schreibend vollumfänglich aber ohne weitere Vorkenntnisse nutzen zu können
+- LoRaWAN Nutzdaten können so automatisiert in eine (z.B. InfluxDB) geschrieben werden (ZeroTouch=Es reicht Devices im LNS hinzuzufügen, die Daten landen in der DB)
+- [Beschreibung für das Einrichten Auto Logging](https://wiki.hafenmeister.com/de/Uplinks)
 - Möglichkeit ein eigenes LoRaWAN Gateway, oder ein evt. öffentlich verfügbares Gateway (TTN) zu nutzen
   
 ### Aufbau
