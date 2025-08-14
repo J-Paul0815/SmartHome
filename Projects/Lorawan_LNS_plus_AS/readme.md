@@ -73,6 +73,24 @@ Chirpstack ```IP_Adresse:8080```
 Iobroker ```IP_Adresse:8081```
 
 ### 9. Chirpstack einrichten
+#### Vorbereitungen im LoRaWAN Gateway (hier am Beispiel Mikrotik)
+Im IOT Tab Lora anwählen, Server, NEW: (IP Adresse ist die von der eben erstellten Maschine Port 1700 und 1700)
+<img width="985" height="556" alt="image" src="https://github.com/user-attachments/assets/7efd266d-cc8f-4daf-a49b-9e683dd0fa38" />
+Im Tab Devices:
+Enable ausschalten,Apply (sonst werden keine Änderungen übernommen)
+den eben hinzugefügten Server (oben) und TTN EU V3 (darunter) hinzufügen
+<img width="948" height="623" alt="image" src="https://github.com/user-attachments/assets/6d06fa85-6e73-45e0-b3e9-9eb8ff06a28e" />
+Gateway ID merken, kopieren
+Enable wieder einschalten, Apply
+Nun in Chirpstack einloggen User admin Passwort admin
+Gateway hinzufügen:
+<img width="1061" height="845" alt="image" src="https://github.com/user-attachments/assets/d1925d08-8d8c-4cde-a74c-d2468db13d89" />
+Die gemerkte Gateway ID eintragen:
+<img width="977" height="489" alt="image" src="https://github.com/user-attachments/assets/def77b07-1e26-4ae2-a8f5-8830ab8707e5" />
+
+
+
+
 Platzhalter
 
 ### 10. Iobroker einrichten
