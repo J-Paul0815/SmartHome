@@ -24,10 +24,10 @@ Dies ist ein Beispiel für den Aufbau eines Testaufbaus mit minmalsten befehlen,
 ```apt update && apt upgrade -y```
 
 ### 2. Docker & Docker Compose installieren
-```sudo apt install docker.io docker-compose -y```
+```apt install docker.io docker-compose -y```
 
 ### 3. Docker aktivieren und starten
-```sudo systemctl enable --now docker```
+```systemctl enable --now docker```
 
 ### 4. Projekt- und Datenverzeichnisse anlegen
 ```mkdir -p ~/lorawan/{chirpstack/config,chirpstack/data,chirpstack_db,mqtt/config,mqtt/data}```
