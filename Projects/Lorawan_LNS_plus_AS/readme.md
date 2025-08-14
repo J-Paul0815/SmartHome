@@ -34,8 +34,10 @@ Dies ist ein Beispiel für den Aufbau eines Testaufbaus mit minmalsten befehlen,
 
 ### 5. Compose-Datei erstellen und bearbeiten
 ```cd ~/lorawan```
+
 ```nano docker-compose.yml```
-Platzhalter für Link zur docker-compose.yaml
+
+[Link zur docker-compose.yaml](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/Lorawan_LNS_plus_AS/docker-compose.yaml)
 
 ### 6. Container starten
 ```docker-compose up -d```
@@ -45,6 +47,7 @@ Platzhalter für Link zur docker-compose.yaml
 
 ### 8. LNS und AS prüfen
 Chirpstack ```IP_Adresse:8080```
+
 Iobroker ```IP_Adresse:8081```
 
 ### 9. Chirpstack einrichten
