@@ -135,6 +135,8 @@ Hier ein Video auf Youtube, welches die Funktionsweise zeigt:
 
 [https://youtu.be/cl2A3-pa9MY](https://youtu.be/cl2A3-pa9MY)
 
+<img width="1043" height="778" alt="image" src="https://github.com/user-attachments/assets/fc0db48c-71a8-42e3-85e9-6f168e2546d9" />
+
 
 
 
