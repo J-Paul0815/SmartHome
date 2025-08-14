@@ -37,6 +37,7 @@ Dies ist ein Beispiel für den Aufbau eines Testaufbaus mit minmalsten befehlen,
 
 ```nano docker-compose.yml```
 gegen das hier verlinkte docker-compose austauschen, oder die Änderungen für iobroker im Abschnitt ```services:``` 
+der untere Teil der yaml sieht dann so aus:
 ```
   # --- ioBroker Integration ---
   iobroker:
@@ -50,10 +51,11 @@ gegen das hier verlinkte docker-compose austauschen, oder die Änderungen für i
       - iobroker_data:/opt/iobroker
   # ----------------------------
 
-```
-und (ganz unten) den ```Volumes:``` Eintrag hinzufügen
 
-```iobroker_data:```
+volumes:
+  postgresqldata:
+  redisdata:
+  iobroker_data:
 
 [Link zur docker-compose.yaml](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/Lorawan_LNS_plus_AS/docker-compose.yaml)
 
