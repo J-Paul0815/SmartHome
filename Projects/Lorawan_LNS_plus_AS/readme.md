@@ -15,8 +15,9 @@ Ebenso liesse sich dies aber auch ohne Docker, oder auf einem Raspberry Pi betre
 - externe Verknüpfung
 
 ### Installation
-- Erstellung eines LXC Containers (min. 4GB RAM, 32 GB HDD)
-- Basis (Beispiel) Debian 12
+- Erstellung eines LXC Containers (Template debian 12, min. 4GB RAM, 32 GB HDD, 2 Cores, IP4 DHCP, Option aktiviert Nesting & keyctl )
+<img width="355" height="292" alt="image" src="https://github.com/user-attachments/assets/f89a59c1-0bbd-422d-8926-c48a31278d14" />
+
 
 # 1. System aktualisieren
 ```sudo apt update && sudo apt upgrade -y```
