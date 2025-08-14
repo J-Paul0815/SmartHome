@@ -1,5 +1,7 @@
 ## Projekt Zisterne über LoRaWAN 
-Hinweis auf das Projekt LoRaWAN zu Home assistant Bridge:
+Hinweis auf das Projekt LoRaWAN zu Home Assistant Bridge:
+
+[https://github.com/J-Paul0815/SmartHome/tree/main/Projects/Lorawan_LNS_plus_AS](https://github.com/J-Paul0815/SmartHome/tree/main/Projects/Lorawan_LNS_plus_AS)
 
 
 #### Messung per
@@ -15,7 +17,11 @@ Hinweis auf das Projekt LoRaWAN zu Home assistant Bridge:
 - Pegelsonde RS485
 - Mini Box mit DAE (Druckausgleichselement)
 - Mini Step-Up Spannungswandler Modul 12V (z.B. Ebay 2,99€, drauf achten, dass bereits 12V voreingestellt ist)
-- 
+
+Bei dem in diesem Projkt hinterlegte Decoder ist (auch) ausgelegt für die Füllstandsmessungen für liegende Zylinder, auch mit abgerundeten Enden
+Folgende Daten kommen bereits aus dem Decoder und landen somit dann auch in Iobroker, InfluxDB, Home Assistant etc.
+Pegel im mm (mit 10 Nachkommastellen genau), cm (ohne Nachkommastellen), m³, Liter, Prozentuelle Füllung 
+
 
 #### Ultraschall Tof Messung
 
