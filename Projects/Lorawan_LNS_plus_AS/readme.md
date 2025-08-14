@@ -124,7 +124,11 @@ Hier in Stichworten, wie man nun die bidirektinale Verbindung zu Home Assistant 
 Es müssen 2 Scripte importiert werden, die für die Übertragung zu HA das Autodiscovery übernehmen
 
 Siehe hierzu folgendes Github Projekt:
+[https://github.com/BenAhrdt/SmartHome/tree/main/ioBroker/Skripte/Home%20Assistant/MQTT](https://github.com/BenAhrdt/SmartHome/tree/main/ioBroker/Skripte/Home%20Assistant/MQTT)
 
+Hier ein Video auf Youtube, welches die Funktionsweise zeigt:
+
+[https://youtu.be/cl2A3-pa9MY](https://youtu.be/cl2A3-pa9MY)
 
 
 
