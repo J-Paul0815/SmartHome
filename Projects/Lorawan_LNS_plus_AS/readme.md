@@ -1,4 +1,5 @@
 ## Projekt LoRaWAN Network Server (LNS) mit einem Application Server (AS) als einen Dienst zu verknüpfen (Open Source)
+### Im 2. schritt kann dann eine bidirktionale Bridge zu Home Assistant eingerichtet werden
 
 In diesem Beispiel wird die in einem LXC Container unter Proxmox als Docker eingerichtet
 Ebenso liesse sich dies aber auch ohne Docker, oder auf einem Raspberry Pi betreiben
