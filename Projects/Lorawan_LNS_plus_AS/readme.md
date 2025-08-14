@@ -87,20 +87,51 @@ Gateway hinzufügen:
 <img width="1061" height="845" alt="image" src="https://github.com/user-attachments/assets/d1925d08-8d8c-4cde-a74c-d2468db13d89" />
 Die gemerkte Gateway ID eintragen:
 <img width="977" height="489" alt="image" src="https://github.com/user-attachments/assets/def77b07-1e26-4ae2-a8f5-8830ab8707e5" />
+nach Submit sollte das Gateway nun Online dargestellt werden (dauert evtl. ein paar Sekunden)
+<img width="513" height="570" alt="image" src="https://github.com/user-attachments/assets/0bf5b30f-44e4-4fda-9049-bec2fc436ccd" />
 
+Die nächsen Schritte sind dann Device Profile mit den Decodern zu erstellen
+Application erstellen
+Dort Devices hinzuzufügen, mit der DEVEUI, JoinEUI (AppEUI bei TTN) und dem APPKey und dem Device ein (eben erstelltes) Device Profil zuzuordnen.
 
-
-
-Platzhalter
+Platzhalter für die Einrichtung von Devices
 
 ### 10. Iobroker einrichten
-Platzhalter
+
 Stichpunkte:
 Ersteinrichtung (Durchklicken)
 Installation von Adaptern:
 - Javascipt
 - LoRaWAN
 - MQTT-Client (nicht MQTT Master/Server als Client!)
+
+LoRaWAN Adapter Instanz einrichten:
+IP Adresse der eben erstellten Maschine, kein SSL, kein Benutzer, kein Passwort, Quelle Chirpstack
+
+<img width="887" height="580" alt="image" src="https://github.com/user-attachments/assets/d3749a56-2cf8-49f4-ab48-74fc8c6c26cb" />
+
+speichern und Schlißen, Instanz sollte nun "grün" werden
+
+<img width="546" height="39" alt="image" src="https://github.com/user-attachments/assets/744c46a7-4c35-4c52-b5b0-5462a473f491" />
+
+Für die in Chirpstack (oder TTN) eingerichteten Geräte, werden nun Objekte angelegt:
+
+<img width="1393" height="764" alt="image" src="https://github.com/user-attachments/assets/37c3692d-71de-45e8-8be4-eb5d909c2af6" />
+
+Damit wäre das Projekt LNS & AS abgeschlossen
+Hier in Stichworten, wie man nun die bidirektinale Verbindung zu Home Assistant einrichtet
+
+Es müssen 2 Scripte importiert werden, die für die Übertragung zu HA das Autodiscovery übernehmen
+
+Siehe hierzu folgendes Github Projekt:
+
+
+
+
+
+
+
+  
   
 
 
