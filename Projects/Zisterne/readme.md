@@ -10,7 +10,7 @@ Hinweis auf das Projekt LoRaWAN zu Home Assistant Bridge:
 - Ultraschall
  
 ### Teile die benötigt werden
-- LoRaWAN Node RS485 z.B. Dragino RS485 BL
+- LoRaWAN Node RS485 z.B. Dragino RS485 BL (ab ca. 30€)
 
 <img width="734" height="679" alt="image" src="https://github.com/user-attachments/assets/3f199306-222c-4e09-92d3-3fb58f2694e5" />
 
@@ -20,6 +20,7 @@ Hinweis auf das Projekt LoRaWAN zu Home Assistant Bridge:
   Eine Lösung über Messumformer Sensoren 4-20mA wäre aber auch möglich
 - Mini Box mit DAE (Druckausgleichselement)
 - Mini Step-Up Spannungswandler Modul 12V (z.B. Ebay 2,99€, drauf achten, dass bereits 12V voreingestellt ist)
+- Optional Stecker/Buchse Steckverbinder SP13/4Pin
 
 <img width="1280" height="928" alt="image" src="https://github.com/user-attachments/assets/c50f6e11-0a74-45c0-a760-ad1557a37257" />
   
