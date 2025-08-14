@@ -121,13 +121,17 @@ Für die in Chirpstack (oder TTN) eingerichteten Geräte, werden nun Objekte ang
 
 Damit wäre das Projekt LNS & AS abgeschlossen
 Hier in Stichworten, wie man nun die bidirektinale Verbindung zu Home Assistant einrichtet
+Vorraussetzung hierfür ist der Einsatz eines in Home Assistant eingerichteten MQTT Server
+Dies kann der in interne Mosquitto von HA sein, aber auch ein anderer. In meinem  Fall nutze ich den MQTT Server vom Zigbee2MQTT LXC Container, dieser in in HA eingerichtet und läuft auch immer.
 
 Es müssen 2 Scripte importiert werden, die für die Übertragung zu HA das Autodiscovery übernehmen
 
 Siehe hierzu folgendes Github Projekt:
+
 [https://github.com/BenAhrdt/SmartHome/tree/main/ioBroker/Skripte/Home%20Assistant/MQTT](https://github.com/BenAhrdt/SmartHome/tree/main/ioBroker/Skripte/Home%20Assistant/MQTT)
 
 Hier ein Video auf Youtube, welches die Funktionsweise zeigt:
+
 
 [https://youtu.be/cl2A3-pa9MY](https://youtu.be/cl2A3-pa9MY)
 
