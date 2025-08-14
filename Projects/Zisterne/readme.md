@@ -23,6 +23,10 @@ Hinweis auf das Projekt LoRaWAN zu Home Assistant Bridge:
 
 <img width="1280" height="928" alt="image" src="https://github.com/user-attachments/assets/c50f6e11-0a74-45c0-a760-ad1557a37257" />
   
+<img width="433" height="1280" alt="image" src="https://github.com/user-attachments/assets/f402e128-69b7-4650-97e2-c1ba5d62d8dc" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/c864c0f6-8750-471f-8827-a0f662afd2a8" />
+
 
 Bei dem in diesem Projkt hinterlegte Decoder ist (auch) ausgelegt für die Füllstandsmessungen für liegende Zylinder, auch mit abgerundeten Enden
 Folgende Daten kommen bereits aus dem Decoder und landen somit dann auch in Iobroker, InfluxDB, Home Assistant etc.
