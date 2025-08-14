@@ -81,8 +81,14 @@ Im Tab Devices:
 Enable ausschalten,Apply (sonst werden keine Änderungen übernommen)
 den eben hinzugefügten Server (oben) und TTN EU V3 (darunter) hinzufügen
 <img width="948" height="623" alt="image" src="https://github.com/user-attachments/assets/6d06fa85-6e73-45e0-b3e9-9eb8ff06a28e" />
+
+## Chirpstack für Dich, TTN für die Community und für Dich als Backup !!!
+
 Gateway ID merken, kopieren
 Enable wieder einschalten, Apply
+
+
+#### Chirpstack einrichten
 Nun in Chirpstack einloggen User admin Passwort admin
 Gateway hinzufügen:
 <img width="1061" height="845" alt="image" src="https://github.com/user-attachments/assets/d1925d08-8d8c-4cde-a74c-d2468db13d89" />
