@@ -30,12 +30,28 @@ Dies ist ein Beispiel für den Aufbau eines Testaufbaus mit minmalsten befehlen,
 ```systemctl enable --now docker```
 
 ### 4. Projekt- und Datenverzeichnisse anlegen
-```mkdir -p ~/lorawan/{chirpstack/config,chirpstack/data,chirpstack_db,mqtt/config,mqtt/data}```
+```git clone https://github.com/brocaar/chirpstack-docker```
 
 ### 5. Compose-Datei erstellen und bearbeiten
-```cd ~/lorawan```
+```cd chirpstack-docker```
 
 ```nano docker-compose.yml```
+gegen das hier verlinkte docker-compose austauschen, oder die Änderungen für iobroker im Abschnitt ```services:``` 
+```
+  # --- ioBroker Integration ---
+  iobroker:
+    image: buanet/iobroker:latest
+    container_name: iobroker
+    hostname: iobroker
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+    volumes:
+      - iobroker_data:/opt/iobroker
+  # ----------------------------
+
+```
+und (ganz unten) den ```Volumes:``` Eintrag hinzufügen ```iobroker_data:```
 
 [Link zur docker-compose.yaml](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/Lorawan_LNS_plus_AS/docker-compose.yaml)
 
