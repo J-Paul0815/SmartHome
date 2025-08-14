@@ -23,6 +23,6 @@ Folgende Daten kommen bereits aus dem Decoder und landen somit dann auch in Iobr
 Pegel im mm (mit 10 Nachkommastellen genau), cm (ohne Nachkommastellen), m³, Liter, Prozentuelle Füllung 
 
 
-#### Ultraschall Tof Messung
+#### Ultraschall ToF Messung
 
 <img width="495" height="509" alt="image" src="https://github.com/user-attachments/assets/29d36950-493b-4caa-ba2c-d6c6d40a5e0c" />
