@@ -51,7 +51,9 @@ gegen das hier verlinkte docker-compose austauschen, oder die Änderungen für i
   # ----------------------------
 
 ```
-und (ganz unten) den ```Volumes:``` Eintrag hinzufügen ```iobroker_data:```
+und (ganz unten) den ```Volumes:``` Eintrag hinzufügen
+
+```iobroker_data:```
 
 [Link zur docker-compose.yaml](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/Lorawan_LNS_plus_AS/docker-compose.yaml)
 
