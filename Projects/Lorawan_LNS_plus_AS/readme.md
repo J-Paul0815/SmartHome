@@ -56,6 +56,8 @@ volumes:
   postgresqldata:
   redisdata:
   iobroker_data:
+```
+Vollständige docker-compose.yaml;:
 
 [Link zur docker-compose.yaml](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/Lorawan_LNS_plus_AS/docker-compose.yaml)
 
