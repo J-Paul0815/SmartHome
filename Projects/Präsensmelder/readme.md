@@ -12,6 +12,9 @@
 - ESP32 Dev Board
 - BME280 Sensor 
 - HLK-LD2410B 24 GHz Radar Sensor
+- Gehäuse
+  <img width="366" height="428" alt="image" src="https://github.com/user-attachments/assets/0b23e4ae-6c7a-4679-a4c9-52f6397392f3" />
+
   <img width="378" height="290" alt="image" src="https://github.com/user-attachments/assets/4e157d37-bd69-4efe-927e-46c900f3523a" />
 
   <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/25fc5c59-cec5-4ce2-be57-2294376ad036" />
