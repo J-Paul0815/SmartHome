@@ -132,6 +132,10 @@ Hier in Stichworten, wie man nun die bidirektinale Verbindung zu Home Assistant 
 Vorraussetzung hierfür ist der Einsatz eines in Home Assistant eingerichteten MQTT Server
 Dies kann der in interne Mosquitto von HA sein, aber auch ein anderer. In meinem  Fall nutze ich den MQTT Server vom Zigbee2MQTT LXC Container, dieser in in HA eingerichtet und läuft auch immer.
 
+In der LoRaWAN Instanz Einstellung können nun für alle Objekte lesend (Uplinks) sowie schreibend (Commands als Downlinks) die automtisierten Einstellungen für die MQTT Verknüpfung vorgenommen werden:
+<img width="1278" height="619" alt="image" src="https://github.com/user-attachments/assets/c04035b3-b387-4b72-9100-653b2fcbd00a" />
+
+Zur eigentlichen Übertragung der States in HA mit Auto Discovery sind Skripte nötig
 Es müssen 2 Scripte importiert werden, die für die Übertragung zu HA das Autodiscovery übernehmen
 
 Siehe hierzu folgendes Github Projekt:
