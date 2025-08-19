@@ -1,4 +1,4 @@
-Perepair Proxmox System with IPv6
+Prepair Proxmox System with IPv6
 
 [https://forum.iobroker.net/topic/81020/ipv6-f%C3%BCr-matter-einrichten-ohne-aktivierung-ipv6-im-router?_=1755592984441](https://forum.iobroker.net/topic/81020/ipv6-f%C3%BCr-matter-einrichten-ohne-aktivierung-ipv6-im-router?_=1755592984441)
 
