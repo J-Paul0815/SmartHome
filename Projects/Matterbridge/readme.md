@@ -175,7 +175,8 @@ Create Token
 
 <img width="1380" height="477" alt="image" src="https://github.com/user-attachments/assets/2f602eec-0181-460c-8ab6-97e1a471f0d0" />
 
-Configuration
+Configuration:
+IP Adress
 Insert Token
 Label "matterbridge"
 
