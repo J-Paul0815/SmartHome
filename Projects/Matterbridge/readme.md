@@ -154,3 +154,26 @@ hafenmeister@matterbridge:/root$ matterbridge -bridge
 [08:49:33.073] [Matterbridge] Setting reachability to true for Matterbridge
 ```
 <img width="1910" height="981" alt="image" src="https://github.com/user-attachments/assets/385df901-d7b5-4198-97fe-c8e07e8f999e" />
+
+<img width="895" height="585" alt="image" src="https://github.com/user-attachments/assets/5e6eaf84-5682-4dbf-9c3e-e45672233707" />
+
+
+In Home Assistant App
+<img width="874" height="603" alt="image" src="https://github.com/user-attachments/assets/01fb5d80-4c79-4da8-8817-995f5b0e013e" />
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/d39969e2-32c9-4e6e-8f9e-d913722f4651" />
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/bac3a413-5ac6-4609-bd58-bc0af0dc6a92" />
+
+
+
+
+Create Token
+<img width="932" height="639" alt="image" src="https://github.com/user-attachments/assets/ae9035b9-a213-4b7f-88e2-f2db7aaba052" />
+
+<img width="1395" height="652" alt="image" src="https://github.com/user-attachments/assets/6be37167-6339-4975-9795-b65fc5540412" />
+
+<img width="1380" height="477" alt="image" src="https://github.com/user-attachments/assets/2f602eec-0181-460c-8ab6-97e1a471f0d0" />
+
+
+
