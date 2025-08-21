@@ -21,3 +21,6 @@ Restart the Script
 After some Uplinks (min 2) you found the Flow in Liter/Min here:
 0_userdata.0.WaterFlow.Waterflow
 
+<img width="1402" height="854" alt="image" src="https://github.com/user-attachments/assets/dc286dc1-3fdc-4e47-bbf8-7fff165c757d" />
+
+
