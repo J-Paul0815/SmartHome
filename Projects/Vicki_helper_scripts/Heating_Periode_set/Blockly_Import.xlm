@@ -1,0 +1,241 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="sS@k~f:@R`yF_pFI:z{P">Start_heating_period</variable>
+    <variable id=";)7,Nz@mz2%UgeD[LABi">dec</variable>
+    <variable id="bw50BW]c$fVSYtQoY/u:">End_heating_period</variable>
+  </variables>
+  <block type="variables_set" id="/bN5}?H1t(|QgrfZM@Nn" x="-437" y="663">
+    <field name="VAR" id="sS@k~f:@R`yF_pFI:z{P">Start_heating_period</field>
+    <value name="VALUE">
+      <block type="text" id="{iR1].2AMuPt7[(Rl;}v">
+        <field name="TEXT">01.07</field>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="pi2rDb3lUjGRmZ-]j4K?">
+        <field name="VAR" id="bw50BW]c$fVSYtQoY/u:">End_heating_period</field>
+        <value name="VALUE">
+          <block type="text" id="oFEUP@H0Q68F~fdk`qjQ">
+            <field name="TEXT">01.04</field>
+          </block>
+        </value>
+        <next>
+          <block type="debug" id="6B6bF;Q|]n}P1Jx{z1(u">
+            <field name="Severity">warn</field>
+            <value name="TEXT">
+              <shadow type="text" id="vmIt,N`%m!!qpLxs$jHn">
+                <field name="TEXT">test</field>
+              </shadow>
+              <block type="text_join" id=".fq*1ztSEQVC!SeRXX^{">
+                <mutation items="5"></mutation>
+                <value name="ADD0">
+                  <block type="text" id="fck7s+3ih%D}|X1]KJbk">
+                    <field name="TEXT">5B</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="procedures_callcustomreturn" id="B@}:R8}owhMR`[VuF^RL">
+                    <mutation name="dec2hex">
+                      <arg name="dec"></arg>
+                    </mutation>
+                    <value name="ARG0">
+                      <block type="convert_tonumber" id="?LWHRk!qDlG3L*=%3K*l">
+                        <value name="VALUE">
+                          <block type="math_arithmetic" id="7(SiXcms0PMxiKXqaPm,">
+                            <field name="OP">MINUS</field>
+                            <value name="A">
+                              <shadow type="math_number" id="v!ZuUU9UMaT,E@{1GhGL">
+                                <field name="NUM">1</field>
+                              </shadow>
+                              <block type="convert_tonumber" id="X#Q$m;{^B@+euD@}.$tJ">
+                                <value name="VALUE">
+                                  <block type="lists_getIndex" id="Hdco9F2B$#d!P(/@~`Js">
+                                    <mutation statement="false" at="true"></mutation>
+                                    <field name="MODE">GET</field>
+                                    <field name="WHERE">FROM_START</field>
+                                    <value name="VALUE">
+                                      <block type="lists_split" id="S4u-_HU.HNSu0g@G!|4r">
+                                        <mutation mode="SPLIT"></mutation>
+                                        <field name="MODE">SPLIT</field>
+                                        <value name="INPUT">
+                                          <block type="variables_get" id="soxQR7whHFMB?fzW^Ny=">
+                                            <field name="VAR" id="sS@k~f:@R`yF_pFI:z{P">Start_heating_period</field>
+                                          </block>
+                                        </value>
+                                        <value name="DELIM">
+                                          <shadow type="text" id="1PnMg-%^IUrWK17uH0.e">
+                                            <field name="TEXT">.</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="AT">
+                                      <block type="math_number" id="O5@@r=5,?n/_MzL]@*MK">
+                                        <field name="NUM">2</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <shadow type="math_number" id="_sC{@yWb,buNTkooo^h/">
+                                <field name="NUM">1</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD2">
+                  <block type="procedures_callcustomreturn" id=".l[gEaxX2fglT`*C[Z8^">
+                    <mutation name="dec2hex">
+                      <arg name="dec"></arg>
+                    </mutation>
+                    <value name="ARG0">
+                      <block type="convert_tonumber" id="c:;2LuDw;~;[KgfJpL%A">
+                        <value name="VALUE">
+                          <block type="lists_getIndex" id="fkHuP*eI#;-C{RS!_,!@">
+                            <mutation statement="false" at="true"></mutation>
+                            <field name="MODE">GET</field>
+                            <field name="WHERE">FROM_START</field>
+                            <value name="VALUE">
+                              <block type="lists_split" id=":WBm_p-4=?pCF}N_68$g">
+                                <mutation mode="SPLIT"></mutation>
+                                <field name="MODE">SPLIT</field>
+                                <value name="INPUT">
+                                  <block type="variables_get" id="yMp[R3KRV}jz=w1gmW@#">
+                                    <field name="VAR" id="sS@k~f:@R`yF_pFI:z{P">Start_heating_period</field>
+                                  </block>
+                                </value>
+                                <value name="DELIM">
+                                  <shadow type="text" id="#awvVZtZ#@Vf?ce.0)*q">
+                                    <field name="TEXT">.</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="AT">
+                              <block type="math_number" id="M.nqrQ4AM]w,KLgg1J,S">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD3">
+                  <block type="procedures_callcustomreturn" id="w7/7K@E%8tnp`xQhV|E@">
+                    <mutation name="dec2hex">
+                      <arg name="dec"></arg>
+                    </mutation>
+                    <value name="ARG0">
+                      <block type="convert_tonumber" id="x,J*N)PrT94KVj|`^?q3">
+                        <value name="VALUE">
+                          <block type="math_arithmetic" id="-N.-sk[p0p^Urync0YCK">
+                            <field name="OP">MINUS</field>
+                            <value name="A">
+                              <shadow type="math_number" id="v!ZuUU9UMaT,E@{1GhGL">
+                                <field name="NUM">1</field>
+                              </shadow>
+                              <block type="convert_tonumber" id="w1-bR6T~A-^MY?/lNmX@">
+                                <value name="VALUE">
+                                  <block type="lists_getIndex" id="X+:ml:02crlO@}7HV~!9">
+                                    <mutation statement="false" at="true"></mutation>
+                                    <field name="MODE">GET</field>
+                                    <field name="WHERE">FROM_START</field>
+                                    <value name="VALUE">
+                                      <block type="lists_split" id="f#B:|QXbR-5vdb))-|LE">
+                                        <mutation mode="SPLIT"></mutation>
+                                        <field name="MODE">SPLIT</field>
+                                        <value name="INPUT">
+                                          <block type="variables_get" id="b4cJ;`Q_;+-~5{_AUeB_">
+                                            <field name="VAR" id="bw50BW]c$fVSYtQoY/u:">End_heating_period</field>
+                                          </block>
+                                        </value>
+                                        <value name="DELIM">
+                                          <shadow type="text" id="1c+c:YwSf:OK/uEz3fEo">
+                                            <field name="TEXT">.</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="AT">
+                                      <block type="math_number" id="{Afsi9MXc0hCvL(Y+|~+">
+                                        <field name="NUM">2</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <shadow type="math_number" id="L@A7Lhp.^$1@K|9l[E{O">
+                                <field name="NUM">1</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD4">
+                  <block type="procedures_callcustomreturn" id="+sl^)HYC/Y:%IQ)$gSBO">
+                    <mutation name="dec2hex">
+                      <arg name="dec"></arg>
+                    </mutation>
+                    <value name="ARG0">
+                      <block type="convert_tonumber" id=",)76D$faUf+F{j:1iD#U">
+                        <value name="VALUE">
+                          <block type="lists_getIndex" id="dOg31`|=S)*61v^{[1GH">
+                            <mutation statement="false" at="true"></mutation>
+                            <field name="MODE">GET</field>
+                            <field name="WHERE">FROM_START</field>
+                            <value name="VALUE">
+                              <block type="lists_split" id="wTYUyWB/+b+)Pv5gM!9s">
+                                <mutation mode="SPLIT"></mutation>
+                                <field name="MODE">SPLIT</field>
+                                <value name="INPUT">
+                                  <block type="variables_get" id="~?0i{8][uy[g[Do*}hcu">
+                                    <field name="VAR" id="bw50BW]c$fVSYtQoY/u:">End_heating_period</field>
+                                  </block>
+                                </value>
+                                <value name="DELIM">
+                                  <shadow type="text" id=";j{$Mnl]Vx=Jw2Tg|%OY">
+                                    <field name="TEXT">.</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="AT">
+                              <block type="math_number" id="b3[A;bN]Q7e1gQ@9S:qD">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_defcustomreturn" id="LCZyBfzP)3xlIG^B;^9{" x="87" y="663">
+    <mutation statements="false">
+      <arg name="dec" varid=";)7,Nz@mz2%UgeD[LABi"></arg>
+    </mutation>
+    <field name="NAME">dec2hex</field>
+    <field name="SCRIPT">Ly8gcmV0dXJuIE1hdGguYWJzKGRlYykudG9TdHJpbmcoMTYpOw0KLy8gZm9yY2UgNCBEaWdpdHMNCi8vcmV0dXJuICgnMDAwMCcgKyBkZWMudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkpLnNsaWNlKC00KTsNCi8vIGZvcmNlIDIgRGlnaXRzDQpyZXR1cm4gKCcwMCcgKyBkZWMudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkpLnNsaWNlKC0yKTsNCi8vIHJldHVybiAoJzAwJyArIGRlYy50b1N0cmluZygxNikudG9VcHBlckNhc2UoKSkuc2xpY2UoLTIpOw0KLy9udW1iZXIuIHRvU3RyaW5nKDE2KQ==</field>
+    <comment pinned="false" h="80" w="160">Beschreibe diese Funktion …</comment>
+  </block>
+</xml>
