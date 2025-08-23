@@ -26,11 +26,11 @@ Result is ```170000B41F``` for the schedule and
 
 So the Complete Downlink Command is with ```59 – command code``` in front
 
-```5900090000D71F01170000B41F```
+```5900090000D71F5901170000B41F```
 
 To get Get events 0–7 we Complete the DL Command with ```5A00```
 
-```5900090000D71F01170000B41F5A00```
+```5900090000D71F5901170000B41F5A00```
 
 
 
