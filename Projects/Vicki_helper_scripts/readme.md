@@ -21,3 +21,7 @@
 - set up weekday(s)
 - set up start time
 - set up Target Temperature
+
+### Decoder FW 4.6
+
+New Decoder (not Offiziel) with the new functions
