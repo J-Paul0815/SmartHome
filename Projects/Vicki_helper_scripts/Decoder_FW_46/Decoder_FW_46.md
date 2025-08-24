@@ -13,7 +13,14 @@ Answer Uplink
 
 <img width="286" height="244" alt="image" src="https://github.com/user-attachments/assets/80f18ee3-f23c-40b0-aabf-7235191959e1" />
 
+### Heating Schedule
+Downlink
 
+```5A00```
+
+Answer Uplink
+
+<img width="235" height="313" alt="image" src="https://github.com/user-attachments/assets/be63a65e-6b5b-498f-a2d8-17bcb429692e" />
 
 
 
