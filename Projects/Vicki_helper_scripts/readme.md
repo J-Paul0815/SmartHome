@@ -24,4 +24,4 @@
 
 ### Decoder FW 4.6
 
-New Decoder (not Offiziel) with the new functions
+New Decoder (not official) with the new functions
