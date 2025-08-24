@@ -25,3 +25,9 @@
 ### Decoder FW 4.6
 
 New Decoder (not official) with the new functions
+
+### Function:
+For the scripts, the generated hex values ​​can be entered in the "CustomSend" data point. The documentation determines the quantity and combination of these values.
+
+<img width="1384" height="765" alt="image" src="https://github.com/user-attachments/assets/1795c9f4-0a42-4978-8d78-328534fc841b" />
+
