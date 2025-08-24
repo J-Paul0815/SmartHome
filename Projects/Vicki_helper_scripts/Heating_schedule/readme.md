@@ -18,19 +18,22 @@ Result is ```090000D71F``` for the schedule and
 
 Now create Start Mo-Fr 5pm 18.0 degree as event Index 1
 
-<img width="987" height="687" alt="image" src="https://github.com/user-attachments/assets/9cdfea10-d5e5-4bf3-96bc-7625eb29453d" />
 
-Result is ```170000B41F``` for the schedule and
-```01170000B41F``` include the event index 01 in front
+<img width="902" height="716" alt="image" src="https://github.com/user-attachments/assets/4a8a4910-c731-4fe1-8f10-2eb459cdf360" />
+
+
+
+Result is ```110000B41F``` for the schedule and
+```01110000B41F``` include the event index 01 in front
 
 
 So the Complete Downlink Command is with ```59 – command code``` in front
 
-```5900090000D71F5901170000B41F```
+```5900090000D71F5901110000B41F```
 
 To get Get events 0–7 we Complete the DL Command with ```5A00```
 
-```5900090000D71F5901170000B41F5A00```
+```5900090000D71F5901110000B41F5A00```
 
 Uplink (Answer)
 ```4400005a00090000d71f170000b41f00000000000000000000000000000000000000000000000000000000000052004b```
@@ -38,7 +41,7 @@ Uplink (Answer)
 ```
 44 00 00 5A 00 
 09 00 00 D7 1F = 09:00 / 00 D7 → 215 = 21.5 °C / 1F Mo-Fr
-17 00 00 B4 1F = 17:00 / 00 B4 → 180 = 18.0 °C / 1F Mo-Fr
+11 00 00 B4 1F = 17:00 / 00 B4 → 180 = 18.0 °C / 1F Mo-Fr
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 52 00 4B
 ```
