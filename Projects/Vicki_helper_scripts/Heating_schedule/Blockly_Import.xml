@@ -1,7 +1,8 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
   <variables>
-    <variable id=":8*1T]nu?M{r[2%r(O$e">ascii</variable>
-    <variable id="7k,]Z9QmPMaz88%]1J$H">dec</variable>
+    <variable id=",%)Oouro*nC5HqdGcn/,">Event_Index</variable>
+    <variable id="xLsERHAC6_x]lfT!(:=f">ascii</variable>
+    <variable id="*P3qjp0|`19KZy[o8H_,">dec</variable>
     <variable id="|PE0Q5Y$Z#kqp.48K?M:">dec2</variable>
     <variable id="ldR0tPFNHAXOVgU#cPD;">Monday</variable>
     <variable id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</variable>
@@ -13,376 +14,228 @@
     <variable id="DA5C:lKS*stQ!J:cW35D">Start_Time</variable>
     <variable id="H,FGj$r^DvWnpaqI%/8l">Degree</variable>
   </variables>
-  <block type="variables_set" id="o%0g!q+TcPRmquFm{ygP" x="88" y="38">
-    <field name="VAR" id="ldR0tPFNHAXOVgU#cPD;">Monday</field>
+  <block type="variables_set" id="$!(s9X1R,bwj9![ZMRuc" x="87" y="13">
+    <field name="VAR" id=",%)Oouro*nC5HqdGcn/,">Event_Index</field>
     <value name="VALUE">
-      <block type="logic_boolean" id="%u*pkf_oM*j2gY}I7Ui?">
-        <field name="BOOL">TRUE</field>
+      <block type="text" id="8k)#OZy(8eej:UpHB^$@">
+        <field name="TEXT">01</field>
       </block>
     </value>
     <next>
-      <block type="variables_set" id="Xk}$GThUW%+3pV|o/}jF">
-        <field name="VAR" id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</field>
+      <block type="variables_set" id="o%0g!q+TcPRmquFm{ygP">
+        <field name="VAR" id="ldR0tPFNHAXOVgU#cPD;">Monday</field>
         <value name="VALUE">
-          <block type="logic_boolean" id="T}p|^?tcDh#^1qSjq-%5">
+          <block type="logic_boolean" id="%u*pkf_oM*j2gY}I7Ui?">
             <field name="BOOL">TRUE</field>
           </block>
         </value>
         <next>
-          <block type="variables_set" id="XaU#+o!Ej;IwOz[CwhlW">
-            <field name="VAR" id="@^LKN@aE^TLDjyZ_ipil">Wendsday</field>
+          <block type="variables_set" id="Xk}$GThUW%+3pV|o/}jF">
+            <field name="VAR" id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</field>
             <value name="VALUE">
-              <block type="logic_boolean" id="X1JK?[Zx(t`igYUb{W+w">
+              <block type="logic_boolean" id="T}p|^?tcDh#^1qSjq-%5">
                 <field name="BOOL">TRUE</field>
               </block>
             </value>
             <next>
-              <block type="variables_set" id="?]KqmE2auF|A:JV0Jq|~">
-                <field name="VAR" id="7P#H5taZweV4=mm]^Nx8">Thursday</field>
+              <block type="variables_set" id="XaU#+o!Ej;IwOz[CwhlW">
+                <field name="VAR" id="@^LKN@aE^TLDjyZ_ipil">Wendsday</field>
                 <value name="VALUE">
-                  <block type="logic_boolean" id="`/+(lsbLK6d:aLyY8(Q%">
+                  <block type="logic_boolean" id="X1JK?[Zx(t`igYUb{W+w">
                     <field name="BOOL">TRUE</field>
                   </block>
                 </value>
                 <next>
-                  <block type="variables_set" id="cDwL8+0Qita{,/(bd%pY">
-                    <field name="VAR" id="fhr577h6[.o}jxL-h8Ag">Friday</field>
+                  <block type="variables_set" id="?]KqmE2auF|A:JV0Jq|~">
+                    <field name="VAR" id="7P#H5taZweV4=mm]^Nx8">Thursday</field>
                     <value name="VALUE">
-                      <block type="logic_boolean" id="bzcH^wo5@NU/C{o)+vC@">
+                      <block type="logic_boolean" id="`/+(lsbLK6d:aLyY8(Q%">
                         <field name="BOOL">TRUE</field>
                       </block>
                     </value>
                     <next>
-                      <block type="variables_set" id="g[1l:6[B@`Ct7-`i{uo|">
-                        <field name="VAR" id="QDMFvIl{qaK@[qr7r?kv">Saturday</field>
+                      <block type="variables_set" id="cDwL8+0Qita{,/(bd%pY">
+                        <field name="VAR" id="fhr577h6[.o}jxL-h8Ag">Friday</field>
                         <value name="VALUE">
-                          <block type="logic_boolean" id="fW24Wk?TBWfdV!%uc/,r">
-                            <field name="BOOL">FALSE</field>
+                          <block type="logic_boolean" id="bzcH^wo5@NU/C{o)+vC@">
+                            <field name="BOOL">TRUE</field>
                           </block>
                         </value>
                         <next>
-                          <block type="variables_set" id="2K*.W{|UbB!ym78wv-$}">
-                            <field name="VAR" id="+ce$BGt/uC)o5SJFnazV">Sunday</field>
+                          <block type="variables_set" id="g[1l:6[B@`Ct7-`i{uo|">
+                            <field name="VAR" id="QDMFvIl{qaK@[qr7r?kv">Saturday</field>
                             <value name="VALUE">
-                              <block type="logic_boolean" id="]FU,B-5?^t:epeVbL,5;">
+                              <block type="logic_boolean" id="fW24Wk?TBWfdV!%uc/,r">
                                 <field name="BOOL">FALSE</field>
                               </block>
                             </value>
                             <next>
-                              <block type="variables_set" id="cZNfK_{)Fh;Abx^zWe[y">
-                                <field name="VAR" id="DA5C:lKS*stQ!J:cW35D">Start_Time</field>
+                              <block type="variables_set" id="2K*.W{|UbB!ym78wv-$}">
+                                <field name="VAR" id="+ce$BGt/uC)o5SJFnazV">Sunday</field>
                                 <value name="VALUE">
-                                  <block type="text" id="4$3dF)CKVF8f;mrWBmyn">
-                                    <field name="TEXT">17:00</field>
+                                  <block type="logic_boolean" id="]FU,B-5?^t:epeVbL,5;">
+                                    <field name="BOOL">FALSE</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="variables_set" id="Q2Mh}i5#d@sYMUpwru4(">
-                                    <field name="VAR" id="H,FGj$r^DvWnpaqI%/8l">Degree</field>
+                                  <block type="variables_set" id="cZNfK_{)Fh;Abx^zWe[y">
+                                    <field name="VAR" id="DA5C:lKS*stQ!J:cW35D">Start_Time</field>
                                     <value name="VALUE">
-                                      <block type="math_number" id="|#m@AE|F)h1:5xVHZACJ">
-                                        <field name="NUM">18</field>
+                                      <block type="text" id="4$3dF)CKVF8f;mrWBmyn">
+                                        <field name="TEXT">17:00</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="debug" id=":MvJ*@e$oPQM/~?p/e%*" collapsed="true">
-                                        <field name="Severity">info</field>
-                                        <value name="TEXT">
-                                          <shadow type="text" id="*#L.HngN8zMD2p%Gg;na">
-                                            <field name="TEXT">test</field>
-                                          </shadow>
-                                          <block type="text_join" id="EyqGf-NUs_1w-TOzGpw2">
-                                            <mutation items="8"></mutation>
-                                            <value name="ADD0">
-                                              <block type="text" id=":6hq`j1qL_gQaN[3R!xK">
-                                                <field name="TEXT">0</field>
-                                              </block>
-                                            </value>
-                                            <value name="ADD1">
-                                              <block type="logic_ternary" id="=N~C]SiU4Z.kQW9lFy(|">
-                                                <value name="IF">
-                                                  <block type="variables_get" id="u%f+TpF1.7]UeFe/f;tC">
-                                                    <field name="VAR" id="+ce$BGt/uC)o5SJFnazV">Sunday</field>
-                                                  </block>
-                                                </value>
-                                                <value name="THEN">
-                                                  <block type="text" id="Xa$iud+/I`Bj*4SQfw9L">
-                                                    <field name="TEXT">1</field>
-                                                  </block>
-                                                </value>
-                                                <value name="ELSE">
-                                                  <block type="text" id="z1g$B_y~V=[RrwM$]D]{">
-                                                    <field name="TEXT">0</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="ADD2">
-                                              <block type="logic_ternary" id="m+.sPXo{?hbPEJH5!$^)">
-                                                <value name="IF">
-                                                  <block type="variables_get" id="S!tdt4{2zmA+sV[ud6=w">
-                                                    <field name="VAR" id="QDMFvIl{qaK@[qr7r?kv">Saturday</field>
-                                                  </block>
-                                                </value>
-                                                <value name="THEN">
-                                                  <block type="text" id="!KF.CfQpSeUiA=Fn|1.h">
-                                                    <field name="TEXT">1</field>
-                                                  </block>
-                                                </value>
-                                                <value name="ELSE">
-                                                  <block type="text" id="unY7og]1v17,Yo5kYJ]?">
-                                                    <field name="TEXT">0</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="ADD3">
-                                              <block type="logic_ternary" id="CTxMc9NGv`25anQiWcm*">
-                                                <value name="IF">
-                                                  <block type="variables_get" id="IRfiK:%vt.D-glrD/m+p">
-                                                    <field name="VAR" id="fhr577h6[.o}jxL-h8Ag">Friday</field>
-                                                  </block>
-                                                </value>
-                                                <value name="THEN">
-                                                  <block type="text" id="ajM$X8Y?NAQ67djZf78J">
-                                                    <field name="TEXT">1</field>
-                                                  </block>
-                                                </value>
-                                                <value name="ELSE">
-                                                  <block type="text" id="4c@N]`TE_-u{xA^-$boN">
-                                                    <field name="TEXT">0</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="ADD4">
-                                              <block type="logic_ternary" id="1[:-^3C$Nh(uaIhZxRI.">
-                                                <value name="IF">
-                                                  <block type="variables_get" id="-22EPpc2m`Fh2W(VhOLK">
-                                                    <field name="VAR" id="7P#H5taZweV4=mm]^Nx8">Thursday</field>
-                                                  </block>
-                                                </value>
-                                                <value name="THEN">
-                                                  <block type="text" id="wU7dhbZ{~@}KyI]br+If">
-                                                    <field name="TEXT">1</field>
-                                                  </block>
-                                                </value>
-                                                <value name="ELSE">
-                                                  <block type="text" id="^Z*ye%PkwY$[E)R_ne|g">
-                                                    <field name="TEXT">0</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="ADD5">
-                                              <block type="logic_ternary" id="$Wt~HfYIh6N@J4C4hh3B">
-                                                <value name="IF">
-                                                  <block type="variables_get" id="S-/r7;gsBsZR]k268KA1">
-                                                    <field name="VAR" id="@^LKN@aE^TLDjyZ_ipil">Wendsday</field>
-                                                  </block>
-                                                </value>
-                                                <value name="THEN">
-                                                  <block type="text" id="cI91HNp!22#wxf/KhY2s">
-                                                    <field name="TEXT">1</field>
-                                                  </block>
-                                                </value>
-                                                <value name="ELSE">
-                                                  <block type="text" id=";proHyp@..K7SkJ@q;h%">
-                                                    <field name="TEXT">0</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="ADD6">
-                                              <block type="logic_ternary" id="JzD@4`PRWK:#4M`#8`0K">
-                                                <value name="IF">
-                                                  <block type="variables_get" id=")%|T|oib=|)dcg6Z;TpW">
-                                                    <field name="VAR" id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</field>
-                                                  </block>
-                                                </value>
-                                                <value name="THEN">
-                                                  <block type="text" id="SHx6P15h7-ft`c?.J}We">
-                                                    <field name="TEXT">1</field>
-                                                  </block>
-                                                </value>
-                                                <value name="ELSE">
-                                                  <block type="text" id="p_+AMs%-uo_`OZs[jndl">
-                                                    <field name="TEXT">0</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="ADD7">
-                                              <block type="logic_ternary" id=",uu9:/0aDgUh=/DuT7Jy">
-                                                <value name="IF">
-                                                  <block type="variables_get" id="?jYUNf:}`}jtUIsW|:G$">
-                                                    <field name="VAR" id="ldR0tPFNHAXOVgU#cPD;">Monday</field>
-                                                  </block>
-                                                </value>
-                                                <value name="THEN">
-                                                  <block type="text" id="jp+09OddvMwQfeCtr5?K">
-                                                    <field name="TEXT">1</field>
-                                                  </block>
-                                                </value>
-                                                <value name="ELSE">
-                                                  <block type="text" id="z=zo5#=|5K`E=GAgBs_g">
-                                                    <field name="TEXT">0</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
+                                      <block type="variables_set" id="Q2Mh}i5#d@sYMUpwru4(">
+                                        <field name="VAR" id="H,FGj$r^DvWnpaqI%/8l">Degree</field>
+                                        <value name="VALUE">
+                                          <block type="math_number" id="|#m@AE|F)h1:5xVHZACJ">
+                                            <field name="NUM">18</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="debug" id="`vN{-WV`m=!iLK{qs|^|" collapsed="true">
+                                          <block type="debug" id=":MvJ*@e$oPQM/~?p/e%*" collapsed="true">
                                             <field name="Severity">info</field>
                                             <value name="TEXT">
-                                              <shadow type="text" id="^N!Z-2`7vHz{b-f7#ZRB">
+                                              <shadow type="text" id="*#L.HngN8zMD2p%Gg;na">
                                                 <field name="TEXT">test</field>
                                               </shadow>
-                                              <block type="procedures_callcustomreturn" id="sd/xi~).vh,JK^q(z}SI">
-                                                <mutation name="ascii_Binär2hex">
-                                                  <arg name="ascii"></arg>
-                                                </mutation>
-                                                <value name="ARG0">
-                                                  <block type="text_join" id="c8$GYHw]Z7f4Zw*vh`iP">
-                                                    <mutation items="8"></mutation>
-                                                    <value name="ADD0">
-                                                      <block type="text" id="Rre!u7MNNy-TfrnzpTgS">
+                                              <block type="text_join" id="EyqGf-NUs_1w-TOzGpw2">
+                                                <mutation items="8"></mutation>
+                                                <value name="ADD0">
+                                                  <block type="text" id=":6hq`j1qL_gQaN[3R!xK">
+                                                    <field name="TEXT">0</field>
+                                                  </block>
+                                                </value>
+                                                <value name="ADD1">
+                                                  <block type="logic_ternary" id="=N~C]SiU4Z.kQW9lFy(|">
+                                                    <value name="IF">
+                                                      <block type="variables_get" id="u%f+TpF1.7]UeFe/f;tC">
+                                                        <field name="VAR" id="+ce$BGt/uC)o5SJFnazV">Sunday</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="THEN">
+                                                      <block type="text" id="Xa$iud+/I`Bj*4SQfw9L">
+                                                        <field name="TEXT">1</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ELSE">
+                                                      <block type="text" id="z1g$B_y~V=[RrwM$]D]{">
                                                         <field name="TEXT">0</field>
                                                       </block>
                                                     </value>
-                                                    <value name="ADD1">
-                                                      <block type="logic_ternary" id="b/Jr-6/IH*VmMWy(y4pe">
-                                                        <value name="IF">
-                                                          <block type="variables_get" id="!3|c8w?Ryf][;@AP,pF)">
-                                                            <field name="VAR" id="+ce$BGt/uC)o5SJFnazV">Sunday</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="THEN">
-                                                          <block type="text" id="le*yU:ui.1s+h)%7A)K$">
-                                                            <field name="TEXT">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="ELSE">
-                                                          <block type="text" id="^1k#l$R(v!=pJfU?9:rP">
-                                                            <field name="TEXT">0</field>
-                                                          </block>
-                                                        </value>
+                                                  </block>
+                                                </value>
+                                                <value name="ADD2">
+                                                  <block type="logic_ternary" id="m+.sPXo{?hbPEJH5!$^)">
+                                                    <value name="IF">
+                                                      <block type="variables_get" id="S!tdt4{2zmA+sV[ud6=w">
+                                                        <field name="VAR" id="QDMFvIl{qaK@[qr7r?kv">Saturday</field>
                                                       </block>
                                                     </value>
-                                                    <value name="ADD2">
-                                                      <block type="logic_ternary" id="BN0WJeR}la2{O3dA]njj">
-                                                        <value name="IF">
-                                                          <block type="variables_get" id="7r#hd;G5KB+Q2)Y?o|]T">
-                                                            <field name="VAR" id="QDMFvIl{qaK@[qr7r?kv">Saturday</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="THEN">
-                                                          <block type="text" id=".pt}*vk+^1p!/I2DZnJx">
-                                                            <field name="TEXT">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="ELSE">
-                                                          <block type="text" id="+K+@eR!3Pv2h@^l`!ku7">
-                                                            <field name="TEXT">0</field>
-                                                          </block>
-                                                        </value>
+                                                    <value name="THEN">
+                                                      <block type="text" id="!KF.CfQpSeUiA=Fn|1.h">
+                                                        <field name="TEXT">1</field>
                                                       </block>
                                                     </value>
-                                                    <value name="ADD3">
-                                                      <block type="logic_ternary" id="_.8OU-/*RA^.sh,P)-31">
-                                                        <value name="IF">
-                                                          <block type="variables_get" id="c{u;9@CYr#W2zuXLZ#04">
-                                                            <field name="VAR" id="fhr577h6[.o}jxL-h8Ag">Friday</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="THEN">
-                                                          <block type="text" id="CF::uxl,K{~B|c^9;XNQ">
-                                                            <field name="TEXT">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="ELSE">
-                                                          <block type="text" id="VA4]q%iXedO^|Jeodx)4">
-                                                            <field name="TEXT">0</field>
-                                                          </block>
-                                                        </value>
+                                                    <value name="ELSE">
+                                                      <block type="text" id="unY7og]1v17,Yo5kYJ]?">
+                                                        <field name="TEXT">0</field>
                                                       </block>
                                                     </value>
-                                                    <value name="ADD4">
-                                                      <block type="logic_ternary" id="+p:ay?;l?.exy5[Ui5`q">
-                                                        <value name="IF">
-                                                          <block type="variables_get" id="H[4kvUEh`a;wxZMEqewo">
-                                                            <field name="VAR" id="7P#H5taZweV4=mm]^Nx8">Thursday</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="THEN">
-                                                          <block type="text" id=";HYuk.c`akbzfzoJq}L=">
-                                                            <field name="TEXT">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="ELSE">
-                                                          <block type="text" id="K+Lz=pa2d}cNnmvv0PY[">
-                                                            <field name="TEXT">0</field>
-                                                          </block>
-                                                        </value>
+                                                  </block>
+                                                </value>
+                                                <value name="ADD3">
+                                                  <block type="logic_ternary" id="CTxMc9NGv`25anQiWcm*">
+                                                    <value name="IF">
+                                                      <block type="variables_get" id="IRfiK:%vt.D-glrD/m+p">
+                                                        <field name="VAR" id="fhr577h6[.o}jxL-h8Ag">Friday</field>
                                                       </block>
                                                     </value>
-                                                    <value name="ADD5">
-                                                      <block type="logic_ternary" id="^r=4wn4^5;~-1eO6:,-m">
-                                                        <value name="IF">
-                                                          <block type="variables_get" id="hxYfi5P1z3:=iikciy6@">
-                                                            <field name="VAR" id="@^LKN@aE^TLDjyZ_ipil">Wendsday</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="THEN">
-                                                          <block type="text" id="tqOsdQzpUGrJh=6=FZ`,">
-                                                            <field name="TEXT">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="ELSE">
-                                                          <block type="text" id="C%g5AZ[d.UE0t1vVFsem">
-                                                            <field name="TEXT">0</field>
-                                                          </block>
-                                                        </value>
+                                                    <value name="THEN">
+                                                      <block type="text" id="ajM$X8Y?NAQ67djZf78J">
+                                                        <field name="TEXT">1</field>
                                                       </block>
                                                     </value>
-                                                    <value name="ADD6">
-                                                      <block type="logic_ternary" id="$tvCY4|}=,SN9?NKUxW)">
-                                                        <value name="IF">
-                                                          <block type="variables_get" id="ve{frhwH@B{g)=iv,iG8">
-                                                            <field name="VAR" id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="THEN">
-                                                          <block type="text" id="AVW,vK9q.65GqI=KV5Kq">
-                                                            <field name="TEXT">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="ELSE">
-                                                          <block type="text" id="g:RxZsvG*9VC)Ol;fg|4">
-                                                            <field name="TEXT">0</field>
-                                                          </block>
-                                                        </value>
+                                                    <value name="ELSE">
+                                                      <block type="text" id="4c@N]`TE_-u{xA^-$boN">
+                                                        <field name="TEXT">0</field>
                                                       </block>
                                                     </value>
-                                                    <value name="ADD7">
-                                                      <block type="logic_ternary" id="N/t%8.Qb%1-d_,?$jBe`">
-                                                        <value name="IF">
-                                                          <block type="variables_get" id="h-t%{{aM]7G=kkStH+W2">
-                                                            <field name="VAR" id="ldR0tPFNHAXOVgU#cPD;">Monday</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="THEN">
-                                                          <block type="text" id="PlCm6R~Ju,)dLp[^jXfS">
-                                                            <field name="TEXT">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="ELSE">
-                                                          <block type="text" id="}HM@GY-.cA3H$czbb$L7">
-                                                            <field name="TEXT">0</field>
-                                                          </block>
-                                                        </value>
+                                                  </block>
+                                                </value>
+                                                <value name="ADD4">
+                                                  <block type="logic_ternary" id="1[:-^3C$Nh(uaIhZxRI.">
+                                                    <value name="IF">
+                                                      <block type="variables_get" id="-22EPpc2m`Fh2W(VhOLK">
+                                                        <field name="VAR" id="7P#H5taZweV4=mm]^Nx8">Thursday</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="THEN">
+                                                      <block type="text" id="wU7dhbZ{~@}KyI]br+If">
+                                                        <field name="TEXT">1</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ELSE">
+                                                      <block type="text" id="^Z*ye%PkwY$[E)R_ne|g">
+                                                        <field name="TEXT">0</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="ADD5">
+                                                  <block type="logic_ternary" id="$Wt~HfYIh6N@J4C4hh3B">
+                                                    <value name="IF">
+                                                      <block type="variables_get" id="S-/r7;gsBsZR]k268KA1">
+                                                        <field name="VAR" id="@^LKN@aE^TLDjyZ_ipil">Wendsday</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="THEN">
+                                                      <block type="text" id="cI91HNp!22#wxf/KhY2s">
+                                                        <field name="TEXT">1</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ELSE">
+                                                      <block type="text" id=";proHyp@..K7SkJ@q;h%">
+                                                        <field name="TEXT">0</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="ADD6">
+                                                  <block type="logic_ternary" id="JzD@4`PRWK:#4M`#8`0K">
+                                                    <value name="IF">
+                                                      <block type="variables_get" id=")%|T|oib=|)dcg6Z;TpW">
+                                                        <field name="VAR" id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="THEN">
+                                                      <block type="text" id="SHx6P15h7-ft`c?.J}We">
+                                                        <field name="TEXT">1</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ELSE">
+                                                      <block type="text" id="p_+AMs%-uo_`OZs[jndl">
+                                                        <field name="TEXT">0</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="ADD7">
+                                                  <block type="logic_ternary" id=",uu9:/0aDgUh=/DuT7Jy">
+                                                    <value name="IF">
+                                                      <block type="variables_get" id="?jYUNf:}`}jtUIsW|:G$">
+                                                        <field name="VAR" id="ldR0tPFNHAXOVgU#cPD;">Monday</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="THEN">
+                                                      <block type="text" id="jp+09OddvMwQfeCtr5?K">
+                                                        <field name="TEXT">1</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="ELSE">
+                                                      <block type="text" id="z=zo5#=|5K`E=GAgBs_g">
+                                                        <field name="TEXT">0</field>
                                                       </block>
                                                     </value>
                                                   </block>
@@ -390,103 +243,189 @@
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="debug" id="m=kO.uT3aKdsoY+5c6X1" collapsed="true">
+                                              <block type="debug" id="`vN{-WV`m=!iLK{qs|^|" collapsed="true">
                                                 <field name="Severity">info</field>
                                                 <value name="TEXT">
-                                                  <shadow type="text" id="%SiUzm4.,co,tMS!V(.f">
+                                                  <shadow type="text" id="^N!Z-2`7vHz{b-f7#ZRB">
                                                     <field name="TEXT">test</field>
                                                   </shadow>
-                                                  <block type="procedures_callcustomreturn" id="dBq[!Yx:,)K)X5oa6K6Y">
-                                                    <mutation name="dec2hex">
-                                                      <arg name="dec"></arg>
+                                                  <block type="procedures_callcustomreturn" id="sd/xi~).vh,JK^q(z}SI">
+                                                    <mutation name="ascii_Binär2hex">
+                                                      <arg name="ascii"></arg>
                                                     </mutation>
                                                     <value name="ARG0">
-                                                      <block type="math_arithmetic" id="8itk00zQ:CA9Y#=VP5E~">
-                                                        <field name="OP">MULTIPLY</field>
-                                                        <value name="A">
-                                                          <shadow type="math_number" id="eb+jY*F1~[Pon*nP6r2M">
-                                                            <field name="NUM">1</field>
-                                                          </shadow>
-                                                          <block type="variables_get" id=".6^w8FC{E]!5.?0,GJ+8">
-                                                            <field name="VAR" id="H,FGj$r^DvWnpaqI%/8l">Degree</field>
+                                                      <block type="text_join" id="c8$GYHw]Z7f4Zw*vh`iP">
+                                                        <mutation items="8"></mutation>
+                                                        <value name="ADD0">
+                                                          <block type="text" id="Rre!u7MNNy-TfrnzpTgS">
+                                                            <field name="TEXT">0</field>
                                                           </block>
                                                         </value>
-                                                        <value name="B">
-                                                          <shadow type="math_number" id=".hf@7(4n{2`1,XAFrEkU">
-                                                            <field name="NUM">10</field>
-                                                          </shadow>
+                                                        <value name="ADD1">
+                                                          <block type="logic_ternary" id="b/Jr-6/IH*VmMWy(y4pe">
+                                                            <value name="IF">
+                                                              <block type="variables_get" id="!3|c8w?Ryf][;@AP,pF)">
+                                                                <field name="VAR" id="+ce$BGt/uC)o5SJFnazV">Sunday</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="THEN">
+                                                              <block type="text" id="le*yU:ui.1s+h)%7A)K$">
+                                                                <field name="TEXT">1</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ELSE">
+                                                              <block type="text" id="^1k#l$R(v!=pJfU?9:rP">
+                                                                <field name="TEXT">0</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD2">
+                                                          <block type="logic_ternary" id="BN0WJeR}la2{O3dA]njj">
+                                                            <value name="IF">
+                                                              <block type="variables_get" id="7r#hd;G5KB+Q2)Y?o|]T">
+                                                                <field name="VAR" id="QDMFvIl{qaK@[qr7r?kv">Saturday</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="THEN">
+                                                              <block type="text" id=".pt}*vk+^1p!/I2DZnJx">
+                                                                <field name="TEXT">1</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ELSE">
+                                                              <block type="text" id="+K+@eR!3Pv2h@^l`!ku7">
+                                                                <field name="TEXT">0</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD3">
+                                                          <block type="logic_ternary" id="_.8OU-/*RA^.sh,P)-31">
+                                                            <value name="IF">
+                                                              <block type="variables_get" id="c{u;9@CYr#W2zuXLZ#04">
+                                                                <field name="VAR" id="fhr577h6[.o}jxL-h8Ag">Friday</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="THEN">
+                                                              <block type="text" id="CF::uxl,K{~B|c^9;XNQ">
+                                                                <field name="TEXT">1</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ELSE">
+                                                              <block type="text" id="VA4]q%iXedO^|Jeodx)4">
+                                                                <field name="TEXT">0</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD4">
+                                                          <block type="logic_ternary" id="+p:ay?;l?.exy5[Ui5`q">
+                                                            <value name="IF">
+                                                              <block type="variables_get" id="H[4kvUEh`a;wxZMEqewo">
+                                                                <field name="VAR" id="7P#H5taZweV4=mm]^Nx8">Thursday</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="THEN">
+                                                              <block type="text" id=";HYuk.c`akbzfzoJq}L=">
+                                                                <field name="TEXT">1</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ELSE">
+                                                              <block type="text" id="K+Lz=pa2d}cNnmvv0PY[">
+                                                                <field name="TEXT">0</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD5">
+                                                          <block type="logic_ternary" id="^r=4wn4^5;~-1eO6:,-m">
+                                                            <value name="IF">
+                                                              <block type="variables_get" id="hxYfi5P1z3:=iikciy6@">
+                                                                <field name="VAR" id="@^LKN@aE^TLDjyZ_ipil">Wendsday</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="THEN">
+                                                              <block type="text" id="tqOsdQzpUGrJh=6=FZ`,">
+                                                                <field name="TEXT">1</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ELSE">
+                                                              <block type="text" id="C%g5AZ[d.UE0t1vVFsem">
+                                                                <field name="TEXT">0</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD6">
+                                                          <block type="logic_ternary" id="$tvCY4|}=,SN9?NKUxW)">
+                                                            <value name="IF">
+                                                              <block type="variables_get" id="ve{frhwH@B{g)=iv,iG8">
+                                                                <field name="VAR" id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="THEN">
+                                                              <block type="text" id="AVW,vK9q.65GqI=KV5Kq">
+                                                                <field name="TEXT">1</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ELSE">
+                                                              <block type="text" id="g:RxZsvG*9VC)Ol;fg|4">
+                                                                <field name="TEXT">0</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="ADD7">
+                                                          <block type="logic_ternary" id="N/t%8.Qb%1-d_,?$jBe`">
+                                                            <value name="IF">
+                                                              <block type="variables_get" id="h-t%{{aM]7G=kkStH+W2">
+                                                                <field name="VAR" id="ldR0tPFNHAXOVgU#cPD;">Monday</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="THEN">
+                                                              <block type="text" id="PlCm6R~Ju,)dLp[^jXfS">
+                                                                <field name="TEXT">1</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ELSE">
+                                                              <block type="text" id="}HM@GY-.cA3H$czbb$L7">
+                                                                <field name="TEXT">0</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
                                                         </value>
                                                       </block>
                                                     </value>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="debug" id="fb*3bmmqHl$svV}RgG,p" collapsed="true">
+                                                  <block type="debug" id="m=kO.uT3aKdsoY+5c6X1" collapsed="true">
                                                     <field name="Severity">info</field>
                                                     <value name="TEXT">
                                                       <shadow type="text" id="%SiUzm4.,co,tMS!V(.f">
                                                         <field name="TEXT">test</field>
                                                       </shadow>
-                                                      <block type="procedures_callcustomreturn" id="=vRg++q;A0sCZ-b+uk6y">
-                                                        <mutation name="dec2hex">
-                                                          <arg name="dec"></arg>
+                                                      <block type="procedures_callcustomreturn" id="(}QQ+=1HY7nWxBC.2%Sb">
+                                                        <mutation name="dec2hex2">
+                                                          <arg name="dec2"></arg>
                                                         </mutation>
                                                         <value name="ARG0">
-                                                          <block type="text_join" id="o,}cM%27ne)-9p6Eg?SD">
-                                                            <mutation items="2"></mutation>
-                                                            <value name="ADD0">
-                                                              <block type="lists_getIndex" id="eQFhwNWis9{.rXu5Z0.*">
-                                                                <mutation statement="false" at="true"></mutation>
-                                                                <field name="MODE">GET</field>
-                                                                <field name="WHERE">FROM_START</field>
-                                                                <value name="VALUE">
-                                                                  <block type="lists_split" id="0Y9G$`]dLcuk*lj)?sB~">
-                                                                    <mutation mode="SPLIT"></mutation>
-                                                                    <field name="MODE">SPLIT</field>
-                                                                    <value name="INPUT">
-                                                                      <block type="variables_get" id="MQXAW%gB;bN?{]woi%nF">
-                                                                        <field name="VAR" id="DA5C:lKS*stQ!J:cW35D">Start_Time</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="DELIM">
-                                                                      <shadow type="text" id="U%;/[zqy9k.3+]eSYtn3">
-                                                                        <field name="TEXT">:</field>
-                                                                      </shadow>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="AT">
-                                                                  <block type="math_number" id="grfvjtg8,XyB7}u)n,`m">
+                                                          <block type="convert_tonumber" id="!OF,a:{fi,qB3Mh[UvX$">
+                                                            <value name="VALUE">
+                                                              <block type="math_arithmetic" id="8rsW6a~{.hsM+n@80Xo.">
+                                                                <field name="OP">MULTIPLY</field>
+                                                                <value name="A">
+                                                                  <shadow type="math_number" id="eb+jY*F1~[Pon*nP6r2M">
                                                                     <field name="NUM">1</field>
+                                                                  </shadow>
+                                                                  <block type="variables_get" id="PGs-:S/7#B8t+O}iAwzP">
+                                                                    <field name="VAR" id="H,FGj$r^DvWnpaqI%/8l">Degree</field>
                                                                   </block>
                                                                 </value>
-                                                              </block>
-                                                            </value>
-                                                            <value name="ADD1">
-                                                              <block type="lists_getIndex" id=".=E`9}_0g^{kH$M$H-?:">
-                                                                <mutation statement="false" at="true"></mutation>
-                                                                <field name="MODE">GET</field>
-                                                                <field name="WHERE">FROM_START</field>
-                                                                <value name="VALUE">
-                                                                  <block type="lists_split" id="6%e:7LpUi]1.LM|WXF,e">
-                                                                    <mutation mode="SPLIT"></mutation>
-                                                                    <field name="MODE">SPLIT</field>
-                                                                    <value name="INPUT">
-                                                                      <block type="variables_get" id="6I-ry0q2nV2/$ZqO?e`G">
-                                                                        <field name="VAR" id="DA5C:lKS*stQ!J:cW35D">Start_Time</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="DELIM">
-                                                                      <shadow type="text" id="3,aUOIKjSuYduqnYER:D">
-                                                                        <field name="TEXT">:</field>
-                                                                      </shadow>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="AT">
-                                                                  <block type="math_number" id="OuqKe!r!)+jDEqALdAy]">
-                                                                    <field name="NUM">2</field>
-                                                                  </block>
+                                                                <value name="B">
+                                                                  <shadow type="math_number" id="Yyc3YV5eglIN@J9igT8$">
+                                                                    <field name="NUM">10</field>
+                                                                  </shadow>
                                                                 </value>
                                                               </block>
                                                             </value>
@@ -495,73 +434,83 @@
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="debug" id="C5Mn+aH63!X4xKmKuKrh" collapsed="true">
-                                                        <field name="Severity">error</field>
+                                                      <block type="debug" id="fb*3bmmqHl$svV}RgG,p" collapsed="true">
+                                                        <field name="Severity">info</field>
                                                         <value name="TEXT">
                                                           <shadow type="text" id="%SiUzm4.,co,tMS!V(.f">
                                                             <field name="TEXT">test</field>
                                                           </shadow>
-                                                          <block type="text_join" id="P{ebQWi*fC9tISbQKW0E">
-                                                            <mutation items="3"></mutation>
+                                                          <block type="text_join" id="1#0hu=5]0XyGk{I82$O|">
+                                                            <mutation items="2"></mutation>
                                                             <value name="ADD0">
-                                                              <block type="procedures_callcustomreturn" id="#x^yw=u!W%_e|+bOi0vM">
+                                                              <block type="procedures_callcustomreturn" id="%=^-[d51@cEGN]%j+PP;">
                                                                 <mutation name="dec2hex">
                                                                   <arg name="dec"></arg>
                                                                 </mutation>
                                                                 <value name="ARG0">
-                                                                  <block type="text_join" id="yg*Ws_26Q5m2c=LMp2q)">
-                                                                    <mutation items="2"></mutation>
-                                                                    <value name="ADD0">
-                                                                      <block type="lists_getIndex" id="a/{v4}AAQ_~ha{6Ou@$c">
+                                                                  <block type="convert_tonumber" id="LsZ@`b7:@_kwTAj/9cly">
+                                                                    <value name="VALUE">
+                                                                      <block type="lists_getIndex" id="uc)ijys:iCYp2jvsjf](">
                                                                         <mutation statement="false" at="true"></mutation>
                                                                         <field name="MODE">GET</field>
                                                                         <field name="WHERE">FROM_START</field>
                                                                         <value name="VALUE">
-                                                                          <block type="lists_split" id="Z{)n]JRQuC$#d8Y:.+a}">
+                                                                          <block type="lists_split" id="j6uiCFx(KOMU=J-R)Iyl">
                                                                             <mutation mode="SPLIT"></mutation>
                                                                             <field name="MODE">SPLIT</field>
                                                                             <value name="INPUT">
-                                                                              <block type="variables_get" id="Fju7]}_-@WgZ.KDOLBj5">
+                                                                              <block type="variables_get" id="(2[J:2#Cp(WDF{nsHmA_">
                                                                                 <field name="VAR" id="DA5C:lKS*stQ!J:cW35D">Start_Time</field>
                                                                               </block>
                                                                             </value>
                                                                             <value name="DELIM">
-                                                                              <shadow type="text" id="T_*pXhEVslA|TSZV=~(0">
+                                                                              <shadow type="text" id="xk;dY$qZQnJb-^_?pPW#">
                                                                                 <field name="TEXT">:</field>
                                                                               </shadow>
                                                                             </value>
                                                                           </block>
                                                                         </value>
                                                                         <value name="AT">
-                                                                          <block type="math_number" id="%(:3/D8Jl0!0V1J4o~xj">
+                                                                          <block type="math_number" id="cerJ?5vEY485_J46p;pE">
                                                                             <field name="NUM">1</field>
                                                                           </block>
                                                                         </value>
                                                                       </block>
                                                                     </value>
-                                                                    <value name="ADD1">
-                                                                      <block type="lists_getIndex" id="6?U*;+c6QtN$V:R0J$=c">
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <value name="ADD1">
+                                                              <block type="procedures_callcustomreturn" id="OB2L5:S{ob^K|;346I:f">
+                                                                <mutation name="dec2hex">
+                                                                  <arg name="dec"></arg>
+                                                                </mutation>
+                                                                <value name="ARG0">
+                                                                  <block type="convert_tonumber" id="()Wfw^wX;:sP??xW1Kn1">
+                                                                    <value name="VALUE">
+                                                                      <block type="lists_getIndex" id="~msGUVfm/01$5#M+L!?(">
                                                                         <mutation statement="false" at="true"></mutation>
                                                                         <field name="MODE">GET</field>
                                                                         <field name="WHERE">FROM_START</field>
                                                                         <value name="VALUE">
-                                                                          <block type="lists_split" id="/#ssy.5MZECh/:svhm6Y">
+                                                                          <block type="lists_split" id="8(j%0fM0IuXA9s~2evJo">
                                                                             <mutation mode="SPLIT"></mutation>
                                                                             <field name="MODE">SPLIT</field>
                                                                             <value name="INPUT">
-                                                                              <block type="variables_get" id="cz;UA5HC,4`*Ukb.yV+H">
+                                                                              <block type="variables_get" id="T)bYgZ3yvxWze0gNmv(N">
                                                                                 <field name="VAR" id="DA5C:lKS*stQ!J:cW35D">Start_Time</field>
                                                                               </block>
                                                                             </value>
                                                                             <value name="DELIM">
-                                                                              <shadow type="text" id="q8aeYMcL#,TO2{ylZii:">
+                                                                              <shadow type="text" id="eBDwZM3`#awfduLG.@N_">
                                                                                 <field name="TEXT">:</field>
                                                                               </shadow>
                                                                             </value>
                                                                           </block>
                                                                         </value>
                                                                         <value name="AT">
-                                                                          <block type="math_number" id="(H!SA0ZxU:VVwLe3GF5?">
+                                                                          <block type="math_number" id="A{[Vr^q]q!?6d,s@b-3K">
                                                                             <field name="NUM">2</field>
                                                                           </block>
                                                                         </value>
@@ -571,173 +520,283 @@
                                                                 </value>
                                                               </block>
                                                             </value>
-                                                            <value name="ADD1">
-                                                              <block type="procedures_callcustomreturn" id="r=Ar:A%M;mc+~dD.%Em?">
-                                                                <mutation name="dec2hex">
-                                                                  <arg name="dec"></arg>
-                                                                </mutation>
-                                                                <value name="ARG0">
-                                                                  <block type="math_arithmetic" id="Ht%pTL[mj4RGib88Lf^Z">
-                                                                    <field name="OP">MULTIPLY</field>
-                                                                    <value name="A">
-                                                                      <shadow type="math_number" id="eb+jY*F1~[Pon*nP6r2M">
-                                                                        <field name="NUM">1</field>
-                                                                      </shadow>
-                                                                      <block type="variables_get" id="|RyLbc1-3Wf0!.FdKN00">
-                                                                        <field name="VAR" id="H,FGj$r^DvWnpaqI%/8l">Degree</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="B">
-                                                                      <shadow type="math_number" id="c(Y*(;*pVyUv`i?^ss7O">
-                                                                        <field name="NUM">10</field>
-                                                                      </shadow>
-                                                                    </value>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="debug" id="C5Mn+aH63!X4xKmKuKrh" collapsed="true">
+                                                            <field name="Severity">error</field>
+                                                            <value name="TEXT">
+                                                              <shadow type="text" id="%SiUzm4.,co,tMS!V(.f">
+                                                                <field name="TEXT">test</field>
+                                                              </shadow>
+                                                              <block type="text_join" id="P{ebQWi*fC9tISbQKW0E">
+                                                                <mutation items="5"></mutation>
+                                                                <value name="ADD0">
+                                                                  <block type="text" id="+q/#N5HNX=HvMZ~few+B">
+                                                                    <field name="TEXT">59</field>
                                                                   </block>
                                                                 </value>
-                                                              </block>
-                                                            </value>
-                                                            <value name="ADD2">
-                                                              <block type="procedures_callcustomreturn" id="i^D`Tb{]F~X%1|Z=~r{i">
-                                                                <mutation name="ascii_Binär2hex">
-                                                                  <arg name="ascii"></arg>
-                                                                </mutation>
-                                                                <value name="ARG0">
-                                                                  <block type="text_join" id="!1Mc^B%?#U#L1w~FbzU+">
-                                                                    <mutation items="8"></mutation>
+                                                                <value name="ADD1">
+                                                                  <block type="variables_get" id="=/Z:m}k;I+A3_gQCY46S">
+                                                                    <field name="VAR" id=",%)Oouro*nC5HqdGcn/,">Event_Index</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="ADD2">
+                                                                  <block type="text_join" id="yg*Ws_26Q5m2c=LMp2q)">
+                                                                    <mutation items="2"></mutation>
                                                                     <value name="ADD0">
-                                                                      <block type="text" id=";N(!`:Mn{VbNxog8p%(4">
-                                                                        <field name="TEXT">0</field>
+                                                                      <block type="procedures_callcustomreturn" id=",NLH=!UvvZL58]V;h;+;">
+                                                                        <mutation name="dec2hex">
+                                                                          <arg name="dec"></arg>
+                                                                        </mutation>
+                                                                        <value name="ARG0">
+                                                                          <block type="convert_tonumber" id="QP]h/@S.,=1yB/:L%a.l">
+                                                                            <value name="VALUE">
+                                                                              <block type="lists_getIndex" id="6?U*;+c6QtN$V:R0J$=c">
+                                                                                <mutation statement="false" at="true"></mutation>
+                                                                                <field name="MODE">GET</field>
+                                                                                <field name="WHERE">FROM_START</field>
+                                                                                <value name="VALUE">
+                                                                                  <block type="lists_split" id="/#ssy.5MZECh/:svhm6Y">
+                                                                                    <mutation mode="SPLIT"></mutation>
+                                                                                    <field name="MODE">SPLIT</field>
+                                                                                    <value name="INPUT">
+                                                                                      <block type="variables_get" id="cz;UA5HC,4`*Ukb.yV+H">
+                                                                                        <field name="VAR" id="DA5C:lKS*stQ!J:cW35D">Start_Time</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="DELIM">
+                                                                                      <shadow type="text" id="q8aeYMcL#,TO2{ylZii:">
+                                                                                        <field name="TEXT">:</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="AT">
+                                                                                  <block type="math_number" id="(H!SA0ZxU:VVwLe3GF5?">
+                                                                                    <field name="NUM">1</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
                                                                       </block>
                                                                     </value>
                                                                     <value name="ADD1">
-                                                                      <block type="logic_ternary" id="M,O^H4B@I.|ER!#{W(Q@">
-                                                                        <value name="IF">
-                                                                          <block type="variables_get" id="c}k%^ew~X-*4,a)![Yt:">
-                                                                            <field name="VAR" id="+ce$BGt/uC)o5SJFnazV">Sunday</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="THEN">
-                                                                          <block type="text" id="[;YOvb3:KmXXlOMr$6f,">
-                                                                            <field name="TEXT">1</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="ELSE">
-                                                                          <block type="text" id="qQ~L`r1t`M#elzd!g#uM">
-                                                                            <field name="TEXT">0</field>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="ADD2">
-                                                                      <block type="logic_ternary" id="IB|k|soe/`J,)^p/=LhC">
-                                                                        <value name="IF">
-                                                                          <block type="variables_get" id="4NSJm2!]Ev:J5y:YnRB5">
-                                                                            <field name="VAR" id="QDMFvIl{qaK@[qr7r?kv">Saturday</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="THEN">
-                                                                          <block type="text" id="^LNJ6X=YyYmVRCH$O5{7">
-                                                                            <field name="TEXT">1</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="ELSE">
-                                                                          <block type="text" id="=S{~EhHSN4dP3@,j91-q">
-                                                                            <field name="TEXT">0</field>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="ADD3">
-                                                                      <block type="logic_ternary" id="4i=:n!pYNmb:4;u#S{Lh">
-                                                                        <value name="IF">
-                                                                          <block type="variables_get" id="qQ{(7dPa#B{7lL8C2tS3">
-                                                                            <field name="VAR" id="fhr577h6[.o}jxL-h8Ag">Friday</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="THEN">
-                                                                          <block type="text" id="|J%C^W$;eM2*|FKYa0lm">
-                                                                            <field name="TEXT">1</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="ELSE">
-                                                                          <block type="text" id="q88v8S4@wd!7}oW[d3J2">
-                                                                            <field name="TEXT">0</field>
+                                                                      <block type="procedures_callcustomreturn" id="mT~}m%GC3K7nVB0,@E!{">
+                                                                        <mutation name="dec2hex">
+                                                                          <arg name="dec"></arg>
+                                                                        </mutation>
+                                                                        <value name="ARG0">
+                                                                          <block type="convert_tonumber" id="N={3UXhiM]w^92[.M|`C">
+                                                                            <value name="VALUE">
+                                                                              <block type="lists_getIndex" id="a/{v4}AAQ_~ha{6Ou@$c">
+                                                                                <mutation statement="false" at="true"></mutation>
+                                                                                <field name="MODE">GET</field>
+                                                                                <field name="WHERE">FROM_START</field>
+                                                                                <value name="VALUE">
+                                                                                  <block type="lists_split" id="Z{)n]JRQuC$#d8Y:.+a}">
+                                                                                    <mutation mode="SPLIT"></mutation>
+                                                                                    <field name="MODE">SPLIT</field>
+                                                                                    <value name="INPUT">
+                                                                                      <block type="variables_get" id="Fju7]}_-@WgZ.KDOLBj5">
+                                                                                        <field name="VAR" id="DA5C:lKS*stQ!J:cW35D">Start_Time</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="DELIM">
+                                                                                      <shadow type="text" id="T_*pXhEVslA|TSZV=~(0">
+                                                                                        <field name="TEXT">:</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="AT">
+                                                                                  <block type="math_number" id="%(:3/D8Jl0!0V1J4o~xj">
+                                                                                    <field name="NUM">2</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
                                                                           </block>
                                                                         </value>
                                                                       </block>
                                                                     </value>
-                                                                    <value name="ADD4">
-                                                                      <block type="logic_ternary" id="``3[+1TioFj@%E4i?_Q/">
-                                                                        <value name="IF">
-                                                                          <block type="variables_get" id="9+3AUPd^?ULf25bY`0^]">
-                                                                            <field name="VAR" id="7P#H5taZweV4=mm]^Nx8">Thursday</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="THEN">
-                                                                          <block type="text" id="o+hcvVkuSU[nLCWb|l:{">
-                                                                            <field name="TEXT">1</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="ELSE">
-                                                                          <block type="text" id="S4{9/V6aYtcAhdyg:uOd">
-                                                                            <field name="TEXT">0</field>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="ADD5">
-                                                                      <block type="logic_ternary" id="R4Oh^~a99sdOGb-`S7Dm">
-                                                                        <value name="IF">
-                                                                          <block type="variables_get" id="^oJ+6G1q_x+SkcPyAzg~">
-                                                                            <field name="VAR" id="@^LKN@aE^TLDjyZ_ipil">Wendsday</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="THEN">
-                                                                          <block type="text" id="(qvS|LNhK=`*0RAJu+-c">
-                                                                            <field name="TEXT">1</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="ELSE">
-                                                                          <block type="text" id="5D}SJF1{[R8o%j+T`w7(">
-                                                                            <field name="TEXT">0</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="ADD3">
+                                                                  <block type="procedures_callcustomreturn" id="t%U;I@`D`+jW7~}y_L[E">
+                                                                    <mutation name="dec2hex2">
+                                                                      <arg name="dec2"></arg>
+                                                                    </mutation>
+                                                                    <value name="ARG0">
+                                                                      <block type="convert_tonumber" id="aeqIJqgOLmE%1WI0Dv,f">
+                                                                        <value name="VALUE">
+                                                                          <block type="math_arithmetic" id="Ht%pTL[mj4RGib88Lf^Z">
+                                                                            <field name="OP">MULTIPLY</field>
+                                                                            <value name="A">
+                                                                              <shadow type="math_number" id="eb+jY*F1~[Pon*nP6r2M">
+                                                                                <field name="NUM">1</field>
+                                                                              </shadow>
+                                                                              <block type="variables_get" id="|RyLbc1-3Wf0!.FdKN00">
+                                                                                <field name="VAR" id="H,FGj$r^DvWnpaqI%/8l">Degree</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="B">
+                                                                              <shadow type="math_number" id="c(Y*(;*pVyUv`i?^ss7O">
+                                                                                <field name="NUM">10</field>
+                                                                              </shadow>
+                                                                            </value>
                                                                           </block>
                                                                         </value>
                                                                       </block>
                                                                     </value>
-                                                                    <value name="ADD6">
-                                                                      <block type="logic_ternary" id=":QEGg3u0()Ah`xDtXtD[">
-                                                                        <value name="IF">
-                                                                          <block type="variables_get" id="X1%%$}!V-ViMp!2g*P}d">
-                                                                            <field name="VAR" id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="THEN">
-                                                                          <block type="text" id="Woyk,MX.L~G{q+=;IzFf">
-                                                                            <field name="TEXT">1</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="ELSE">
-                                                                          <block type="text" id="CJ^_Snp#-GpNjwK-]br1">
+                                                                  </block>
+                                                                </value>
+                                                                <value name="ADD4">
+                                                                  <block type="procedures_callcustomreturn" id="i^D`Tb{]F~X%1|Z=~r{i">
+                                                                    <mutation name="ascii_Binär2hex">
+                                                                      <arg name="ascii"></arg>
+                                                                    </mutation>
+                                                                    <value name="ARG0">
+                                                                      <block type="text_join" id="!1Mc^B%?#U#L1w~FbzU+">
+                                                                        <mutation items="8"></mutation>
+                                                                        <value name="ADD0">
+                                                                          <block type="text" id=";N(!`:Mn{VbNxog8p%(4">
                                                                             <field name="TEXT">0</field>
                                                                           </block>
                                                                         </value>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="ADD7">
-                                                                      <block type="logic_ternary" id="X.9nBp8xAi|IicJ1+-gg">
-                                                                        <value name="IF">
-                                                                          <block type="variables_get" id="s9[hSa/@TF3l,A,Nz1q9">
-                                                                            <field name="VAR" id="ldR0tPFNHAXOVgU#cPD;">Monday</field>
+                                                                        <value name="ADD1">
+                                                                          <block type="logic_ternary" id="M,O^H4B@I.|ER!#{W(Q@">
+                                                                            <value name="IF">
+                                                                              <block type="variables_get" id="c}k%^ew~X-*4,a)![Yt:">
+                                                                                <field name="VAR" id="+ce$BGt/uC)o5SJFnazV">Sunday</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="THEN">
+                                                                              <block type="text" id="[;YOvb3:KmXXlOMr$6f,">
+                                                                                <field name="TEXT">1</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ELSE">
+                                                                              <block type="text" id="qQ~L`r1t`M#elzd!g#uM">
+                                                                                <field name="TEXT">0</field>
+                                                                              </block>
+                                                                            </value>
                                                                           </block>
                                                                         </value>
-                                                                        <value name="THEN">
-                                                                          <block type="text" id="xe/!1dLIV/BU^wq1l`V^">
-                                                                            <field name="TEXT">1</field>
+                                                                        <value name="ADD2">
+                                                                          <block type="logic_ternary" id="IB|k|soe/`J,)^p/=LhC">
+                                                                            <value name="IF">
+                                                                              <block type="variables_get" id="4NSJm2!]Ev:J5y:YnRB5">
+                                                                                <field name="VAR" id="QDMFvIl{qaK@[qr7r?kv">Saturday</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="THEN">
+                                                                              <block type="text" id="^LNJ6X=YyYmVRCH$O5{7">
+                                                                                <field name="TEXT">1</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ELSE">
+                                                                              <block type="text" id="=S{~EhHSN4dP3@,j91-q">
+                                                                                <field name="TEXT">0</field>
+                                                                              </block>
+                                                                            </value>
                                                                           </block>
                                                                         </value>
-                                                                        <value name="ELSE">
-                                                                          <block type="text" id="lja}4,$CBds.[WtX~KLn">
-                                                                            <field name="TEXT">0</field>
+                                                                        <value name="ADD3">
+                                                                          <block type="logic_ternary" id="4i=:n!pYNmb:4;u#S{Lh">
+                                                                            <value name="IF">
+                                                                              <block type="variables_get" id="qQ{(7dPa#B{7lL8C2tS3">
+                                                                                <field name="VAR" id="fhr577h6[.o}jxL-h8Ag">Friday</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="THEN">
+                                                                              <block type="text" id="|J%C^W$;eM2*|FKYa0lm">
+                                                                                <field name="TEXT">1</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ELSE">
+                                                                              <block type="text" id="q88v8S4@wd!7}oW[d3J2">
+                                                                                <field name="TEXT">0</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="ADD4">
+                                                                          <block type="logic_ternary" id="``3[+1TioFj@%E4i?_Q/">
+                                                                            <value name="IF">
+                                                                              <block type="variables_get" id="9+3AUPd^?ULf25bY`0^]">
+                                                                                <field name="VAR" id="7P#H5taZweV4=mm]^Nx8">Thursday</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="THEN">
+                                                                              <block type="text" id="o+hcvVkuSU[nLCWb|l:{">
+                                                                                <field name="TEXT">1</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ELSE">
+                                                                              <block type="text" id="S4{9/V6aYtcAhdyg:uOd">
+                                                                                <field name="TEXT">0</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="ADD5">
+                                                                          <block type="logic_ternary" id="R4Oh^~a99sdOGb-`S7Dm">
+                                                                            <value name="IF">
+                                                                              <block type="variables_get" id="^oJ+6G1q_x+SkcPyAzg~">
+                                                                                <field name="VAR" id="@^LKN@aE^TLDjyZ_ipil">Wendsday</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="THEN">
+                                                                              <block type="text" id="(qvS|LNhK=`*0RAJu+-c">
+                                                                                <field name="TEXT">1</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ELSE">
+                                                                              <block type="text" id="5D}SJF1{[R8o%j+T`w7(">
+                                                                                <field name="TEXT">0</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="ADD6">
+                                                                          <block type="logic_ternary" id=":QEGg3u0()Ah`xDtXtD[">
+                                                                            <value name="IF">
+                                                                              <block type="variables_get" id="X1%%$}!V-ViMp!2g*P}d">
+                                                                                <field name="VAR" id="V6gKp(%`jEtQAy;=9Bl|">Tuesday</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="THEN">
+                                                                              <block type="text" id="Woyk,MX.L~G{q+=;IzFf">
+                                                                                <field name="TEXT">1</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ELSE">
+                                                                              <block type="text" id="CJ^_Snp#-GpNjwK-]br1">
+                                                                                <field name="TEXT">0</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="ADD7">
+                                                                          <block type="logic_ternary" id="X.9nBp8xAi|IicJ1+-gg">
+                                                                            <value name="IF">
+                                                                              <block type="variables_get" id="s9[hSa/@TF3l,A,Nz1q9">
+                                                                                <field name="VAR" id="ldR0tPFNHAXOVgU#cPD;">Monday</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="THEN">
+                                                                              <block type="text" id="xe/!1dLIV/BU^wq1l`V^">
+                                                                                <field name="TEXT">1</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="ELSE">
+                                                                              <block type="text" id="lja}4,$CBds.[WtX~KLn">
+                                                                                <field name="TEXT">0</field>
+                                                                              </block>
+                                                                            </value>
                                                                           </block>
                                                                         </value>
                                                                       </block>
@@ -747,7 +806,7 @@
                                                               </block>
                                                             </value>
                                                           </block>
-                                                        </value>
+                                                        </next>
                                                       </block>
                                                     </next>
                                                   </block>
@@ -777,7 +836,7 @@
   </block>
   <block type="procedures_defcustomreturn" id="IRwof@!2s|Y`Ol}UT2f1" x="488" y="238">
     <mutation statements="false">
-      <arg name="ascii" varid=":8*1T]nu?M{r[2%r(O$e"></arg>
+      <arg name="ascii" varid="xLsERHAC6_x]lfT!(:=f"></arg>
     </mutation>
     <field name="NAME">ascii_Binär2hex</field>
     <field name="SCRIPT">Ly9yZXR1cm4gYnRvYShhc2NpaSk7DQpjb25zdCBoZXggPSBwYXJzZUludChhc2NpaSwgMikudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkucGFkU3RhcnQoMiwgIjAiKTsNCnJldHVybiBoZXg7DQovLyBzZXRTdGF0ZShpZEJhc2U2NCxCdWZmZXIuZnJvbShkcC5zdGF0ZS52YWwpLnRvU3RyaW5nDQovL3JldHVybiBwYXJzZUludChoZXgsIDE2KTs=</field>
@@ -785,10 +844,10 @@
   </block>
   <block type="procedures_defcustomreturn" id="LCZyBfzP)3xlIG^B;^9{" x="488" y="288">
     <mutation statements="false">
-      <arg name="dec" varid="7k,]Z9QmPMaz88%]1J$H"></arg>
+      <arg name="dec" varid="*P3qjp0|`19KZy[o8H_,"></arg>
     </mutation>
     <field name="NAME">dec2hex</field>
-    <field name="SCRIPT">Ly9yZXR1cm4gTWF0aC5hYnMoZGVjKS50b1N0cmluZygxNik7DQovLyBmb3JjZSA0IERpZ2l0cw0KcmV0dXJuICgnMDAwMCcgKyBkZWMudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkpLnNsaWNlKC00KTsNCi8vIGZvcmNlIDIgRGlnaXRzDQovLyByZXR1cm4gKCcwMCcgKyBkZWMudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkpLnNsaWNlKC0yKTsNCi8vbnVtYmVyLiB0b1N0cmluZygxNik=</field>
+    <field name="SCRIPT">Ly9yZXR1cm4gTWF0aC5hYnMoZGVjKS50b1N0cmluZygxNik7DQovLyBmb3JjZSA0IERpZ2l0cw0KLy9yZXR1cm4gKCcwMDAwJyArIGRlYy50b1N0cmluZygxNikudG9VcHBlckNhc2UoKSkuc2xpY2UoLTQpOw0KLy8gZm9yY2UgMiBEaWdpdHMNCiByZXR1cm4gKCcwMCcgKyBkZWMudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkpLnNsaWNlKC0yKTsNCi8vbnVtYmVyLiB0b1N0cmluZygxNik=</field>
     <comment pinned="false" h="80" w="160">Beschreibe diese Funktion …</comment>
   </block>
   <block type="procedures_defcustomreturn" id="#I0gN-),I$1r,h`[VP!E" x="488" y="338">
@@ -796,7 +855,7 @@
       <arg name="dec2" varid="|PE0Q5Y$Z#kqp.48K?M:"></arg>
     </mutation>
     <field name="NAME">dec2hex2</field>
-    <field name="SCRIPT">Ly9yZXR1cm4gTWF0aC5hYnMoZGVjKS50b1N0cmluZygxNik7DQovLyBmb3JjZSA0IERpZ2l0cw0KcmV0dXJuICgnMDAwMCcgKyBkZWMudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkpLnNsaWNlKC00KTsNCi8vIGZvcmNlIDIgRGlnaXRzDQovLyByZXR1cm4gKCcwMCcgKyBkZWMudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkpLnNsaWNlKC0yKTsNCi8vbnVtYmVyLiB0b1N0cmluZygxNik=</field>
+    <field name="SCRIPT">Ly9yZXR1cm4gTWF0aC5hYnMoZGVjKS50b1N0cmluZygxNik7DQovLyBmb3JjZSA0IERpZ2l0cw0KcmV0dXJuICgnMDAwMCcgKyBkZWMyLnRvU3RyaW5nKDE2KS50b1VwcGVyQ2FzZSgpKS5zbGljZSgtNCk7DQovLyBmb3JjZSAyIERpZ2l0cw0KLy9yZXR1cm4gKCcwMCcgKyBkZWMudG9TdHJpbmcoMTYpLnRvVXBwZXJDYXNlKCkpLnNsaWNlKC0yKTsNCi8vbnVtYmVyLiB0b1N0cmluZygxNik=</field>
     <comment pinned="false" h="80" w="160">Beschreibe diese Funktion …</comment>
   </block>
 </xml>
