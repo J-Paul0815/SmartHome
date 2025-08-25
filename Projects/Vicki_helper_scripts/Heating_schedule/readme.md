@@ -11,7 +11,8 @@ This Script helps to build the right command(s) for Heating schedule
 In this example to show the command for have temperature Monday to Friday from 9am-5pm 21.5 degree and the rest of the time 18.0 degree
 
 First Start Mo-Fr 9am 21.5 degree as event Index 0
-<img width="1017" height="582" alt="image" src="https://github.com/user-attachments/assets/8fe70cb3-02cb-46ce-8513-c266e3bdf51b" />
+<img width="877" height="702" alt="image" src="https://github.com/user-attachments/assets/88696c66-9402-40ba-8c40-ffc5d68a0ee4" />
+
 
 Result is ```090000D71F``` for the schedule and
 ```00090000D71F``` include the event index 00 in front
@@ -19,7 +20,7 @@ Result is ```090000D71F``` for the schedule and
 Now create Start Mo-Fr 5pm 18.0 degree as event Index 1
 
 
-<img width="902" height="716" alt="image" src="https://github.com/user-attachments/assets/4a8a4910-c731-4fe1-8f10-2eb459cdf360" />
+<img width="876" height="689" alt="image" src="https://github.com/user-attachments/assets/645260a6-c313-43d2-892d-4a551672dc4e" />
 
 
 
