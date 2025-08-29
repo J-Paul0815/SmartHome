@@ -88,7 +88,14 @@ Nach ca. 3-3,5 Std ist der Sauerteig fertig
    - mit Wasser anschwallern
    - Form einschießen und 10 Minuten anbacken
    - Backofen auf 200 Grad reduzieren und 70 Minuten ausbacken lassen
-   - 
+     
+<img width="655" height="715" alt="image" src="https://github.com/user-attachments/assets/a0e8219a-42e2-4833-afd1-9c280c78e555" />
+
+
+<img width="1231" height="884" alt="image" src="https://github.com/user-attachments/assets/cbaa5bd5-ece3-46bc-87ac-5bfaba7289b8" />
+
+
+
 
 
 
