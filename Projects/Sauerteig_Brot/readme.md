@@ -29,6 +29,70 @@
 - Wasser aus der Leitung, falls unbedenklich
 
   <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/d6e1acf8-b8b2-4dfc-a74a-3dc23f0f229a" />
+
+
+  <img width="1280" height="967" alt="image" src="https://github.com/user-attachments/assets/326f6390-b62d-433e-99fa-6074b363aca8" />
+
+### Quellstück
+  - 100 Gramm Dinkel (sehr) grob geschrotet
+  - ins mittlere Glas
+  - ein Teelöffel Anstellgut (ASG)
+  - mit dem Eislöffel vermengen
+  - zu 75% mit kaltem Wasser Auffüllen
+  - bis fast zum Rand mit den 4 Saaten auffüllen
+
+### Zubereitung des Sauerteigs 3-stufig
+  - Es sollte Anstellgut vorhanden sein, entweder beim Bäcker fragen, in der Community, oder [selbst erstellen](https://www.freiwilligaufgesprungenergranatapfel.com/roggensauerteig-ansetzen-einfache-anleitung)
+
+     <img width="672" height="924" alt="image" src="https://github.com/user-attachments/assets/2ca53b3a-a6f2-4c08-9949-0ce2bf22993a" />
+
+#### Mittags
+   - 100 Gramm (halbe Tasse) Roggen fein gemahlen ins große Glas
+   - ein Teelöffel Anstellgut (ASG)
+   - halbe Tasse lauwarmes Wasser
+   - mit dem Eislöffel vermengen
+   - im Playmate lagern
+
+#### Abends
+Nach ca. 8 Std.
+   - 100 Gramm (halbe Tasse) Roggen fein gemahlen ins große Glas dazu
+   - halbe Tasse lauwarmes Wasser dazu
+   - mit dem Eislöffel vermengen
+
+#### Morgens
+Nach mindestens 8 Std.
+   - 100 Gramm (halbe Tasse) Roggen fein gemahlen ins große Glas dazu
+   - halbe Tasse lauwarmes Wasser dazu
+   - mit dem Eislöffel vermengen
+   - im Playmate lagern
+   - eventuell Glas mit heißem Wasser dazustellen
+
+#### Vormittag
+Nach ca. 3-3,5 Std ist der Sauerteig fertig
+   - Zu allererst ASG sichern!
+
+### Hochzeit
+   - 400 Gramm gemahlenen Roggen
+   - 200 Gramm gemahlenen Weizen
+   - Sauerteig
+   - Quellstück
+   - 3 gehäufte Teelöffel Salz
+   - Gläser von klein nach gross ausspühlen, Wasser nutzen
+   - alles verrühren bis eine gute (klebrige) Konsistenz entsteht, evtl. gemahlenes Getreide, oder Wasser nachführen
+   - halbe Stunde quellen lassen
+   - nochmals verrühren
+   - Backform aus Kühlschrank mit weicher Butter und Küchentuch bestreichen
+   - Teig einfüllen
+   - gehen lassen, bis Teig am Rand von der Backform angekommen ist und sich auf der Oberfläche Löcher gebildet haben
+   - Backofen vorheizen auf 250 Grad
+   - mit Wasser anschwallern
+   - Form einschießen und 10 Minuten anbacken
+   - Backofen auf 200 Grad reduzieren und 70 Minuten ausbacken lassen
+   - 
+
+
+
+  
   
 
 
