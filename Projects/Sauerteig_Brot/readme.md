@@ -94,6 +94,28 @@ Nach ca. 3-3,5 Std ist der Sauerteig fertig
 
 <img width="1231" height="884" alt="image" src="https://github.com/user-attachments/assets/cbaa5bd5-ece3-46bc-87ac-5bfaba7289b8" />
 
+<img width="652" height="361" alt="image" src="https://github.com/user-attachments/assets/928b1446-a74e-43c6-891f-5112b5d1473c" />
+
+<img width="717" height="934" alt="image" src="https://github.com/user-attachments/assets/544fbd53-ac35-4b9c-966f-1db3da973c66" />
+
+<img width="1165" height="925" alt="image" src="https://github.com/user-attachments/assets/aecb30fb-cd75-48f1-a91b-80dffede88c8" />
+
+<img width="522" height="833" alt="image" src="https://github.com/user-attachments/assets/b5d66253-cc07-4886-bd1e-f83b8ee1b431" />
+
+<img width="1136" height="737" alt="image" src="https://github.com/user-attachments/assets/8bf2cca4-1b68-4f79-97c4-381ba2290ab5" />
+
+<img width="1078" height="840" alt="image" src="https://github.com/user-attachments/assets/a1aa6fc0-2644-4e33-af9f-addb62aec92e" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
