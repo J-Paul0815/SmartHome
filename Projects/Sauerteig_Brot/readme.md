@@ -107,6 +107,29 @@ Nach ca. 3-3,5 Std ist der Sauerteig fertig
 <img width="1078" height="840" alt="image" src="https://github.com/user-attachments/assets/a1aa6fc0-2644-4e33-af9f-addb62aec92e" />
 
 
+|          |                  |       | Preis/kilo |         |
+|----------|------------------|-------|------------|---------|
+| Getreide | Roggen           | 0,65  | 1          | 0,65    |
+| Getreide | Dinkel           | 0,2   | 2,4        | 0,48    |
+|          |                  |       |            | 0       |
+| Saaten   | Sesam            | 0,04  | 4,6        | 0,184   |
+| Saaten   | Leinsamen        | 0,04  | 4,98       | 0,1992  |
+| Saaten   | Kübiskern        | 0,04  | 7,58       | 0,3032  |
+| Saaten   | Sonnenblumenkern | 0,04  | 5,6        | 0,224   |
+|          |                  |       |            | 0       |
+| Salz     | Salz, Öl         |       |            | 0,01    |
+| Formfett | Butter           | 0,009 | 15,16      | 0,13644 |
+|          | Summe            |       |            | 2,18684 |
+|          |                  |       |            |         |
+| Strom    | Mühle            |       |            | 0,04    |
+| Strom    | KitchenAid       |       |            | 0,01    |
+| Strom    | Backofen         |       |            | 0,43    |
+| Strom    | Summe            |       |            | 0,48    |
+|          |                  |       |            |         |
+|          | GesamtKosten     |       |            | 2,66684 |
+|          |                  |       |            |         |
+
+
 
 
 
