@@ -135,6 +135,8 @@ Dies kann der in interne Mosquitto von HA sein, aber auch ein anderer. In meinem
 In der LoRaWAN Instanz Einstellung können nun für alle Objekte lesend (Uplinks) sowie schreibend (Commands als Downlinks) die automtisierten Einstellungen für die MQTT Verknüpfung vorgenommen werden:
 <img width="1278" height="619" alt="image" src="https://github.com/user-attachments/assets/c04035b3-b387-4b72-9100-653b2fcbd00a" />
 
+### Nachfolgendes ist hinfällig, da die Bridge Funktion im LoRaWAN Adapter integriert wurde
+
 Zur eigentlichen Übertragung der States in HA mit Auto Discovery sind Skripte nötig
 Es müssen 2 Scripte importiert werden, die für die Übertragung zu HA das Autodiscovery übernehmen
 
