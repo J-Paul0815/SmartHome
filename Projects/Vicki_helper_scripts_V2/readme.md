@@ -9,6 +9,10 @@
 ##### Vorgehensweise
 - Blockly Script importieren, als einzige Einstellung ist (zur Zeit noch) die Instanz Nummer im Script anzupassen (jetzt LoRaWAN.1)
 - Das importierte Script starten und gleich noch einmal restarten
+
+<img width="1038" height="427" alt="image" src="https://github.com/user-attachments/assets/15ed7ca0-9974-4078-ad27-9b50ba47d47b" />
+
+
 - Im 0_User Ordner werden nun die nötigen DP angelegt
 
  <img width="1132" height="754" alt="image" src="https://github.com/user-attachments/assets/8df76ac9-6b3d-47d4-96f9-249ab84437df" />
