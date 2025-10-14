@@ -29,6 +29,7 @@
 - Die hier im Projekt zum Import hinterlegten YAML Dateien ermöglichen die Nutzung bequem über ein Swipe Karten
 - Eine Swipe Karte (Set) ist zum setzen der Einstellungen
 - Karte (Get) zeigt (nach den nächsten (max 2) Uplinks das Ergebnis der Einstellungen, so wie sie im Vicki dann aktiv sind
+- Entitäten gegebenenfalls anpassen
 
 Platzhalter für ein YT Video, welches die Funktionsweise zeigt, allerdings erst nach Freigabe der FW 4.6 durch MClimate
 
