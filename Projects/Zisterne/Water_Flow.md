@@ -1,6 +1,7 @@
 ### Calculating the flow in liters per minute
 #### Positive values ​​mean that the cistern is filling up, negative values ​​mean that it is emptying
 #### The actual existing interval is used for the time, regardless of the setting and also regardless of whether an uplink has been lost
+<img width="1402" height="854" alt="image" src="https://github.com/user-attachments/assets/dc286dc1-3fdc-4e47-bbf8-7fff165c757d" />
 
 ##### Since the liter values ​​for maximum filling and emptying are known, the time when the cistern will be full or empty can be determined.
 
@@ -21,6 +22,6 @@ Restart the Script
 After some Uplinks (min 2) you found the Flow in Liter/Min here:
 0_userdata.0.WaterFlow.Waterflow
 
-<img width="1402" height="854" alt="image" src="https://github.com/user-attachments/assets/dc286dc1-3fdc-4e47-bbf8-7fff165c757d" />
+
 
 
