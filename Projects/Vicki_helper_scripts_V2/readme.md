@@ -44,6 +44,10 @@ Platzhalter für ein YT Video, welches die Funktionsweise zeigt, allerdings erst
 
 <img width="1388" height="789" alt="image" src="https://github.com/user-attachments/assets/45ce9c43-38df-4f1a-8ab8-3dd0555d3cf0" />
 
+NEU
+<img width="1654" height="930" alt="image" src="https://github.com/user-attachments/assets/d3b0b7d4-6148-456e-9f5f-26b71e505b7b" />
+
+
 
 
 <img width="1398" height="634" alt="image" src="https://github.com/user-attachments/assets/419fb68a-02ab-42cd-8c79-e6a847a4a827" />
