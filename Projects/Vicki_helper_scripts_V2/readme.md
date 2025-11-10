@@ -1,3 +1,12 @@
+Nachtrag 10.11.25
+
+Aufgrund der Begrenzung auf 51 Byte bei den Uplinks wurde das SET, zum setzen in 3 Teile aufgeteilt
+- Setzen Heizpläne 1-4
+- Setzen Heizpläne 5-8
+- Setzen Heizperdiode Anfangsdatum und Enddatum
+
+- Das (neue) Get Modul beinhaltet alles, HP 1-8 und Heizperiode
+  
 ### Heizpläe und Heizperiode setzen
 #### Von iobroker und HomeAssistand aus
 
