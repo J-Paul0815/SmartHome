@@ -45,6 +45,11 @@ Platzhalter für ein YT Video, welches die Funktionsweise zeigt, allerdings erst
 <img width="1388" height="789" alt="image" src="https://github.com/user-attachments/assets/45ce9c43-38df-4f1a-8ab8-3dd0555d3cf0" />
 
 NEU
+Nutzungshinweise:
+Ist "Downlink aktiv" AUS wird nur der Downlink Hex der eingestellten Heizpläne errechnet und angezeigt
+Ist "Downlink aktiv" Ein wird der Downlink Hex der eingestellten Heizpläne errechnet und angezeigt UND zu dem Vicki gesendet mit der jweiligen DevEUI
+So lassen sich auch schnell mehrere Vickis mit Plänen "bespielen"
+
 <img width="1654" height="930" alt="image" src="https://github.com/user-attachments/assets/d3b0b7d4-6148-456e-9f5f-26b71e505b7b" />
 
 
