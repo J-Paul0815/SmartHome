@@ -1,0 +1,33 @@
+type: custom:swipe-card
+show_pagination: true
+card_spacing: 20
+parameters:
+  direction: horizontal
+  grabCursor: true
+  scrollbar:
+    hide: false
+cards:
+  - type: vertical-stack
+    cards:
+      - type: entities
+        title: Heizperiode set
+        entities:
+          - entity: text.vicki_heatingplan_01_startheatingperiode
+            name: Heizperiode Start
+          - entity: text.vicki_heatingplan_02_endheatingperiode
+            name: Heizperiode Ende
+          - entity: text.vicki_heatingplan_deveui3
+            name: DevEUI
+          - entity: switch.vicki_heatingplan_downlink_active3
+            name: Downlink aktiv
+          - entity: sensor.vicki_heatingplan_customsend3
+            name: CustomSend
+      - type: button
+        name: Heizperiode senden
+        entity: button.vicki_heatingplan_send3
+        show_state: false
+        tap_action:
+          action: call-service
+          service: button.press
+          target:
+            entity_id: button.vicki_heatingplan_send3
