@@ -10,20 +10,16 @@ cards:
   - type: vertical-stack
     cards:
       - type: entities
-        title: Heizperiode und Heizpläne Set
+        title: Heizpläne Set 1 - 4
         entities:
-          - entity: text.vicki_heatingplan_01_startheatingperiode
-            name: Heizperiode Start
-          - entity: text.vicki_heatingplan_02_endheatingperiode
-            name: Heizperiode Ende
           - entity: text.vicki_heatingplan_deveui
             name: DevEUI
           - entity: switch.vicki_heatingplan_downlink_active
             name: Downlink aktiv
-          - entity: text.vicki_heatingplan_statecustomsend
+          - entity: sensor.vicki_heatingplan_customsend
             name: CustomSend
       - type: button
-        name: Heizpläne senden
+        name: Heizpläne 1-4 senden
         entity: button.vicki_heatingplan_send
         show_state: false
         tap_action:
@@ -122,96 +118,4 @@ cards:
       - entity: text.vicki_heatingplan_004_starttime
         name: Startzeit
       - entity: number.vicki_heatingplan_004_targettemperature
-        name: Zieltemperatur
-  - type: entities
-    title: Heizplan 5 Set
-    entities:
-      - entity: switch.vicki_heatingplan_005_1_active
-        name: Heizplan aktiv
-      - entity: switch.vicki_heatingplan_005_2_monday
-        name: Montag
-      - entity: switch.vicki_heatingplan_005_3_tuesday
-        name: Dienstag
-      - entity: switch.vicki_heatingplan_005_4_wednesday
-        name: Mittwoch
-      - entity: switch.vicki_heatingplan_005_5_thursday
-        name: Donnerstag
-      - entity: switch.vicki_heatingplan_005_6_friday
-        name: Freitag
-      - entity: switch.vicki_heatingplan_005_7_saturday
-        name: Samstag
-      - entity: switch.vicki_heatingplan_005_8_sunday
-        name: Sonntag
-      - entity: text.vicki_heatingplan_005_starttime
-        name: Startzeit
-      - entity: number.vicki_heatingplan_005_targettemperature
-        name: Zieltemperatur
-  - type: entities
-    title: Heizplan 6 set
-    entities:
-      - entity: switch.vicki_heatingplan_006_1_active
-        name: Heizplan aktiv
-      - entity: switch.vicki_heatingplan_006_2_monday
-        name: Montag
-      - entity: switch.vicki_heatingplan_006_3_tuesday
-        name: Dienstag
-      - entity: switch.vicki_heatingplan_006_4_wednesday
-        name: Mittwoch
-      - entity: switch.vicki_heatingplan_006_5_thursday
-        name: Donnerstag
-      - entity: switch.vicki_heatingplan_006_6_friday
-        name: Freitag
-      - entity: switch.vicki_heatingplan_006_7_saturday
-        name: Samstag
-      - entity: switch.vicki_heatingplan_006_8_sunday
-        name: Sonntag
-      - entity: text.vicki_heatingplan_006_starttime
-        name: Startzeit
-      - entity: number.vicki_heatingplan_006_targettemperature
-        name: Zieltemperatur
-  - type: entities
-    title: Heizplan 7 Set
-    entities:
-      - entity: switch.vicki_heatingplan_007_1_active
-        name: Heizplan aktiv
-      - entity: switch.vicki_heatingplan_007_2_monday
-        name: Montag
-      - entity: switch.vicki_heatingplan_007_3_tuesday
-        name: Dienstag
-      - entity: switch.vicki_heatingplan_007_4_wednesday
-        name: Mittwoch
-      - entity: switch.vicki_heatingplan_007_5_thursday
-        name: Donnerstag
-      - entity: switch.vicki_heatingplan_007_6_friday
-        name: Freitag
-      - entity: switch.vicki_heatingplan_007_7_saturday
-        name: Samstag
-      - entity: switch.vicki_heatingplan_007_8_sunday
-        name: Sonntag
-      - entity: text.vicki_heatingplan_007_starttime
-        name: Startzeit
-      - entity: number.vicki_heatingplan_007_targettemperature
-        name: Zieltemperatur
-  - type: entities
-    title: Heizplan 8 Set
-    entities:
-      - entity: switch.vicki_heatingplan_008_1_active
-        name: Heizplan aktiv
-      - entity: switch.vicki_heatingplan_008_2_monday
-        name: Montag
-      - entity: switch.vicki_heatingplan_008_3_tuesday
-        name: Dienstag
-      - entity: switch.vicki_heatingplan_008_4_wednesday
-        name: Mittwoch
-      - entity: switch.vicki_heatingplan_008_5_thursday
-        name: Donnerstag
-      - entity: switch.vicki_heatingplan_008_6_friday
-        name: Freitag
-      - entity: switch.vicki_heatingplan_008_7_saturday
-        name: Samstag
-      - entity: switch.vicki_heatingplan_008_8_sunday
-        name: Sonntag
-      - entity: text.vicki_heatingplan_008_starttime
-        name: Startzeit
-      - entity: number.vicki_heatingplan_008_targettemperature
         name: Zieltemperatur
