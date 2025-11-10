@@ -150,3 +150,135 @@ cards:
       - entity: >-
           sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_3_targettemperature
         name: Zieltemperatur
+  - type: entities
+    title: Heizplan 5 Get
+    entities:
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingeventstates_4
+        name: Heizplan aktiv
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_weekdays_monday
+        name: Montag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_weekdays_tuesday
+        name: Dienstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_weekdays_wednesday
+        name: Mittwoch
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_weekdays_thursday
+        name: Donnerstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_weekdays_friday
+        name: Freitag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_weekdays_saturday
+        name: Samstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_weekdays_sunday
+        name: Sonntag
+      - entity: >-
+          sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_start
+        name: Startzeit
+      - entity: >-
+          sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_4_targettemperature
+        name: Zieltemperatur
+  - type: entities
+    title: Heizplan 6 Get
+    entities:
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingeventstates_5
+        name: Heizplan aktiv
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_weekdays_monday
+        name: Montag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_weekdays_tuesday
+        name: Dienstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_weekdays_wednesday
+        name: Mittwoch
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_weekdays_thursday
+        name: Donnerstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_weekdays_friday
+        name: Freitag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_weekdays_saturday
+        name: Samstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_weekdays_sunday
+        name: Sonntag
+      - entity: >-
+          sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_start
+        name: Startzeit
+      - entity: >-
+          sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_5_targettemperature
+        name: Zieltemperatur
+  - type: entities
+    title: Heizplan 7 Get
+    entities:
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingeventstates_6
+        name: Heizplan aktiv
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_weekdays_monday
+        name: Montag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_weekdays_tuesday
+        name: Dienstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_weekdays_wednesday
+        name: Mittwoch
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_weekdays_thursday
+        name: Donnerstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_weekdays_friday
+        name: Freitag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_weekdays_saturday
+        name: Samstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_weekdays_sunday
+        name: Sonntag
+      - entity: >-
+          sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_start
+        name: Startzeit
+      - entity: >-
+          sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_6_targettemperature
+        name: Zieltemperatur
+  - type: entities
+    title: Heizplan 8 Get
+    entities:
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingeventstates_7
+        name: Heizplan aktiv
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_weekdays_monday
+        name: Montag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_weekdays_tuesday
+        name: Dienstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_weekdays_wednesday
+        name: Mittwoch
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_weekdays_thursday
+        name: Donnerstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_weekdays_friday
+        name: Freitag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_weekdays_saturday
+        name: Samstag
+      - entity: >-
+          binary_sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_weekdays_sunday
+        name: Sonntag
+      - entity: >-
+          sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_start
+        name: Startzeit
+      - entity: >-
+          sensor.mclimate_vicki_heizkoerperventil_001_uplink_decoded_heatingevents_7_targettemperature
+        name: Zieltemperatur
