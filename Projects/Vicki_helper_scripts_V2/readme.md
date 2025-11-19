@@ -42,6 +42,9 @@ Aufgrund der Begrenzung auf 51 Byte bei den Uplinks wurde das SET, zum setzen in
 
 Platzhalter für ein YT Video, welches die Funktionsweise zeigt, allerdings erst nach Freigabe der FW 4.6 durch MClimate
 
+[https://youtu.be/Vkc-frpnS4g?si=ooiXzax_7zTxfOAK](https://youtu.be/Vkc-frpnS4g?si=ooiXzax_7zTxfOAK)
+
+
 <img width="1388" height="789" alt="image" src="https://github.com/user-attachments/assets/45ce9c43-38df-4f1a-8ab8-3dd0555d3cf0" />
 
 NEU
