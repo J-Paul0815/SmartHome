@@ -28,3 +28,11 @@ Auf der RAW Konfiguration einstellen:
 <img width="294" height="110" alt="image" src="https://github.com/user-attachments/assets/8f5eba17-3053-46b6-b3b7-63f5f1f3ba9e" />
 
 
+```
+kiosk_mode:
+  non_admin_settings:
+    hide_header: true
+    hide_sidebar: true
+```
+
+
