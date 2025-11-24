@@ -14,6 +14,8 @@
 
 <img width="816" height="465" alt="image" src="https://github.com/user-attachments/assets/90f39b60-240a-4442-b143-4fa6ce3b1696" />
 
+<img width="619" height="315" alt="image" src="https://github.com/user-attachments/assets/21a4e38b-e058-4d48-a68c-a58e15905c67" />
+
 
   
 - erreichbarkeit über Subdomain
