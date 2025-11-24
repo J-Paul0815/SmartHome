@@ -37,4 +37,7 @@ kiosk_mode:
     hide_sidebar: true
 ```
 
+<img width="944" height="774" alt="image" src="https://github.com/user-attachments/assets/7ecbbb50-c2a1-453a-b02b-e9cd93ce0a21" />
+
+
 
