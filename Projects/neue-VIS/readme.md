@@ -40,4 +40,6 @@ kiosk_mode:
 <img width="944" height="774" alt="image" src="https://github.com/user-attachments/assets/7ecbbb50-c2a1-453a-b02b-e9cd93ce0a21" />
 
 
+<img width="1651" height="479" alt="image" src="https://github.com/user-attachments/assets/71ebddea-dac4-45ce-af14-32bb721128d0" />
+
 
