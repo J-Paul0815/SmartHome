@@ -69,8 +69,6 @@ Aus 8 Zeichen wird ein Wert übertragen in der Genauigkeit von Millimeter mit 18
 
 Da sich gerundete, und damit ungenaue Werte der Füllhöhe später bei der Umrechnung auf die Füllmenge potenzieren würden, ist eine genaue Messung extrem wichtig.
 
-Siehe Artikel:
-[LinkedIn Link zum Artikel Pegelsonden differenz In16 / Float32]([https://www.linkedin.com/posts/joerg-froehner-9b7a8b234_pegelsonden-info-differenz-int16-float32-activity-7287892932974534656-VcVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADqJT9sBGbVXui2BtwwXPsJJ_EXUDVFyS1I)
 
 
 Hier der [LinkedIn Link zum Artikel Pegelsonden differenz In16 / Float32](https://www.linkedin.com/posts/joerg-froehner-9b7a8b234_pegelsonden-info-differenz-int16-float32-activity-7287892932974534656-VcVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADqJT9sBGbVXui2BtwwXPsJJ_EXUDVFyS1I)
@@ -78,9 +76,40 @@ Hier der [LinkedIn Link zum Artikel Pegelsonden differenz In16 / Float32](https:
 
 <img width="960" height="930" alt="image" src="https://github.com/user-attachments/assets/6907f9d5-922d-48c1-9df3-f700c81e3848" />
 
+Eine typische Antwort sieht also auf TTN (als beispiel mit einem Dragino RS485 BL) so aus:
+
+
+<img width="472" height="272" alt="image" src="https://github.com/user-attachments/assets/60f7a829-bb83-464b-bd99-ebe4b232c35d" />
 
 
 
+0D 33     01    3F C6 D7 AC
+0D 33 = Batterie Spannung = 0D 33 (Hex) = Dec. 3379 (/1000) = 3.379 Volt
+01 = 1. Modbus Command (in dem Fall gibt es nur einen)
+3F C6   D7 AC = 155 cm (siehe oben)
+Als Variablen in dem Beispiel
+Zisterne
+1m Länge
+1m Breite
+3,10m Max. Füllhöhe
+
+Ergebnis:
+{
+  "Device": "Dragino",
+  "Level_RAW": 1.5534567832946777,
+  "Level_m_float32": 1.5534567832946777,
+  "Liter": 1553.4567832946777,
+  "LoRa_Voltage": 3.379,
+  "Percent": 50,
+  "Timestamp_UTC": "Sat, 29 Nov 2025 11:25:51 GMT",
+  "m3": 1.5534567832946777,
+  "max_liter": 3100,
+  "zisternenflaeche_qm": 1
+}
+
+Nur zum Vergleich der Abruf des INT16 Registers:
+
+<img width="557" height="175" alt="image" src="https://github.com/user-attachments/assets/180807c8-fe3b-4cc1-83e5-78e930816c73" />
 
 
 
