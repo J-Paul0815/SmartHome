@@ -72,6 +72,10 @@ Da sich gerundete, und damit ungenaue Werte der Füllhöhe später bei der Umrec
 Siehe Artikel:
 [LinkedIn Link zum Artikel Pegelsonden differenz In16 / Float32]([https://www.linkedin.com/posts/joerg-froehner-9b7a8b234_pegelsonden-info-differenz-int16-float32-activity-7287892932974534656-VcVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADqJT9sBGbVXui2BtwwXPsJJ_EXUDVFyS1I)
 
+
+Hier der [LinkedIn Link zum Artikel Pegelsonden differenz In16 / Float32](https://www.linkedin.com/posts/joerg-froehner-9b7a8b234_pegelsonden-info-differenz-int16-float32-activity-7287892932974534656-VcVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADqJT9sBGbVXui2BtwwXPsJJ_EXUDVFyS1I)
+
+
 <img width="960" height="930" alt="image" src="https://github.com/user-attachments/assets/6907f9d5-922d-48c1-9df3-f700c81e3848" />
 
 
