@@ -54,14 +54,19 @@ Der Modbus Befehl lautet also:
 3fc6d7ac
 
 Dies entspricht in Dezimal
+
 1.553456783294677734375 (in Metern)
+
 155.3456783294677734375 (in cm)
+
 1553.456783294677734375  (in mm)
 
 <img width="820" height="248" alt="image" src="https://github.com/user-attachments/assets/b60a549a-c14b-45d3-9828-b464b35d406b" />
 
 Fazit:
+
 Die Hex-Zahl 3fc6d7ac besteht aus 2 Doppelbyte, also 4 Byte, also 8 Hex-Zeichen
+
 Aus 8 Zeichen wird ein Wert übertragen in der Genauigkeit von Millimeter mit 18 Nachkommastellen
 
 Da sich gerundete, und damit ungenaue Werte der Füllhöhe später bei der Umrechnung auf die Füllmenge potenzieren würden, ist eine genaue Messung extrem wichtig.
@@ -81,16 +86,25 @@ Eine typische Antwort sieht also auf TTN (als beispiel mit einem Dragino RS485 B
 
 
 0D 33     01    3F C6 D7 AC
+
 0D 33 = Batterie Spannung = 0D 33 (Hex) = Dec. 3379 (/1000) = 3.379 Volt
+
 01 = 1. Modbus Command (in dem Fall gibt es nur einen)
+
 3F C6   D7 AC = 155 cm (siehe oben)
+
 Als Variablen in dem Beispiel
+
 Zisterne
+
 1m Länge
+
 1m Breite
+
 3,10m Max. Füllhöhe
 
 Ergebnis:
+
 {
   "Device": "Dragino",
   "Level_RAW": 1.5534567832946777,
