@@ -33,6 +33,56 @@ Bei dem in diesem Projkt hinterlegte Decoder ist (auch) ausgelegt für die Füll
 Folgende Daten kommen bereits aus dem Decoder und landen somit dann auch in Iobroker, InfluxDB, Home Assistant etc.
 Pegel im mm (mit 10 Nachkommastellen genau), cm (ohne Nachkommastellen), m³, Liter, Prozentuelle Füllung 
 
+### Modbus Auslesung
+
+<img width="503" height="280" alt="image" src="https://github.com/user-attachments/assets/0f3159e0-18c5-43e5-a3cd-06995322b87f" />
+
+In Register 16 und 17 befindet sich der Wert für die Füllhöhe als Float32 Wert
+
+Der Modbus Befehl lautet also:
+
+##### Modbus Command (read)
+010300160002
+01 Slave ID=01
+03  Modbus Command Read Holding Register
+0016 Start Adress (Hex)
+0002 Number of Register (to read) 0002 (2 Register)
+
+##### Modbus Answer
+3fc6d7ac
+1. Register = 3fc6
+2. Register = d7ac
+
+(Value) Antwort ist also
+3fc6d7ac
+
+Dies entspricht in Dezimal
+1.553456783294677734375 (in Metern)
+155.3456783294677734375 (in cm)
+1553.456783294677734375  (in mm)
+
+<img width="820" height="248" alt="image" src="https://github.com/user-attachments/assets/b60a549a-c14b-45d3-9828-b464b35d406b" />
+
+Fazit:
+Die Hex-Zahl 3fc6d7ac besteht aus 2 Doppelbyte, also 4 Byte, also 8 Hex-Zeichen
+Aus 8 Zeichen wird ein Wert übertragen in der Genauigkeit von Millimeter mit 18 Nachkommastellen
+
+Da sich gerundete, und damit ungenaue Werte der Füllhöhe später bei der Umrechnung auf die Füllmenge potenzieren würden, ist eine genaue Messung extrem wichtig.
+
+Siehe Artikel:
+[https://www.linkedin.com/posts/joerg-froehner-9b7a8b234_pegelsonden-info-differenz-int16-float32-activity-7287892932974534656-VcVP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADqJT9sBGbVXui2BtwwXPsJJ_EXUDVFyS1I](Pegelsonden differenz Int16 / Float32)
+
+<img width="960" height="930" alt="image" src="https://github.com/user-attachments/assets/6907f9d5-922d-48c1-9df3-f700c81e3848" />
+
+
+
+
+
+
+
+
+
+
 
 #### Ultraschall ToF Messung
 
