@@ -1,7 +1,4 @@
 ## Projekt Zisterne über LoRaWAN 
-Hinweis auf das Projekt LoRaWAN zu Home Assistant Bridge:
-
-[https://github.com/J-Paul0815/SmartHome/tree/main/Projects/Lorawan_LNS_plus_AS](https://github.com/J-Paul0815/SmartHome/tree/main/Projects/Lorawan_LNS_plus_AS)
 
 <img width="1536" height="1024" alt="ohkpifphhtpbc1939sjs" src="https://github.com/user-attachments/assets/06dfb920-cf45-41e0-bf20-3e654cd0f46c" />
 
