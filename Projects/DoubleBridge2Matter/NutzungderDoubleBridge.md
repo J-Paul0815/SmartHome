@@ -3,8 +3,11 @@
 
 
 Beispiel: Ziel soll sein einen WLED Streifen über Matter und HomeKit per Sprache steuern
+
 "Siri, schalte Flurleiste ein"
+
 "Siri, Flurleist 20 Prozent"
+
 "Siri, Flurleiste lila"
 
 
