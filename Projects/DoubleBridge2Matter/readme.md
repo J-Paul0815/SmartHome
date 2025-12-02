@@ -33,7 +33,7 @@ Einbindung von Geräten und States in die Sprachsysteme Siri, Alexa usw.
 
 ##### Installation der beiden Bridges ist separat beschrieben, bitte den folgenden Links folgen (nacheinander)
 
-1. Link zur Installation der HomeAssistant Matterbridge
+1. [Link zur Installation der HomeAssistant Matterbridge](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/DoubleBridge2Matter/HA2Matterbridge.md)
 
 2. Link zur Installation der Iobroker zu HomeAssistant Bridge
 
