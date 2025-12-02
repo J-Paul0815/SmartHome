@@ -28,7 +28,7 @@ Beispiel: Ziel soll sein einen WLED Streifen über Matter und HomeKit per Sprach
    <img width="278" height="74" alt="image" src="https://github.com/user-attachments/assets/3483dbff-e631-446b-861a-41fe42c171c7" />
 
 #### 4. Schritt
-   In HomeKit die raum Zuordnung vornehmen
+   In HomeKit die Raum Zuordnung vornehmen
 
    <img width="1042" height="895" alt="image" src="https://github.com/user-attachments/assets/fae288b3-1dd4-4ada-8204-766a401573a2" />
 
