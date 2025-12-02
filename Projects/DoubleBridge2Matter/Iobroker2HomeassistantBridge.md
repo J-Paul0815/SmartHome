@@ -69,7 +69,10 @@ Sobald das discovery in HA abgeschlossen ist (evtl. paar Sekunden) ist das Gerä
 
    Es ist darauf zu achten, dass sich die States in einen Channel, oder in einem Device (NICHT Folder!) mit Namen befinden, weil daraus der Geräte Name in HA gebildet wird.
 
-3. Beispiel eine "Lampe" die gebridged werden soll (hier ein WLED Streifen)
+   <img width="1044" height="689" alt="image" src="https://github.com/user-attachments/assets/dd434d9e-5e28-4ed3-9881-f0a423ffc70c" />
+
+
+4. Beispiel eine "Lampe" die gebridged werden soll (hier ein WLED Streifen)
    In HomeAssistant ist der WLED Streifen steuerbar Ein/Aus, Helligkeit, Farben, sowie die Auswahl der Effekte
    Wird das gerät dann über die MatterBridge (z.B.) zu HomeKit gebridged, so bleibt die Steuerung Ein/Aus, Helligkeit, Farben, aber keine Effekte, da Matter dies (noch) nicht beherrscht
 
@@ -77,6 +80,31 @@ Sobald das discovery in HA abgeschlossen ist (evtl. paar Sekunden) ist das Gerä
 
    <img width="891" height="794" alt="image" src="https://github.com/user-attachments/assets/7857916a-29e7-461a-918c-5a063d6d3735" />
 
+5. Beispiel eines (LoRaWAN) Thermostats
+
+ <img width="1091" height="710" alt="image" src="https://github.com/user-attachments/assets/a720fe87-63bb-4225-9c22-861cdc110b62" />
+
+ <img width="682" height="476" alt="image" src="https://github.com/user-attachments/assets/fe8ae2c2-ca56-4515-88fb-56b6f8914bbe" />
+
+ <img width="554" height="584" alt="image" src="https://github.com/user-attachments/assets/1a56c723-4d8c-4a8b-a43a-0fd05dc65681" />
+
+ ### Messaging (optinal) Benachrichtigungen in HomeAssistant aktivieren
+
+ Auf Iobroker Seite im Bridge Tab der LoRaWAN Instanz die Benachrichtigungen aktivieren:
+
+ <img width="832" height="506" alt="image" src="https://github.com/user-attachments/assets/0a2100ed-6f7c-4ee3-bfe8-8c4431f1df2b" />
+
+ dann in HomeAssistant in Einstellungen
+<img width="595" height="78" alt="image" src="https://github.com/user-attachments/assets/5e8a9b1a-5218-4fe8-b72c-7d6a9df71d14" />
+
+eine neue Automatisation erstellen
+<img width="355" height="157" alt="image" src="https://github.com/user-attachments/assets/138a2046-5f9c-4977-9a62-f2fb186b5e27" />
+
+
+
+
+
+   
    
 
 
