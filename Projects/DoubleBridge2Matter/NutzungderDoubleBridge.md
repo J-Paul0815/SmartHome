@@ -24,6 +24,26 @@ Beispiel: Ziel soll sein einen WLED Streifen über Matter und HomeKit per Sprach
 
 4. Schritt
    Matterbridge neu starten
+   <img width="278" height="74" alt="image" src="https://github.com/user-attachments/assets/3483dbff-e631-446b-861a-41fe42c171c7" />
+
+5. Schritt
+   In HomeKit die raum Zuordnung vornehmen
+
+   <img width="1042" height="895" alt="image" src="https://github.com/user-attachments/assets/fae288b3-1dd4-4ada-8204-766a401573a2" />
+
+
+#### Fertig
+- Das Gerät ist einsatzbereit, lässt sich über die App, oder Sprache steuern
+
+  <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/ec32a869-7861-43a6-bcbb-387f744cff1f" />
+
+  <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/8ee6cd68-7467-4e46-80f6-e0fab235fe4e" />
+
+  
+
+
+
+
    
 
 
