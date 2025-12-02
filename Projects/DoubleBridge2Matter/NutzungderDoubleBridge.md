@@ -8,7 +8,8 @@ Beispiel: Ziel soll sein einen WLED Streifen über Matter und HomeKit per Sprach
 "Siri, Flurleiste lila"
 
 
-1. Schritt
+#### 1. Schritt
+
    (Smart) Name in WLED eintragen, so wie das Gerät später "genannt" werden soll
    In Spezial Gerät "Light" in der LoRaWAN Instanz die 3 (4) Datenpunkte die zur Steuerung nötig sind auswählen
 
@@ -16,17 +17,17 @@ Beispiel: Ziel soll sein einen WLED Streifen über Matter und HomeKit per Sprach
 
    Speichern, Schließen
 
-3. Schritt
+#### 2. Schritt
    In HomeAssistant in Einstellungen, Geräte, MQTT, Flurleiste suchen
    Über die 3 Punkte das Label "matterbridge" aktivieren
 
    <img width="873" height="522" alt="image" src="https://github.com/user-attachments/assets/b8487ce6-debe-4437-af33-cbb391286c43" />
 
-4. Schritt
+#### 3. Schritt
    Matterbridge neu starten
    <img width="278" height="74" alt="image" src="https://github.com/user-attachments/assets/3483dbff-e631-446b-861a-41fe42c171c7" />
 
-5. Schritt
+#### 4. Schritt
    In HomeKit die raum Zuordnung vornehmen
 
    <img width="1042" height="895" alt="image" src="https://github.com/user-attachments/assets/fae288b3-1dd4-4ada-8204-766a401573a2" />
