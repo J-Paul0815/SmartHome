@@ -1,5 +1,7 @@
 ### Projekt Double Bridge to Matter
 
+[Link zur Beschreibung der Nutzung der DoubleBridge in 4 Schritten](https://github.com/J-Paul0815/SmartHome/blob/main/Projects/DoubleBridge2Matter/NutzungderDoubleBridge.md)
+
 #### Double Bridge? Welche 2 Brücken?
 1. Die erste Brücke verbindet Iobroker mit HomeAssistant
 2. Die zweite Brücke verbindet Homeassistant mit Matter
