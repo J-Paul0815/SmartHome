@@ -6,7 +6,7 @@ Beispiel: Ziel soll sein einen WLED Streifen über Matter und HomeKit per Sprach
 
 "Siri, schalte Flurleiste ein"
 
-"Siri, Flurleist 20 Prozent"
+"Siri, Flurleiste 20 Prozent"
 
 "Siri, Flurleiste lila"
 
