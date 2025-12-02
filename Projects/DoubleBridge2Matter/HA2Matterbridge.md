@@ -52,6 +52,65 @@ Starten
 
 Weboberfläche öffnen
 
+Auf die 3 Punkte
+<img width="1306" height="218" alt="image" src="https://github.com/user-attachments/assets/9e7b46a0-44aa-43bb-9c7f-151394f8a163" />
+
+Matterbridge-Hass auswählen
+
+<img width="325" height="238" alt="image" src="https://github.com/user-attachments/assets/902c4eb3-5834-4ed1-80d1-f854ac650375" />
+
+Install auswählen
+
+nach der Installation auf das Zahnrad für die Konfiguration
+
+Ich empfehle bei Host die IP Adresse einzutragen
+
+<img width="538" height="642" alt="image" src="https://github.com/user-attachments/assets/c76dad02-6a17-4863-8e54-c71790ac8bf7" />
+
+Den Token bekommt man in HomeAssistant auf der Hauptseite (unten links) auf deinen Benutzer klicken, Sicherheit
+
+<img width="889" height="456" alt="image" src="https://github.com/user-attachments/assets/31302165-0b67-4021-bc42-6c3229a5af83" />
+
+Ganz runter scrollen
+
+<img width="626" height="341" alt="image" src="https://github.com/user-attachments/assets/efa189dd-11b6-4a75-bab8-9bf4c259ddbb" />
+
+Langlebigen Token kreieren, Namen geben (z.B. Matterbridge) den Token kopieren
+
+und in der Matterbridge Konfiguration unter Token ein kopieren
+
+Empfehlung:
+Filter by Label
+<img width="278" height="122" alt="image" src="https://github.com/user-attachments/assets/c44c6c17-eaa7-4f46-83c1-fbd5a434d419" />
+
+```matterbridge```
+eingeben, dann ganz unten mit Confirm bestätigen
+danach Matterbridge neu starten, oben auf 
+
+<img width="278" height="74" alt="image" src="https://github.com/user-attachments/assets/8d409b38-51e3-417f-aa71-9cdb2c103895" />
+
+nun unter Einstellungen
+Bereiche, Label, Zonen
+Label
+ein neues label erstellen mit Namen "matterbridge"
+
+<img width="684" height="371" alt="image" src="https://github.com/user-attachments/assets/bba83720-e8be-4a8e-b81f-1d41bbdcee0d" />
+
+Damit ist die Installation abgeschlossen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
