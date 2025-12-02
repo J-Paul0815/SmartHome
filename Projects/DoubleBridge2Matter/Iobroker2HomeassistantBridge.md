@@ -95,12 +95,61 @@ Sobald das discovery in HA abgeschlossen ist (evtl. paar Sekunden) ist das Gerä
  <img width="832" height="506" alt="image" src="https://github.com/user-attachments/assets/0a2100ed-6f7c-4ee3-bfe8-8c4431f1df2b" />
 
  dann in HomeAssistant in Einstellungen
+ 
 <img width="595" height="78" alt="image" src="https://github.com/user-attachments/assets/5e8a9b1a-5218-4fe8-b72c-7d6a9df71d14" />
 
 eine neue Automatisation erstellen
 
 
 <img width="355" height="157" alt="image" src="https://github.com/user-attachments/assets/138a2046-5f9c-4977-9a62-f2fb186b5e27" />
+
+<img width="486" height="336" alt="image" src="https://github.com/user-attachments/assets/813f4d75-ea90-4694-afbc-80f9f7d96f12" />
+
+Auslöser hinzufügen, Gerät
+
+<img width="909" height="686" alt="image" src="https://github.com/user-attachments/assets/8e371514-f2a9-4104-a57e-6714ffe4a702" />
+
+bei Gerät: LoRaWAN.0 auswählen:
+
+<img width="706" height="595" alt="image" src="https://github.com/user-attachments/assets/f8a3f7ba-04e8-478d-ad84-6f33c6ab4c97" />
+
+Bei "Dann" Aktion hinzufügen: Benachrichtigung
+
+<img width="913" height="762" alt="image" src="https://github.com/user-attachments/assets/9deeea12-94f7-4965-9d09-8735a02ebc28" />
+
+Anhaltende Benachrichtigung senden aufs "+" klicken
+
+<img width="492" height="245" alt="image" src="https://github.com/user-attachments/assets/8eae6246-7656-4c07-a6eb-caa421338f2c" />
+
+Bei Nachricht eintragen ```{{ trigger.payload }}```
+Titel anhaken und eintragen ```LoRaWAN Benachrichtigung```
+
+<img width="526" height="684" alt="image" src="https://github.com/user-attachments/assets/48b2f07c-b34f-4409-be71-8f6d7ad89f8e" />
+
+Speichern
+
+<img width="486" height="319" alt="image" src="https://github.com/user-attachments/assets/b5d54cb7-0147-4200-8ac7-8b11a130dad3" />
+
+Namen vergeben und Speichern
+
+Ergebnis sind Benachrichtigungen:
+
+<img width="492" height="319" alt="image" src="https://github.com/user-attachments/assets/6a1b1426-90fa-4781-876d-99e951781473" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
