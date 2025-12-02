@@ -56,6 +56,34 @@ Link zur Nutzung von Iobroker Geräten in Matter über die Double Bridge
 1. Beispiel an einem (Zigbee) Tür Fenster Sensor der zu HomeAssistant gebridged werden soll
 Hierfür gibt es gute Gründe, z.B. dass es dann in HA für diesen Sensor keinen "Unbekannt" Status mehr gibt
 
+das Gerät (hier Büro Fenster) bekommt (auch) die Funktion (so wie in der LoRaWAN Instanz eingerichtete, hier:) Bridge
+
+<img width="989" height="354" alt="image" src="https://github.com/user-attachments/assets/44bcd4de-21f5-4e43-bca2-cd2e3a917ca7" />
+
+Sobald das discovery in HA abgeschlossen ist (evtl. paar Sekunden) ist das Gerät mit dem Namen (hier Büro Fenster) in HA unter MQTT zu finden
+
+<img width="860" height="896" alt="image" src="https://github.com/user-attachments/assets/177827e0-f08b-41ad-96e6-f577411262df" />
+
+2. Beispiel (selbst erstellte) Datenpunkte in 0_User
+   <img width="1023" height="382" alt="image" src="https://github.com/user-attachments/assets/f28d0403-ebfd-4f20-9e8c-61c26ad4fde5" />
+
+   Es ist darauf zu achten, dass sich die States in einen Channel, oder in einem Device (NICHT Folder!) mit Namen befinden, weil daraus der Geräte Name in HA gebildet wird.
+
+3. Beispiel eine "Lampe" die gebridged werden soll (hier ein WLED Streifen)
+   In HomeAssistant ist der WLED Streifen steuerbar Ein/Aus, Helligkeit, Farben, sowie die Auswahl der Effekte
+   Wird das gerät dann über die MatterBridge (z.B.) zu HomeKit gebridged, so bleibt die Steuerung Ein/Aus, Helligkeit, Farben, aber keine Effekte, da Matter dies (noch) nicht beherrscht
+
+   <img width="957" height="355" alt="image" src="https://github.com/user-attachments/assets/c06b5c24-f676-4b30-bc9e-7eeaab6495e8" />
+
+   <img width="891" height="794" alt="image" src="https://github.com/user-attachments/assets/7857916a-29e7-461a-918c-5a063d6d3735" />
+
+   
+
+
+
+
+
+
 
 
 
