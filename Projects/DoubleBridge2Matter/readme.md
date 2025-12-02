@@ -39,3 +39,24 @@ Einbindung von Geräten und States in die Sprachsysteme Siri, Alexa usw.
 
 ### Nachdem ! beides installiert ist, folgt die Verknüpfung
 
+#### Nun können wir die MatterBridge mit einem ÖkoSystem verbinden
+Hier am Beispiel von HomeKit, die Vorhensweise bei Alexa, GoogleHome ist aber immer gleich
+
+In Matterbridge das Pairing einschalten
+
+<img width="602" height="501" alt="image" src="https://github.com/user-attachments/assets/d674dc02-3944-4993-9afe-a500a0da060c" />
+
+den angezeigten QR Code in HomeKit öffnen, oder
+in HomeKit auf Bridge hinzufügen gehen und dann den QR Code scannen
+
+Die in der Matterbridge angelegten Geräte werden nun in das jeweilige öko-System (hier HomeKit) hinzugefügt.
+Übrig bleibt nur die Zuweisung zu dem jeweiligem Raum
+
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/143e9e34-9476-47a8-a619-efba7894cb80" />
+
+
+
+
+
+
