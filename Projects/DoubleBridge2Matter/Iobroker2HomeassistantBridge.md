@@ -43,6 +43,24 @@ Im Tab "Bridge fremde States" stellt man nun die eben erstellte Funktion ein:
 
 <img width="1131" height="687" alt="image" src="https://github.com/user-attachments/assets/31e68e06-339a-427c-bd6b-6da9afd3c316" />
 
+Dort finden sich auch die Einstellungen für "Spezielle Geräte" (siehe weiter unten)
+
+Nach speichern und schließen ist die Einrichtung der iob2HA Bridge fertig
+
+Wie Geräte und States im Anschluss durchgängig von Iobroker (über die Double Bridge) zu Matter gelangen ist hier beschrieben
+
+Link zur Nutzung von Iobroker Geräten in Matter über die Double Bridge
+
+#### Aktivierung von Geräten die gebridged werden sollen
+
+1. Beispiel an einem (Zigbee) Tür Fenster Sensor der zu HomeAssistant gebridged werden soll
+Hierfür gibt es gute Gründe, z.B. dass es dann in HA für diesen Sensor keinen "Unbekannt" Status mehr gibt
+
+
+
+
+
+
 
 
 
