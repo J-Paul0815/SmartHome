@@ -49,6 +49,9 @@ In Matterbridge das Pairing einschalten
 den angezeigten QR Code in HomeKit öffnen, oder
 in HomeKit auf Bridge hinzufügen gehen und dann den QR Code scannen
 
+<img width="254" height="346" alt="image" src="https://github.com/user-attachments/assets/d240172e-f3e0-4c9d-a94f-202891037de7" />
+
+
 Die in der Matterbridge angelegten Geräte werden nun in das jeweilige öko-System (hier HomeKit) hinzugefügt.
 Übrig bleibt nur die Zuweisung zu dem jeweiligem Raum
 
