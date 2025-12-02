@@ -98,13 +98,19 @@ Sobald das discovery in HA abgeschlossen ist (evtl. paar Sekunden) ist das Gerä
  
 <img width="595" height="78" alt="image" src="https://github.com/user-attachments/assets/5e8a9b1a-5218-4fe8-b72c-7d6a9df71d14" />
 
+
 eine neue Automatisation erstellen
+
 
 
 <img width="355" height="157" alt="image" src="https://github.com/user-attachments/assets/138a2046-5f9c-4977-9a62-f2fb186b5e27" />
 
 
+
+
 <img width="486" height="336" alt="image" src="https://github.com/user-attachments/assets/813f4d75-ea90-4694-afbc-80f9f7d96f12" />
+
+
 
 
 Auslöser hinzufügen, Gerät
