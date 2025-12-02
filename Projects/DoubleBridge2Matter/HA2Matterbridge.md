@@ -98,6 +98,16 @@ ein neues label erstellen mit Namen "matterbridge"
 
 Damit ist die Installation abgeschlossen
 
+Benutzung, am Beispiel eines (von der Iobroker2Ha Bridge stammendes) LoRaWAN Thermostats:
+
+In Einstellungen, Geräte, Dienste, MQTT anwählen
+
+<img width="1017" height="786" alt="image" src="https://github.com/user-attachments/assets/552ecdf1-2e94-46eb-b858-055bfa3f5ba5" />
+
+fertig, das Gerät ist nach einem Neustart der Matterbridge zu Matter hinzugefügt
+
+
+
 
 
 
