@@ -103,23 +103,33 @@ eine neue Automatisation erstellen
 
 <img width="355" height="157" alt="image" src="https://github.com/user-attachments/assets/138a2046-5f9c-4977-9a62-f2fb186b5e27" />
 
+
 <img width="486" height="336" alt="image" src="https://github.com/user-attachments/assets/813f4d75-ea90-4694-afbc-80f9f7d96f12" />
+
 
 Auslöser hinzufügen, Gerät
 
+
 <img width="909" height="686" alt="image" src="https://github.com/user-attachments/assets/8e371514-f2a9-4104-a57e-6714ffe4a702" />
+
 
 bei Gerät: LoRaWAN.0 auswählen:
 
+
 <img width="706" height="595" alt="image" src="https://github.com/user-attachments/assets/f8a3f7ba-04e8-478d-ad84-6f33c6ab4c97" />
+
 
 Bei "Dann" Aktion hinzufügen: Benachrichtigung
 
+
 <img width="913" height="762" alt="image" src="https://github.com/user-attachments/assets/9deeea12-94f7-4965-9d09-8735a02ebc28" />
+
 
 Anhaltende Benachrichtigung senden aufs "+" klicken
 
+
 <img width="492" height="245" alt="image" src="https://github.com/user-attachments/assets/8eae6246-7656-4c07-a6eb-caa421338f2c" />
+
 
 Bei Nachricht eintragen ```{{ trigger.payload }}```
 Titel anhaken und eintragen ```LoRaWAN Benachrichtigung```
