@@ -27,7 +27,8 @@ klick auf:
 2. Möglichkeit manuell
 
 In HomeAssistant auf Einstellungen, AddOn, AddStore
-<img width="694" height="429" alt="image" src="https://github.com/user-attachments/assets/3b2b63e0-bee5-445f-be76-09ccf70ba523" />
+
+<img width="899" height="377" alt="image" src="https://github.com/user-attachments/assets/e8795f37-5d80-4950-89f1-21c99ee66964" />
 
 oben rechts auf die 3 Punkte, Repositories
 dort folgenden link einfügen 
