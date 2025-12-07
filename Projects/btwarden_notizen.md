@@ -9,6 +9,14 @@ curl -s -L -o bitwarden.sh     "https://func.bitwarden.com/api/dl/?app=self-host
 ./bitwarden.sh install
 ./bitwarden.sh start
 nano ./bwdata/env/global.override.env
+
+dort subdomain eintragen, die vorher eingerichtet wurde beim Provider und in Ngnix Proxy Manager:
+globalSettings__baseServiceUri__vault=http://bitw.deine_domain.com
+globalSettings__baseServiceUri__cloudRegion=EU
+sowie Email Einträge
+.....
+Speichern, Schliessen
+
 ./bitwarden.sh restart
 
 Updates
