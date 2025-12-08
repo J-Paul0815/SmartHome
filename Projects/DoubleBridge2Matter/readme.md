@@ -23,9 +23,11 @@ Einbindung von Geräten und States in die Sprachsysteme Siri, Alexa usw.
 - Einfach
 - ZukunftsSicher
 - dauerhaft kostenfrei
+- keine nervige Geräte Suche mehr (Alexa, gerätesuche!)
   
 #### Double Bridge? Was wird nicht mehr gebraucht?
 - IoT Adapter
+- Iobroker Alexa Skill
 - IoT Assistenten Lizenz
 - Yahka Adapter
 - Matter Adapter (Bridge Funktion) um Geräte die sich im Matter Universum befinden auch in Iobroker nutzen zu können kann der Matter Adapter dafür (kostenfrei) genutzt werden
