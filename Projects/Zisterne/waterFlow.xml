@@ -151,11 +151,11 @@
                               <shadow type="logic_boolean" id="}eoXDZp/.m,g|6f#x`YC">
                                 <field name="BOOL">TRUE</field>
                               </shadow>
-                              <block type="math_round" id="cHprN@A7~D*Ko(YA-Z[9">
-                                <field name="OP">ROUND</field>
-                                <value name="NUM">
-                                  <shadow type="math_number" id="HDX)AEO#6D1#qew@+*P3">
-                                    <field name="NUM">3.1</field>
+                              <block type="math_rndfixed" id="z1OUlmADz!elq6Z5C9YS">
+                                <field name="n">3</field>
+                                <value name="x">
+                                  <shadow type="math_number" id="7hb?yCD70ph`2YD|XXt%">
+                                    <field name="NUM">3.1234</field>
                                   </shadow>
                                   <block type="math_arithmetic" id="@-lJR;X}Y|gd^tZmj2Ep">
                                     <field name="OP">DIVIDE</field>
@@ -205,7 +205,7 @@
   <block type="procedures_defcustomnoreturn" id="OG)||1Rn),ih(r_PfMbO" x="863" y="238">
     <mutation statements="false"></mutation>
     <field name="NAME">Datenpunkte erstellen</field>
-    <field name="SCRIPT">Ly9udW1iZXINCi8vY3JlYXRlU3RhdGUoIjBfdXNlcmRhdGEuMC4iKyBPcmRuZXIgKyIuQ1BVVGVtcDEiLCAwLHsgbmFtZTogIkNQVS1UZW1wIENvcmUgMSIsIHVuaXQ6ICLCsEMiLCByZWFkOiB0cnVlLCB3cml0ZTogdHJ1ZSwgZGVzYzogIkJlc2NocmVpYnVuZyIsIHR5cGU6ICJudW1iZXIiLCAgfSk7DQpjcmVhdGVTdGF0ZSgiMF91c2VyZGF0YS4wLiIrIE9yZG5lciArIi5XYXRlcmZsb3ciLCAwLHsgbmFtZTogIldhdGVyZmxvdyIsIHVuaXQ6ICJsIiwgcmVhZDogdHJ1ZSwgd3JpdGU6IHRydWUsIGRlc2M6ICJXYXRlcmZsb3ciLCB0eXBlOiAibnVtYmVyIiwgIH0pOw0KDQovL251bWJlciB3aXRoIHN0YXRlcw0KLy9jcmVhdGVTdGF0ZSgiMF91c2VyZGF0YS4wLiIrIE9yZG5lciArIi5hcmJlaXRzc3RhdHVzIiwgMCwgeyByZWFkOiB0cnVlLCB3cml0ZTogdHJ1ZSwgZGVzYzogIkJlc2NocmVpYnVuZyIsIHR5cGU6ICJudW1iZXIiLCBtaW46IDAsIG1heDogMywgZGVmOiAwLCBzdGF0ZXM6IHsgMDoiQXJiZWl0IiwgMToiVXJsYXViIiwgMjoiRnJlaSIsIDM6IktyYW5rIiB9IH0pOw0KDQovL2Jvb2xlYW4NCi8vY3JlYXRlU3RhdGUoIjBfdXNlcmRhdGEuMC4iKyBPcmRuZXIgKyIuc3RhdHVzIiwgZmFsc2UsIHsgcmVhZDogdHJ1ZSwgd3JpdGU6IHRydWUsIGRlc2M6ICJCZXNjaHJlaWJ1bmciLCB0eXBlOiAiYm9vbGVhbiIsIGRlZjogZmFsc2UgfSk7DQoNCi8vYm9vbGVhbiB3aXRoIGJ1dHRvbg0KLy9jcmVhdGVTdGF0ZSgiMF91c2VyZGF0YS4wLiIrIE9yZG5lciArIi5zdGF0dXMyIiwgZmFsc2UsIHtyZWFkOiB0cnVlLCB3cml0ZTogdHJ1ZSwgZGVzYzogIkJlc2NocmVpYnVuZyIsIHR5cGU6ICJib29sZWFuIiwgcm9sZTogImJ1dHRvbiIsIGRlZjogZmFsc2UgfSk7DQoNCi8vc3RyaW5nDQpjcmVhdGVTdGF0ZSgiMF91c2VyZGF0YS4wLiIrIE9yZG5lciArIi5Tb3VyY2VfRFAiLCB7IHR5cGU6ICdzdHJpbmcnLCBuYW1lOiAnUXVlbGxfRFAnLCByZWFkOiB0cnVlLCAgd3JpdGU6IHRydWUsIGRlc2M6ICJTb3VyY2VfRFAiLH0pOw0KDQo=</field>
+    <field name="SCRIPT">DQoNCmNyZWF0ZVN0YXRlKCIwX3VzZXJkYXRhLjAuIisgT3JkbmVyICsiLldhdGVyZmxvdyIsIDAseyBuYW1lOiAiV2F0ZXJmbG93Iiwicm9sZSI6ICJsZXZlbC5mbG93IiwgdW5pdDogImwvbWluIiwgcmVhZDogdHJ1ZSwgd3JpdGU6IHRydWUsIGRlc2M6ICJXYXRlcmZsb3ciLCB0eXBlOiAibnVtYmVyIiwgIm1pbiI6IC0xMDAwLCAibWF4IjogMTAwMCwgImRlZiI6IDAsICB9KTsNCg0KY3JlYXRlU3RhdGUoIjBfdXNlcmRhdGEuMC4iKyBPcmRuZXIgKyIuU291cmNlX0RQIiwgeyB0eXBlOiAnc3RyaW5nJywgbmFtZTogJ1F1ZWxsX0RQJywgcmVhZDogdHJ1ZSwgIHdyaXRlOiB0cnVlLCBkZXNjOiAiU291cmNlX0RQIix9KTsNCg0K</field>
     <comment pinned="false" h="80" w="160">Beschreibe diese Funktion …</comment>
   </block>
 </xml>
