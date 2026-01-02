@@ -66,52 +66,52 @@ Decoder anpassen:
 // Demo
 // 0D 10    01    02 F2    02 EF   01  2C
 // 0D100102F202EF012C
-
+//
+// Batterie-Ergänzung: Konfigurierbare Min/Max Volt für 0%/100% Prozent-Berechnung
+// batMinVolt = 2.4 (leer), batMaxVolt = 3.6 (voll) - an Li-SOCl2-Kurve anpassen
 
 function decodeUplink(input) {
   var bytes = input.bytes;
   var fPort = input.fPort;
   
-
+  // Batterie-Grenzen konfigurierbar (oben anpassen!)
+  var batMinVolt = 2.6;  // Volt bei 0% (leer)
+  var batMaxVolt = 3.5;  // Volt bei 100% (voll)
   
- if( fPort == 2 ) {
-
-   
+  if( fPort == 2 ) {
     var batteryVoltageLoRa = (bytes[0]<<8 | bytes[1]) /1000;
+    // Batterie in Prozent berechnen (clamp 0-100%)
+    var batteryPercentLoRa = Math.max(0, Math.min(100, Math.round(((batteryVoltageLoRa - batMinVolt) / (batMaxVolt - batMinVolt)) * 100)));
     var distance = (bytes[3]<<8 | bytes[4]) ;
     var distance_raw = (bytes[5]<<8 | bytes[6]) ;
     var temperature = (bytes[7]<<8 | bytes[8]) /10 ;
     var utc = new Date().toUTCString();
-    var device = "Dragino";
+    var device = "Dragino RS485-BL";
     
-  return {
-    data: {
-      LoRa_Voltage: batteryVoltageLoRa,
-      Distance_mm: distance,
-      Distance_mm_RAW: distance_raw,
-      
-      Temperature: temperature,
-      Device: device,
-      Timestamp_UTC: utc,
-
-    }  
+    return {
+      data: {
+        LoRa_Voltage: batteryVoltageLoRa,
+        LoRa_BatteryPercent: batteryPercentLoRa,  // Neu: Prozentwert
+        Distance_mm: distance,
+        Distance_mm_RAW: distance_raw,
+        Temperature: temperature,
+        Device: device,
+        Timestamp_UTC: utc,
+      }  
     }
   }
   
   else {
     return {
-    data: {
-// RAW: bytes
-
+      data: {
+        // RAW: bytes
+      }
     }
-    }
- }
+  }
 }
 // MIT License (MIT)
 // Copyright (c) 2024 Joerg Froehner hafenmeister.com
 // It is not allowed to remove this entry
-//
-
 
 
 
