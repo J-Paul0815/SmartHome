@@ -161,6 +161,7 @@ Antwort 2 15:26:31
 1376mm (keine Hand hingehalten, Schreibtisch bis zur Decke) 
 22,9 Grad Celsius
 
+<img width="454" height="241" alt="image" src="https://github.com/user-attachments/assets/024d0711-3fb9-4ebb-bf41-8575d3d2eb5a" />
 
 
 
