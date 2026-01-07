@@ -6,7 +6,29 @@
 <img width="627" height="664" alt="image" src="https://github.com/user-attachments/assets/078ea06c-bcaa-4732-89e7-5838f35cadae" />
 
 
+
 <img width="691" height="287" alt="image" src="https://github.com/user-attachments/assets/658b0343-4abe-45fb-9370-a15a0a199232" />
+
+
+
+VCC = Rot
+
+GND = Schwarz
+
+B = Gelb
+
+A = Weiss
+
+
+An SP13
+
+1 = VCC Rot
+
+2 = GND Schwarz
+
+3 = A Weiss
+
+4 = B Gelb
 
 
 
