@@ -143,5 +143,24 @@ function decodeUplink(input) {
 <img width="427" height="395" alt="image" src="https://github.com/user-attachments/assets/2a8a0905-7cc3-4c9f-91f7-c407344803b0" />
 
 
+<img width="754" height="582" alt="image" src="https://github.com/user-attachments/assets/820610ba-ecde-4aad-8816-bd304502fac7" />
+
+An COM3, 9600, N, 8, 1
+Slave ID 01
+Abfrage 03
+Ab Adresse 256 (HEX 01 00)
+Anzahl Register 00 03
+
+<img width="963" height="749" alt="image" src="https://github.com/user-attachments/assets/c3702254-403d-40ec-8214-5bb3d068850e" />
+
+Antwort 1 15:26:17
+313mm (Hand hingehalten) 
+22,9 Grad Celsius
+
+Antwort 1 15:26:31
+1376mm (keine Hand hingehalten, Schreibtisch bis zur Decke) 
+22,9 Grad Celsius
+
+
 
 
