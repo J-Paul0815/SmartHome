@@ -147,7 +147,7 @@ function decodeUplink(input) {
 
 An COM3, 9600, N, 8, 1
 Slave ID 01
-Abfrage 03
+Abfrage 03 (lesen)
 Ab Adresse 256 (HEX 01 00)
 Anzahl Register 00 03
 
@@ -157,7 +157,7 @@ Antwort 1 15:26:17
 313mm (Hand hingehalten) 
 22,9 Grad Celsius
 
-Antwort 1 15:26:31
+Antwort 2 15:26:31
 1376mm (keine Hand hingehalten, Schreibtisch bis zur Decke) 
 22,9 Grad Celsius
 
