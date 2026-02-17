@@ -1,0 +1,48 @@
+function decodeUplink(input) 
+{
+  // Grenzwerte für die Batteriespannung in Volt
+  var BAT_FULL = 4.2;   // 100 %
+  var BAT_EMPTY = 3.5;  //   0 %
+
+  var bytes = input.bytes;
+
+  var BatVolt_raw = (bytes[0] << 8 | bytes[1]);   // mV
+  var BatVolt = BatVolt_raw / 1000;               // in Volt
+
+  // Temperatur
+  // var tmp = (bytes[2]<<8 | bytes[3]);
+  var tmp = (bytes[2]<<24>>16  | bytes[3]);
+
+  // Batterie-Prozentberechnung, begrenzt auf 0–100
+  var batPercent = ((BatVolt - BAT_EMPTY) / (BAT_FULL - BAT_EMPTY)) * 100;
+  var batPercent_r = Math.round(batPercent);  // Rundung auf nächste Ganzzahl;
+  if (batPercent > 100) batPercent = 100;
+  if (batPercent < 0)   batPercent = 0;
+
+  
+  const utc = new Date().toUTCString();
+
+  return {
+    data: {
+      Temperatur: ((tmp - 5000) / 100),
+      //Temperature: ((tmp - 5000) / 100),
+      Batterie: BatVolt,          // in Volt
+      Batterie_Prozent: batPercent_r, // in %
+      //field1: ((tmp-5000)/100),
+      //field2: BatVolt/1000,
+      
+      utc: utc,
+    },
+    warnings: [],
+    errors: []
+  };
+}
+
+// Wrapper for Lobaro Platform
+function Parse(input) {
+  // Decode an incoming message to an object of fields.
+  var b = bytes(atob(input.data));
+  var decoded = Decoder(b, input.fPort);
+
+  return decoded;
+}
