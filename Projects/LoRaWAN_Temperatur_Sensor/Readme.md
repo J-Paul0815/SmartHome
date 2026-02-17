@@ -1,4 +1,8 @@
-#### Bau eines LORaWAN Temperatur Sensors
+#### Bau eines LoRaWAN Temperatur Sensors
+
+
+<img width="1381" height="581" alt="image" src="https://github.com/user-attachments/assets/829b0f31-b9ea-40fb-b307-32359c6e0327" />
+
 
 ##### Hardware
 1. Sensor OneWire DS18B20
