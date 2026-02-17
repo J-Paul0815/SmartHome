@@ -23,9 +23,11 @@
 
 
 Region: EU 868
+UpLinkMode= Unconfirmed
+
+   <img width="637" height="798" alt="image" src="https://github.com/user-attachments/assets/98f73bd0-3610-4813-9257-5cdf0cd51d6d" />
 
 
-   <img width="760" height="790" alt="image" src="https://github.com/user-attachments/assets/fea3b746-fd94-478c-b7e7-2411de7679e8" />
 
 
 
