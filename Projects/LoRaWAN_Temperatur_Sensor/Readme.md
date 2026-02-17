@@ -1,5 +1,20 @@
 #### Bau eines LORaWAN Temperatur Sensors
 
+##### Hardware
+1. Sensor OneWire DS18B20
+2. PullUp Widerstand 4,7 kOhm als Pullup zwischen VDD und Data
+3. Batteriefach 3fach
+4. 3 x Akkus AA 1,2V
+5. Solarpanel 3-5V (ca. Postkartengröße)
+6. Heltec Dev Board HTCC-AB01
+7. Gehäuse, Steckverbinder
+
+<img width="694" height="457" alt="image" src="https://github.com/user-attachments/assets/ea7d39e8-29ff-4a12-a0ef-03c5bcc1e507" />
+
+<img width="801" height="731" alt="image" src="https://github.com/user-attachments/assets/af93858d-ade0-479a-9b74-a5ba4efd91a2" />
+
+
+
 ##### Software
 
 1. Download Install Arduino IDE
@@ -41,7 +56,10 @@ UpLinkMode= Unconfirmed
 9. TTN Join beobachten
 10. Payload formatter (Decoder) einfügen
 11. Live beobachten
-   
+
+
+   <img width="1056" height="720" alt="image" src="https://github.com/user-attachments/assets/5eed8aa3-3ac4-46ef-9e97-f3b564c887e1" />
+
 
 
 
