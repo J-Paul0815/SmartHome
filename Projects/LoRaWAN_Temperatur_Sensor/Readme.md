@@ -38,6 +38,9 @@ UpLinkMode= Unconfirmed
 
 
 8. Install, Sketch Prüfen, wenn OK, dann Upload
+9. TTN Join beobachten
+10. Payload formatter (Decoder) einfügen
+11. Live beobachten
    
 
 
