@@ -28,6 +28,17 @@ UpLinkMode= Unconfirmed
    <img width="637" height="798" alt="image" src="https://github.com/user-attachments/assets/98f73bd0-3610-4813-9257-5cdf0cd51d6d" />
 
 
+6. Keys holen von TTN / Neues Gerät einrichten
+
+   <img width="1232" height="845" alt="image" src="https://github.com/user-attachments/assets/46b447b1-471d-4fac-be04-d92ac9b17e89" />
+
+   DevEUI und AppKey Generate, Namen (ID) vergeben
+
+7. In Arduino IDE neuen Sketch anlegen, Sketch Code einfügen und die eben generierten Keys einfügen
+
+
+8. Install, Sketch Prüfen, wenn OK, dann Upload
+   
 
 
 
