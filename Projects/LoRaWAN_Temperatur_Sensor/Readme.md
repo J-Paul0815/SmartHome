@@ -21,6 +21,7 @@
 
 <img width="801" height="731" alt="image" src="https://github.com/user-attachments/assets/af93858d-ade0-479a-9b74-a5ba4efd91a2" />
 
+<img width="807" height="687" alt="image" src="https://github.com/user-attachments/assets/035bd27f-32a9-4390-96bb-3940828097e2" />
 
 
 ##### Software
@@ -67,6 +68,18 @@ UpLinkMode= Unconfirmed
 
 
    <img width="1056" height="720" alt="image" src="https://github.com/user-attachments/assets/5eed8aa3-3ac4-46ef-9e97-f3b564c887e1" />
+
+So kommen die daten zu Iobroker:
+
+   <img width="987" height="448" alt="image" src="https://github.com/user-attachments/assets/1c5b2e84-8490-446f-b810-a5c1f67d6bd4" />
+
+So kommen die Daten zu HomeAssistant
+
+<img width="1142" height="597" alt="image" src="https://github.com/user-attachments/assets/0bf0225a-b0bf-48cd-9571-e2ef718ab21d" />
+
+
+
+
 
 
 
