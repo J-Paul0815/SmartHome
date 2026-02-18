@@ -69,7 +69,7 @@ UpLinkMode= Unconfirmed
 
    <img width="1056" height="720" alt="image" src="https://github.com/user-attachments/assets/5eed8aa3-3ac4-46ef-9e97-f3b564c887e1" />
 
-So kommen die daten zu Iobroker:
+So kommen die Daten zu Iobroker:
 
    <img width="987" height="448" alt="image" src="https://github.com/user-attachments/assets/1c5b2e84-8490-446f-b810-a5c1f67d6bd4" />
 
