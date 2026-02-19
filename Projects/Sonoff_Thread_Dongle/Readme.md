@@ -27,6 +27,33 @@ Flash:
 <img width="457" height="427" alt="image" src="https://github.com/user-attachments/assets/68472755-5f36-402f-bc53-f0b8840fc38b" />
 
 
+OTBR AddOn installieren:
+OpenThread Border Router app (formerly known as add-on)
+
+
+<img width="666" height="255" alt="image" src="https://github.com/user-attachments/assets/bdbcd4d2-f032-43f3-a534-96b3f00bea96" />
+
+
+<img width="1180" height="893" alt="image" src="https://github.com/user-attachments/assets/d22393eb-2156-4993-a350-21c28fe7bae4" />
+
+
+Starten:
+
+<img width="734" height="557" alt="image" src="https://github.com/user-attachments/assets/69ab5e2a-80fd-422c-bff4-b6c5b132e0c6" />
+
+
+In Einstellungen, Integrationen, Thread:
+
+<img width="1001" height="868" alt="image" src="https://github.com/user-attachments/assets/46514d33-6674-454f-9bc6-50951105b00e" />
+
+
+
+
+
+
+
+
+
 
 
 
