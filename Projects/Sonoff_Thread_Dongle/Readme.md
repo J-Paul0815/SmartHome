@@ -47,6 +47,18 @@ In Einstellungen, Integrationen, Thread:
 <img width="1001" height="868" alt="image" src="https://github.com/user-attachments/assets/46514d33-6674-454f-9bc6-50951105b00e" />
 
 
+HomePod stromlos, Matter prüfen (Thread Geräte sind Online)
+
+... ging nicht
+
+Geräte im Matter server gelöscht,  neu hinzugefügt
+
+In Apple Home:
+Gerät hinzufügen, Weitere Optionen
+Geräte wurden dort gefunden, infach hinzufügen, Raum wählen, Namen bestätigen, fertig
+
+
+
 
 
 
