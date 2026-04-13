@@ -67,6 +67,9 @@ ID kopieren, dann auf der PVE Console die Reinreichung vornehmen (hier OMV VM ID
 
     <img width="833" height="492" alt="image" src="https://github.com/user-attachments/assets/599e96a1-afc4-4f5d-9d78-372c824e44ec" />
 
+
+    <img width="1163" height="757" alt="image" src="https://github.com/user-attachments/assets/ea8093ea-9de7-402c-8cab-b2cc171f67a2" />
+
     
 
 
