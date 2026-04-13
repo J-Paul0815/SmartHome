@@ -6,6 +6,9 @@ Diese ist aufgeteilt in 40 GB für Proxmox Host (local), Rest local-lvm (PVE)
 
 Konzept ist eine OMV VM zu installieren und dieser dann eine 500 GB WD m.2 SSD reinzureichen um diese einzig und exlusiv von OMV zu nutzen.
 
+<img width="1275" height="950" alt="image" src="https://github.com/user-attachments/assets/82e905fb-6614-463e-bf2a-b3dfed2b19f3" />
+
+
 
 #### Installations Schritte:
 #### OMV VM kreieren
