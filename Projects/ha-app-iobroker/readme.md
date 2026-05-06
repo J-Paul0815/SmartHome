@@ -210,6 +210,19 @@ admin
 
 <img width="1289" height="946" alt="image" src="https://github.com/user-attachments/assets/98eecbb6-d853-4f9d-a1fc-afd7ccf08d9c" />
 
+Gateway hinzufügen
+
+<img width="1260" height="883" alt="image" src="https://github.com/user-attachments/assets/d5b2f256-4085-4397-9cef-0548d75eda0f" />
+
+Gateway zum Chirpstack schicken lassen:
+
+<img width="983" height="572" alt="image" src="https://github.com/user-attachments/assets/c97783de-2163-4426-99cd-de216755800d" />
+
+<img width="1158" height="733" alt="image" src="https://github.com/user-attachments/assets/d4421d7a-9b99-4aac-95f4-a38bf9091e96" />
+
+
+<img width="1287" height="877" alt="image" src="https://github.com/user-attachments/assets/89e7ce97-d578-4c22-8434-6a1178aebf62" />
+
 
 
 
