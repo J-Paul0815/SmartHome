@@ -173,7 +173,23 @@ Es gibt sogar ein Iobroker Symbol ;-)
 
 ### (4) Automatisierungen hinzufügen:
 
-[
+Alle 4 hinzufügen:
+
+[https://github.com/BenAhrdt/SmartHome/tree/main/Home%20Assistant/Automationen](https://github.com/BenAhrdt/SmartHome/tree/main/Home%20Assistant/Automationen)
+
+
+
+Siehe Youtube Video ab Minute 4
+
+[https://youtu.be/-IeHOPwHzwo](https://youtu.be/-IeHOPwHzwo)
+
+
+
+#### Einrichtung Bridge von Homeassistant zu Iobroker ist hiermit abgeschlossen und kann benutzt werden (siehe oben)
+
+
+
+
 
 
 
