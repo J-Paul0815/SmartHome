@@ -71,6 +71,74 @@ Grün      = Gebridgte Geräte (HA->Iob)
 <img width="1058" height="807" alt="image" src="https://github.com/user-attachments/assets/ca376efd-8270-4464-8165-d76df8fee25e" />
 
 
+## Installation und Einrichtung
+
+### Vorbereitungen in HomeAssistant
+
+#### Einen User mit Passwort in HomeAssistant anlegen
+Einstellungen, Personen, Hinzufügen
+
+<img width="943" height="879" alt="image" src="https://github.com/user-attachments/assets/dd69eeb1-c28c-4e54-a314-49f3b8390641" />
+
+Anmeldung erlauben ja, Nur lokal ja, auch Admin nein
+
+#### Mosquitto MQTT Broker installieren (falls noch nicht gemacht)
+
+Einstellungen, Apps, Hinzufügen, Mosquitto
+
+<img width="912" height="822" alt="image" src="https://github.com/user-attachments/assets/1a4a996d-9595-40e5-8c4a-03901459336e" />
+
+#### MQTT Integration hinzufügen (falls noch nicht gemacht)
+
+<img width="1084" height="803" alt="image" src="https://github.com/user-attachments/assets/620132ae-481f-44e5-b246-0286834f90e2" />
+
+
+## ha-app-iobroker Installieren
+
+#### Repository hinzufügen
+
+Einstellungen, Apps, App installieren, (oben rechts) drei Striche, Repository, Hinzufügen
+
+<img width="1031" height="316" alt="image" src="https://github.com/user-attachments/assets/ac60db01-1c94-4b4e-bd0d-f21ac2b26ccd" />
+
+
+
+```https://github.com/klein0r/ha-app-iobroker```
+
+#### App  installieren
+
+Nach dem Hinzufügen kann in Apps Iobroker ausgewählt werden zu Installation und danach zum starten
+Achtung, das ganze dauert wirklich ein paar Minuten, nicht ungeduldig werden, LOG beobachten
+
+<img width="511" height="344" alt="image" src="https://github.com/user-attachments/assets/4151b427-d49e-4d7c-b446-4e7602d674f0" />
+
+
+<img width="1291" height="587" alt="image" src="https://github.com/user-attachments/assets/42de3648-c7c7-47d9-883d-31a6be7530d4" />
+
+Benutzeroberfläche aufrufen funktioniert (noch) nicht, auch nicht von der Seitenleiste aus
+
+Also neuen Tab aufmachen, Homeassistant_IP:8081
+
+<img width="1289" height="521" alt="image" src="https://github.com/user-attachments/assets/69ae3995-71aa-466c-8799-efed2b6c10bc" />
+
+HASS Adapter ausschalten, wird nicht benötigt
+
+### Funktion Bridge erzeugen
+In Kategorien, Funktionen, (+) Hinzufügen, (ganz unten) Benutzerdefiniert, (z.B.) Bridge
+
+<img width="735" height="479" alt="image" src="https://github.com/user-attachments/assets/9aaf2ce3-59fe-4cf4-a775-88753ed30478" />
+
+### Admin auktualisieren, LoRaWAN Adapter installieren, Instanz hinzufügen
+
+Über die Katze (Experteneinstellung ein) über NPM den neusten Admin installieren und den neusten LoRaWAN Adapter installieren und eine Instanz erzeugen
+
+
+
+
+
+
+
+
 
 
 
