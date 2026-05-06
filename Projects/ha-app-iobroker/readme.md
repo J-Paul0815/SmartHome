@@ -56,6 +56,23 @@ Hierzu wird dem Gerät, oder einer einzelnen Entität ein (vorher definiertes) L
 <img width="1019" height="695" alt="image" src="https://github.com/user-attachments/assets/e4641ae0-177a-4a47-a277-6ec61bd11657" />
 
 
+Geräte und die States werden dann zu Iobroker gebridged
+
+<img width="1110" height="638" alt="image" src="https://github.com/user-attachments/assets/06c4e8ff-f678-4b7d-880c-8aa5eb5abe14" />
+
+#### Gebridgte Geräte erscheinen im LoRaWAN Tab als Device Manager Kacheln
+Dunkelblau= Gebridgte (Iob->HA) LoRaWAN Geräte
+Hellblau  = Gebridgte Geräte (Iob->HA) (nicht LoRaWAN)
+Grün      = Gebridgte Geräte (HA->Iob)
+
+
+
+
+<img width="1058" height="807" alt="image" src="https://github.com/user-attachments/assets/ca376efd-8270-4464-8165-d76df8fee25e" />
+
+
+
+
 
 
 
