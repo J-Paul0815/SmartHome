@@ -1,7 +1,7 @@
 Auf dem Weg zum Hybriden Smarthome war ich schon eine Weile unterwegs
 Nun bin ich über ein Youtube Video von Matthias Kleine von Hausautomatisierung auf das Projekt
 
-### ha-app-iobroker
+## ha-app-iobroker
 
 gestoßen. Hatte ich mir im Vorwege bereits überlegt, dass dies sinnvoll ist, auf Grund der Kompexität aber erstmal verschoben.
 Bis jetzt. Das Projekt ist noch ziemlich neu, nicht alles funktioniert wie es sein soll, aber mit den jetzt vorhandenen Einschränkungen kann ich gut leben.
@@ -16,7 +16,7 @@ Der Iobroker läuft hierbei bei HomeAssistant  als Docker im Hintergrund, aber i
 
 Im Gegensatz zu der Lösung von M. Kleine ist nicht der HASS Adapter, sondern die Bridge Funktion des LoRaWAN Adapters in Benutzung.
 
-#### Installation und Einrichtung weiter unten
+### Installation und Einrichtung weiter unten
 
 #### Funktionen
 #### 1. Bridge Funktion von Iobroker zu HomeAssistant, bidirektional (steuern und schalten ist möglich)
