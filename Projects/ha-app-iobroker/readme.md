@@ -188,6 +188,25 @@ Siehe Youtube Video ab Minute 4
 #### Einrichtung Bridge von Homeassistant zu Iobroker ist hiermit abgeschlossen und kann benutzt werden (siehe oben)
 
 
+### Chirpstack 4 als App installieren
+Repository hinzuzfügen (siehe oben)
+
+```https://github.com/databang-io/chirpstack-ha-addon```
+
+Chipstack App Installieren und starten
+
+<img width="1279" height="659" alt="image" src="https://github.com/user-attachments/assets/a9b53906-eba3-4d44-9989-f925a352897b" />
+
+
+<img width="1028" height="770" alt="image" src="https://github.com/user-attachments/assets/6ed41546-d632-499c-a993-15fbd21096fc" />
+
+Mqtt Benutzer Passwort eintragen
+und API Key erzeugen und eintragebn
+
+
+Chirpstack lässt sich aufrufen über Homeassistant_IP:8080
+admin
+admin
 
 
 
