@@ -208,6 +208,9 @@ Chirpstack lässt sich aufrufen über Homeassistant_IP:8080
 admin
 admin
 
+<img width="1289" height="946" alt="image" src="https://github.com/user-attachments/assets/98eecbb6-d853-4f9d-a1fc-afd7ccf08d9c" />
+
+
 
 
 
