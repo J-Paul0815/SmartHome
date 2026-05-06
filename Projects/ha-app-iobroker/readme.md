@@ -224,6 +224,17 @@ Gateway zum Chirpstack schicken lassen:
 <img width="1287" height="877" alt="image" src="https://github.com/user-attachments/assets/89e7ce97-d578-4c22-8434-6a1178aebf62" />
 
 
+Instanz wird grün nach Einrichtung für Chirpstack
+
+<img width="1117" height="533" alt="image" src="https://github.com/user-attachments/assets/2751196a-a408-4d9d-ba1c-313f07485c09" />
+
+
+Für die Nutzung von TTN einfach eine Instanz hinzufügen
+
+<img width="1145" height="415" alt="image" src="https://github.com/user-attachments/assets/0ff0ce94-2e7a-49d6-af95-8e103b35511a" />
+
+Passwort ist der erzeugte APi Key bei der MQTT Integration !
+
 
 
 
