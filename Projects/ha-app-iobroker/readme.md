@@ -132,6 +132,48 @@ In Kategorien, Funktionen, (+) Hinzufügen, (ganz unten) Benutzerdefiniert, (z.B
 
 Über die Katze (Experteneinstellung ein) über NPM den neusten Admin installieren und den neusten LoRaWAN Adapter installieren und eine Instanz erzeugen
 
+### LoRaWAN Instanz Einstellungen
+
+In den Voreinstellungen kann Ursprung (vorerst) auf "AUS"
+
+<img width="1017" height="575" alt="image" src="https://github.com/user-attachments/assets/f950f373-d352-4439-9cde-c1342866f10c" />
+
+Bei der Bridge weden die MQTT Einstellungen vorgenommen:
+Bridge Typ ist HomeAssistant
+IP vom HomeAssistant, Port 1883, den einegrichteten Benutzer und das Passwort eintragen
+Verbindungstest sollte OK ergeben
+
+<img width="1284" height="971" alt="image" src="https://github.com/user-attachments/assets/24735b88-2200-450e-ad05-760433b4f87a" />
+
+Bei Bridge fremde States die eben erstellte Funktion (Bridge) auswählen
+
+<img width="1268" height="630" alt="image" src="https://github.com/user-attachments/assets/139ab03a-ae8f-4905-b6b8-460c10b7ee95" />
+
+
+
+<img width="1289" height="521" alt="image" src="https://github.com/user-attachments/assets/69ae3995-71aa-466c-8799-efed2b6c10bc" />
+
+
+#### Einrichtung Bridge von Iobroker zu Homeassistant ist hiermit abgeschlossen und kann benutzt werden (siehe oben)
+
+
+### weitere Vorbereitungen in HomeAssistant für die Bridge HA zu Iobroker
+
+### Label erstellen
+
+
+Einstellungen, Label, Label erstellen
+
+```ToIob``` (grosses T, Grosses I)
+
+<img width="624" height="466" alt="image" src="https://github.com/user-attachments/assets/2546ba14-c3c4-42be-af3d-acc0ef80d934" />
+
+Es gibt sogar ein Iobroker Symbol ;-)
+
+
+### (4) Automatisierungen hinzufügen:
+
+[
 
 
 
