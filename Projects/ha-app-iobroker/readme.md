@@ -237,6 +237,11 @@ Passwort ist der erzeugte APi Key bei der MQTT Integration !
 
 
 
+<img width="915" height="82" alt="image" src="https://github.com/user-attachments/assets/7368aa1c-ddec-4b57-8261-e17e65930ca0" />
+
+
+
+
 
 
 
