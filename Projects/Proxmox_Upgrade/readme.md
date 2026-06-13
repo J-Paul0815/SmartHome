@@ -28,6 +28,9 @@ altes NUC 2 Cores (i3), 32 GB RAM stößt an seine Grenzen
 
 <img width="1226" height="649" alt="image" src="https://github.com/user-attachments/assets/8209f537-7935-47d5-8586-e932c6b80c98" />
 
+<img width="1261" height="550" alt="image" src="https://github.com/user-attachments/assets/1fda0948-d5f2-4d00-8c15-89ea1985c765" />
+
+
 ### Installation
 Nach der Instaööation von RAM und SSD
 
