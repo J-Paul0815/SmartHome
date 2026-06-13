@@ -42,7 +42,7 @@ Nach der Instaööation von RAM und SSD
 #### Bios Update 
 
 Download CAP Datei:
-[https://www.asus.com/de/supportonly/nuc15crk/helpdesk_bios/](https://www.asus.com/de/supportonly/nuc15crk/helpdesk_bios/]
+[https://www.asus.com/de/supportonly/nuc15crk/helpdesk_bios/](https://www.asus.com/de/supportonly/nuc15crk/helpdesk_bios/)
 
 <img width="1480" height="637" alt="image" src="https://github.com/user-attachments/assets/1147f92d-75ef-4291-9d44-0054c696c6f1" />
 
