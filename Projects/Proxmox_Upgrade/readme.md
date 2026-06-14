@@ -121,16 +121,22 @@ temp1:        +43.5°C
 ```
 #!/bin/bash
 
-# ioBroker-Datenpunkte
-DP1="0_userdata.0.System.Core0"
-DP2="0_userdata.0.System.Core1"
-DP3="0_userdata.0.System.Package0"
-DP4="0_userdata.0.System.PCH"
-
-# ioBroker-IP:Port
+# ioBroker IP:Port
 IPP="192.168.0.222:8087"
 
+# Temperatur-Datenpunkte
+DP_CORE0="0_userdata.0.System.Core0"
+DP_CORE1="0_userdata.0.System.Core1"
+DP_PACKAGE="0_userdata.0.System.Package0"
+DP_PCH="0_userdata.0.System.PCH"
+
+# Shutdown-Datenpunkt
+DP_SHUTDOWN="0_userdata.0.System.prxmxshutdown"
+
+#############################################
 # Temperaturen auslesen
+#############################################
+
 CORE0=$(sensors | awk '/Core 0:/ {gsub(/\+|°C/,"",$3); print $3}')
 CORE1=$(sensors | awk '/Core 1:/ {gsub(/\+|°C/,"",$3); print $3}')
 PACKAGE0=$(sensors | awk '/Package id 0:/ {gsub(/\+|°C/,"",$4); print $4}')
@@ -143,12 +149,34 @@ PCH=$(sensors | awk '
         exit
     }')
 
-# An ioBroker senden
-curl -s "http://${IPP}/set/${DP1}?value=${CORE0}" >/dev/null
-curl -s "http://${IPP}/set/${DP2}?value=${CORE1}" >/dev/null
-curl -s "http://${IPP}/set/${DP3}?value=${PACKAGE0}" >/dev/null
-curl -s "http://${IPP}/set/${DP4}?value=${PCH}" >/dev/null
+#############################################
+# Werte an ioBroker senden
+#############################################
 
+curl -s "http://${IPP}/set/${DP_CORE0}?value=${CORE0}" >/dev/null
+curl -s "http://${IPP}/set/${DP_CORE1}?value=${CORE1}" >/dev/null
+curl -s "http://${IPP}/set/${DP_PACKAGE}?value=${PACKAGE0}" >/dev/null
+curl -s "http://${IPP}/set/${DP_PCH}?value=${PCH}" >/dev/null
+
+#############################################
+# Shutdown prüfen
+#############################################
+
+DPSD=$(curl -s "http://${IPP}/getPlainValue/${DP_SHUTDOWN}")
+
+if [ "$DPSD" = "true" ]; then
+
+    logger "ioBroker: Shutdown von Proxmox angefordert"
+
+    # Reset des Schalters
+    curl -s "http://${IPP}/set/${DP_SHUTDOWN}?value=false" >/dev/null
+
+    # Sicherheitswartezeit
+    sleep 60
+
+    # System herunterfahren
+    /sbin/shutdown -h now
+fi
 ```
 
 ```chmod +x /usr/local/bin/cpu_temp_send_iobroker.sh```
@@ -159,6 +187,10 @@ aufrufen und in die letzte Zeile einfügen (z.B. aus dem Cron Tab.txt):
 
 * * * * * bash /usr/local/bin/cpu_temp_send_iobroker.sh > /dev/null 2>&1
 ```
+### Shutdown von Proxmox von Iobroker aus ermöglicht
+bereits im Script enthalten
+beim setzten von ```0_userdata.0.System.prxmxshutdown``` auf ```true```
+wird dieser wieder auf ```false``` gesetzt, Proxmox fährt alle VMs und LXC sauber runter und schaltet dann ab.
 
 
 
