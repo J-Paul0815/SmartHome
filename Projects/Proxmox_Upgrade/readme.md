@@ -38,7 +38,7 @@ altes NUC 2 Cores (i3), 32 GB RAM stößt an seine Grenzen
 
 
 ### Installation
-Nach der Instaööation von RAM und SSD
+Nach der Instalation von RAM und SSD
 
 #### RAM Test
 
