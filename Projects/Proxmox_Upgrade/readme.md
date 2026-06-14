@@ -42,6 +42,13 @@ Nach der Instaööation von RAM und SSD
 
 <img width="1280" height="452" alt="image" src="https://github.com/user-attachments/assets/e86e2fb2-b7dd-448d-a3ef-aa5b6d3ab2e5" />
 
+Memtest hat wohl in Verbindung mit dem Asus NUC einen bekannten Bug, so dass die Maschine nach einigen Durchläufen einfror.
+Bin dann auf den RAMtest86+ umgestiegen
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/c2c92fde-dcbd-4ca6-b78e-641e2ec88a01" />
+
+
+
 #### Bios Update 
 
 Download CAP Datei:
@@ -85,6 +92,12 @@ Nicht vergessen in die Optionen zu gehen:
 <img width="871" height="383" alt="image" src="https://github.com/user-attachments/assets/6b81b843-b4cb-4369-9b40-ca437caced76" />
 
 Nach dem Starten die passende Subscription auswählen, Updates fahren
+
+#### Email Notification einrichten
+<img width="1085" height="749" alt="image" src="https://github.com/user-attachments/assets/cdf6db6f-03c6-4b84-abcf-12a6a3bd31e8" />
+
+
+
 
 
 
