@@ -96,11 +96,69 @@ Nach dem Starten die passende Subscription auswählen, Updates fahren
 #### Email Notification einrichten
 <img width="1085" height="749" alt="image" src="https://github.com/user-attachments/assets/cdf6db6f-03c6-4b84-abcf-12a6a3bd31e8" />
 
+### Core Temperaturen zu Iobroker schicken
+```apt-get install lm-sensors```
 
+```
+root@pve:~# sensors
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +47.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 0:        +47.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 1:        +45.0°C  (high = +100.0°C, crit = +100.0°C)
 
+acpitz-acpi-0
+Adapter: ACPI interface
+temp1:       -263.2°C  
 
+pch_skylake-virtual-0
+Adapter: Virtual device
+temp1:        +43.5°C  
 
+```
+```nano /usr/local/bin/cpu_temp_send_iobroker.sh```
 
+```
+#!/bin/bash
+
+# ioBroker-Datenpunkte
+DP1="0_userdata.0.System.Core0"
+DP2="0_userdata.0.System.Core1"
+DP3="0_userdata.0.System.Package0"
+DP4="0_userdata.0.System.PCH"
+
+# ioBroker-IP:Port
+IPP="192.168.0.222:8087"
+
+# Temperaturen auslesen
+CORE0=$(sensors | awk '/Core 0:/ {gsub(/\+|°C/,"",$3); print $3}')
+CORE1=$(sensors | awk '/Core 1:/ {gsub(/\+|°C/,"",$3); print $3}')
+PACKAGE0=$(sensors | awk '/Package id 0:/ {gsub(/\+|°C/,"",$4); print $4}')
+
+PCH=$(sensors | awk '
+    /pch_skylake-virtual-0/ {found=1; next}
+    found && /temp1:/ {
+        gsub(/\+|°C/,"",$2)
+        print $2
+        exit
+    }')
+
+# An ioBroker senden
+curl -s "http://${IPP}/set/${DP1}?value=${CORE0}" >/dev/null
+curl -s "http://${IPP}/set/${DP2}?value=${CORE1}" >/dev/null
+curl -s "http://${IPP}/set/${DP3}?value=${PACKAGE0}" >/dev/null
+curl -s "http://${IPP}/set/${DP4}?value=${PCH}" >/dev/null
+
+```
+
+```chmod +x /usr/local/bin/cpu_temp_send_iobroker.sh```
+
+```
+crontab -e
+aufrufen und in die letzte Zeile einfügen (z.B. aus dem Cron Tab.txt):
+
+* * * * * bash /usr/local/bin/cpu_temp_send_iobroker.sh > /dev/null 2>&1
+```
 
 
 
