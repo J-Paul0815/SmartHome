@@ -103,17 +103,53 @@ Nach dem Starten die passende Subscription auswählen, Updates fahren
 root@pve:~# sensors
 coretemp-isa-0000
 Adapter: ISA adapter
-Package id 0:  +47.0°C  (high = +100.0°C, crit = +100.0°C)
-Core 0:        +47.0°C  (high = +100.0°C, crit = +100.0°C)
-Core 1:        +45.0°C  (high = +100.0°C, crit = +100.0°C)
+Package id 0:  +45.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 0:        +46.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 4:        +44.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 8:        +42.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 9:        +42.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 10:       +42.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 11:       +42.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 12:       +44.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 13:       +44.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 14:       +44.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 15:       +44.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 16:       +44.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 20:       +44.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 32:       +40.0°C  (high = +105.0°C, crit = +105.0°C)
+Core 33:       +40.0°C  (high = +105.0°C, crit = +105.0°C)
+
+ucsi_source_psy_USBC000:002-isa-0000
+Adapter: ISA adapter
+in0:           0.00 V  (min =  +0.00 V, max =  +0.00 V)
+curr1:         0.00 A  (max =  +0.00 A)
+
+nvme-pci-0100
+Adapter: PCI adapter
+Composite:    +32.9°C  (low  = -273.1°C, high = +89.8°C)
+                       (crit = +94.8°C)
+Sensor 1:     +32.9°C  (low  = -273.1°C, high = +65261.8°C)
+Sensor 2:     +32.9°C  (low  = -273.1°C, high = +65261.8°C)
+
+acpi_fan-isa-0000
+Adapter: ISA adapter
+fan1:             N/A
+
+asus-isa-000a
+Adapter: ISA adapter
+cpu_fan:     1700 RPM
+pwm1:             N/A
+
+ucsi_source_psy_USBC000:001-isa-0000
+Adapter: ISA adapter
+in0:           0.00 V  (min =  +0.00 V, max =  +0.00 V)
+curr1:         0.00 A  (max =  +0.00 A)
 
 acpitz-acpi-0
 Adapter: ACPI interface
-temp1:       -263.2°C  
+temp1:        +40.0°C  
+temp2:        +46.0°C  
 
-pch_skylake-virtual-0
-Adapter: Virtual device
-temp1:        +43.5°C  
 
 ```
 ```nano /usr/local/bin/cpu_temp_send_iobroker.sh```
