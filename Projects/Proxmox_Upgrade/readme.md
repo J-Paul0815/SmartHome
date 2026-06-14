@@ -11,6 +11,12 @@ altes NUC 2 Cores (i3), 32 GB RAM stößt an seine Grenzen
 ## Neues NUC Asus 15, 5 Pro 225H, 64 GB RAM, 2TB M.2 SSD
 <img width="692" height="510" alt="image" src="https://github.com/user-attachments/assets/3324f1c0-6498-42fb-ae41-ee1de9c77ec7" />
 
+Mehr Effizienz geht wohl kaum, 14 Cores, 40 Server am laufen bei ca. 20 Watt Leistungsaufnahme
+
+<img width="571" height="577" alt="image" src="https://github.com/user-attachments/assets/237cbfbb-a0b1-4f30-b626-6b6a6cf32f0e" />
+
+
+
 ### Hardware
 #### NUC
 <img width="1610" height="825" alt="image" src="https://github.com/user-attachments/assets/dd0c5196-bb8e-48da-ba9b-0bb39bee8691" />
