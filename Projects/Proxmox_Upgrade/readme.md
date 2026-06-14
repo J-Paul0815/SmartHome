@@ -157,60 +157,62 @@ temp2:        +46.0°C
 ```
 #!/bin/bash
 
-# ioBroker IP:Port
 IPP="192.168.0.222:8087"
 
-# Temperatur-Datenpunkte
-DP_CORE0="0_userdata.0.System.Core0"
-DP_CORE1="0_userdata.0.System.Core1"
-DP_PACKAGE="0_userdata.0.System.Package0"
-DP_PCH="0_userdata.0.System.PCH"
+# ioBroker Datenpunkte
+DP_CPU_PACKAGE="0_userdata.0.System.CPU_Package"
+DP_CPU_MAX="0_userdata.0.System.CPU_CoreMax"
+DP_CPU_AVG="0_userdata.0.System.CPU_CoreAvg"
+DP_NVME="0_userdata.0.System.NVMe_Temp"
+DP_BOARD="0_userdata.0.System.Board_Temp"
 
-# Shutdown-Datenpunkt
 DP_SHUTDOWN="0_userdata.0.System.prxmxshutdown"
 
 #############################################
-# Temperaturen auslesen
+# CPU Werte
 #############################################
 
-CORE0=$(sensors | awk '/Core 0:/ {gsub(/\+|°C/,"",$3); print $3}')
-CORE1=$(sensors | awk '/Core 1:/ {gsub(/\+|°C/,"",$3); print $3}')
-PACKAGE0=$(sensors | awk '/Package id 0:/ {gsub(/\+|°C/,"",$4); print $4}')
+PACKAGE=$(sensors | awk '/Package id 0:/ {gsub(/\+|°C/,"",$4); print $4}')
 
-PCH=$(sensors | awk '
-    /pch_skylake-virtual-0/ {found=1; next}
-    found && /temp1:/ {
-        gsub(/\+|°C/,"",$2)
-        print $2
-        exit
-    }')
+CORES=$(sensors | awk '/Core [0-9]+:/ {gsub(/\+|°C/,"",$3); print $3}')
+
+CORE_MAX=$(echo "$CORES" | awk 'BEGIN{max=0} {if($1>max) max=$1} END{print max}')
+CORE_AVG=$(echo "$CORES" | awk '{sum+=$1; n++} END{if(n>0) printf "%.1f", sum/n}')
+
+#############################################
+# NVMe Temperatur
+#############################################
+
+NVME=$(sensors | awk '/Composite:/ {gsub(/\+|°C/,"",$2); print $2}')
+
+#############################################
+# Board / ACPI Temperatur
+#############################################
+
+BOARD=$(sensors | awk '/acpitz-acpi-0/ {found=1; next} found && /temp2:/ {gsub(/\+|°C/,"",$2); print $2; exit}')
 
 #############################################
 # Werte an ioBroker senden
 #############################################
 
-curl -s "http://${IPP}/set/${DP_CORE0}?value=${CORE0}" >/dev/null
-curl -s "http://${IPP}/set/${DP_CORE1}?value=${CORE1}" >/dev/null
-curl -s "http://${IPP}/set/${DP_PACKAGE}?value=${PACKAGE0}" >/dev/null
-curl -s "http://${IPP}/set/${DP_PCH}?value=${PCH}" >/dev/null
+curl -s "http://${IPP}/set/${DP_CPU_PACKAGE}?value=${PACKAGE}" >/dev/null
+curl -s "http://${IPP}/set/${DP_CPU_MAX}?value=${CORE_MAX}" >/dev/null
+curl -s "http://${IPP}/set/${DP_CPU_AVG}?value=${CORE_AVG}" >/dev/null
+curl -s "http://${IPP}/set/${DP_NVME}?value=${NVME}" >/dev/null
+curl -s "http://${IPP}/set/${DP_BOARD}?value=${BOARD}" >/dev/null
 
 #############################################
-# Shutdown prüfen
+# Shutdown Check
 #############################################
 
 DPSD=$(curl -s "http://${IPP}/getPlainValue/${DP_SHUTDOWN}")
 
 if [ "$DPSD" = "true" ]; then
+    logger "ioBroker: Proxmox Shutdown ausgelöst"
 
-    logger "ioBroker: Shutdown von Proxmox angefordert"
-
-    # Reset des Schalters
     curl -s "http://${IPP}/set/${DP_SHUTDOWN}?value=false" >/dev/null
 
-    # Sicherheitswartezeit
     sleep 60
-
-    # System herunterfahren
     /sbin/shutdown -h now
 fi
 ```
