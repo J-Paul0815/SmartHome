@@ -228,6 +228,92 @@ bereits im Script enthalten
 beim setzten von ```0_userdata.0.System.prxmxshutdown``` auf ```true```
 wird dieser wieder auf ```false``` gesetzt, Proxmox fährt alle VMs und LXC sauber runter und schaltet dann ab.
 
+### JSON zum Import der Datenpunkt Struktur in Iobroker 
+
+```
+{
+  "0_userdata.0.System": {
+    "type": "folder",
+    "common": {
+      "name": "System"
+    },
+    "native": {}
+  },
+  "0_userdata.0.System.CPU_Package": {
+    "type": "state",
+    "common": {
+      "name": "CPU Package Temperature",
+      "type": "number",
+      "role": "value.temperature",
+      "unit": "°C",
+      "read": true,
+      "write": false
+    },
+    "native": {}
+  },
+  "0_userdata.0.System.CPU_CoreMax": {
+    "type": "state",
+    "common": {
+      "name": "CPU Core Max Temperature",
+      "type": "number",
+      "role": "value.temperature",
+      "unit": "°C",
+      "read": true,
+      "write": false
+    },
+    "native": {}
+  },
+  "0_userdata.0.System.CPU_CoreAvg": {
+    "type": "state",
+    "common": {
+      "name": "CPU Core Average Temperature",
+      "type": "number",
+      "role": "value.temperature",
+      "unit": "°C",
+      "read": true,
+      "write": false
+    },
+    "native": {}
+  },
+  "0_userdata.0.System.NVMe_Temp": {
+    "type": "state",
+    "common": {
+      "name": "NVMe Temperature",
+      "type": "number",
+      "role": "value.temperature",
+      "unit": "°C",
+      "read": true,
+      "write": false
+    },
+    "native": {}
+  },
+  "0_userdata.0.System.Board_Temp": {
+    "type": "state",
+    "common": {
+      "name": "Board / ACPI Temperature",
+      "type": "number",
+      "role": "value.temperature",
+      "unit": "°C",
+      "read": true,
+      "write": false
+    },
+    "native": {}
+  },
+  "0_userdata.0.System.prxmxshutdown": {
+    "type": "state",
+    "common": {
+      "name": "Proxmox Shutdown Trigger",
+      "type": "boolean",
+      "role": "switch",
+      "read": true,
+      "write": true
+    },
+    "native": {}
+  }
+}
+
+```
+
 
 
 
