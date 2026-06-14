@@ -1,6 +1,12 @@
 ## Proxmox Upgrade
 altes NUC 2 Cores (i3), 32 GB RAM stößt an seine Grenzen
+#### Vorher
+
 <img width="729" height="304" alt="image" src="https://github.com/user-attachments/assets/a01afda2-8165-49d1-bc1e-e6ee6b73fc9e" />
+
+#### Nachher
+
+<img width="704" height="310" alt="image" src="https://github.com/user-attachments/assets/8fd9f883-eea8-4ca4-b2cb-8f22c0a7700d" />
 
 ## Neues NUC Asus 15, 5 Pro 225H, 64 GB RAM, 2TB M.2 SSD
 <img width="692" height="510" alt="image" src="https://github.com/user-attachments/assets/3324f1c0-6498-42fb-ae41-ee1de9c77ec7" />
