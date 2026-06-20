@@ -2,7 +2,7 @@
 
 #### Video vom Umbau NUC 15 in ein Akasa lüfterloses Alu Gehäuse
 
-[https://youtu.be/9ouoL_6rC_I]https://youtu.be/9ouoL_6rC_I(https://youtu.be/9ouoL_6rC_I)
+[https://youtu.be/9ouoL_6rC_I](https://youtu.be/9ouoL_6rC_I)
 
 altes NUC 2 Cores (i3), 32 GB RAM stößt an seine Grenzen
 #### Vorher
