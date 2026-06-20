@@ -352,6 +352,14 @@ Also werkelt die Platte nun in einem UGREEN 40Gbbps M2 SSD Gehäuse, USB4, kompa
 
 
 
+<img width="992" height="362" alt="image" src="https://github.com/user-attachments/assets/4915c745-2ef6-4320-a352-402c5afd79fb" />
+
+
+
+
+
+
+
 
 
 
