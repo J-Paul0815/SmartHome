@@ -4,6 +4,10 @@
 
 [https://youtu.be/9ouoL_6rC_I](https://youtu.be/9ouoL_6rC_I)
 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/803f5660-1cba-4e29-a0d0-b66e1c0cccf5" />
+
+
+
 altes NUC 2 Cores (i3), 32 GB RAM stößt an seine Grenzen
 #### Vorher
 
