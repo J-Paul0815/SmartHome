@@ -262,7 +262,7 @@ wird dieser wieder auf ```false``` gesetzt, Proxmox fährt alle VMs und LXC saub
       "role": "value.temperature",
       "unit": "°C",
       "read": true,
-      "write": false
+      "write": true
     },
     "native": {}
   },
@@ -274,7 +274,7 @@ wird dieser wieder auf ```false``` gesetzt, Proxmox fährt alle VMs und LXC saub
       "role": "value.temperature",
       "unit": "°C",
       "read": true,
-      "write": false
+      "write": true
     },
     "native": {}
   },
@@ -286,7 +286,7 @@ wird dieser wieder auf ```false``` gesetzt, Proxmox fährt alle VMs und LXC saub
       "role": "value.temperature",
       "unit": "°C",
       "read": true,
-      "write": false
+      "write": true
     },
     "native": {}
   },
@@ -298,7 +298,7 @@ wird dieser wieder auf ```false``` gesetzt, Proxmox fährt alle VMs und LXC saub
       "role": "value.temperature",
       "unit": "°C",
       "read": true,
-      "write": false
+      "write": true
     },
     "native": {}
   },
@@ -310,7 +310,7 @@ wird dieser wieder auf ```false``` gesetzt, Proxmox fährt alle VMs und LXC saub
       "role": "value.temperature",
       "unit": "°C",
       "read": true,
-      "write": false
+      "write": true
     },
     "native": {}
   },
@@ -328,6 +328,30 @@ wird dieser wieder auf ```false``` gesetzt, Proxmox fährt alle VMs und LXC saub
 }
 
 ```
+### Fortführung des Projekts NAS im NUC
+
+siehe:
+[https://github.com/J-Paul0815/SmartHome/tree/main/Projects/NAS_im_NUC_mit_OMV](https://github.com/J-Paul0815/SmartHome/tree/main/Projects/NAS_im_NUC_mit_OMV)
+
+Hierfür habe ich eine Western Digital 512GB NVMe M.2 2242 Festplatte geordert
+Geplant ist diese Platte wieder in eine OpenmediaVault VM zu reinzureichen um hauptsächlich zum Datenaustausch NFS und Samba Freigaben NAS Funktionen zu haben.
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b69fdea9-90a3-4282-96a5-4d79ecc23c5a" />
+
+Eingebaut wurde die Platte erwartungsgemäss auch sofort im Bios erkannt und angezeigt.
+Allerdings war die Ernüchterung groß, als fest stand, dass mit einegbauter 2. Platte kein LAN mehr funktioniert.
+Grund ist, dass die NVMe-SSD PCIe-Lanes beansprucht , die der LAN-Controller braucht. Proxmox mit WLAN zu betreiben ist keine Option.
+Also werkelt die Platte nun in einem UGREEN 40Gbbps M2 SSD Gehäuse, USB4, kompatibel mit Thunderbolt 4 bis zu 3848MB/s
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/803f5660-1cba-4e29-a0d0-b66e1c0cccf5" />
+
+
+<img width="1313" height="884" alt="image" src="https://github.com/user-attachments/assets/2f05b22b-2649-4b13-9f7e-9077dc260349" />
+
+
+
+
+
 
 
 
