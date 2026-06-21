@@ -73,10 +73,14 @@ Komponenten	Wert (gebraucht)
 - 2 TB WD Blue (SATA, 2.5")	145 €, voll funktionsfähig
 - (Optional 500 GB WD Blue (M.2 SATA)	60 €, fast neuwertig)
 - Akasa Plato X8 Gehäuse	85 €
-Summe Einzelteile	(ohne Optionen) 500 €
+- Summe Einzelteile	(ohne Optionen) 500 €
 
-Preisvorstellung 350€
-Optional NUC im Akasa Gehäuse mit 16GB RAM (anstatt 32 GB), 512 GB SSD (anstatt 2 TB) 300€
+ - Preisvorstellung 350€
+
+Optional NUC im Akasa Gehäuse mit 
+- 16GB RAM (anstatt 32 GB),
+- 512 GB SSD (anstatt 2 TB)
+- 300€
 
 
 
