@@ -1,4 +1,4 @@
-## NUC Gen 8 Prozessor i3, 2 Cores / 4 Threads
+## NUC Gen 8 Prozessor i3, 2 Cores / 4 Threads, lautlos
 
 ### Einwandfrei lauffähig, lief problemlos bis zum Schluss mit Proxmox
 
