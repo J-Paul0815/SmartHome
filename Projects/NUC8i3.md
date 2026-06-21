@@ -67,12 +67,12 @@ könnte Proxmox, HomeAssistant, Ubuntu, OMV installieren auf Wunsch
 
 
 Komponenten	Wert (gebraucht)
-NUC8i3 Basis	150 €
-32 GB DDR4 RAM	120 €
-(Optional 16 GB DDR4 RAM	60 €)
-2 TB WD Blue (SATA, 2.5")	145 €, voll funktionsfähig
-(Optional 500 GB WD Blue (M.2 SATA)	60 €, fast neuwertig)
-Akasa Plato X8 Gehäuse	85 €
+- NUC8i3 Basis	150 €
+- 32 GB DDR4 RAM	120 €
+- (Optional 16 GB DDR4 RAM	60 €)
+- 2 TB WD Blue (SATA, 2.5")	145 €, voll funktionsfähig
+- (Optional 500 GB WD Blue (M.2 SATA)	60 €, fast neuwertig)
+- Akasa Plato X8 Gehäuse	85 €
 Summe Einzelteile	(ohne Optionen) 500 €
 
 Preisvorstellung 350€
