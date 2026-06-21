@@ -66,7 +66,7 @@ könnte Proxmox, HomeAssistant, Ubuntu, OMV installieren auf Wunsch
 <img width="1404" height="461" alt="image" src="https://github.com/user-attachments/assets/e2ef18d8-3ef1-4e55-a6e7-e5876aeb1cdf" />
 
 
-Komponenten	Wert (gebraucht)
+#### Komponenten	Wert (gebraucht)
 - NUC8i3 Basis	150 €
 - 32 GB DDR4 RAM	120 €
 - (Optional 16 GB DDR4 RAM	60 €)
@@ -75,12 +75,12 @@ Komponenten	Wert (gebraucht)
 - Akasa Plato X8 Gehäuse	85 €
 - Summe Einzelteile	(ohne Optionen) 500 €
 
- - Preisvorstellung 350€
+- Preisvorstellung 350€ VB
 
-Optional NUC im Akasa Gehäuse mit 
+#### Optional NUC im Akasa Gehäuse mit 
 - 16GB RAM (anstatt 32 GB),
 - 512 GB SSD (anstatt 2 TB)
-- 300€
+- 300€ VB
 
 
 
