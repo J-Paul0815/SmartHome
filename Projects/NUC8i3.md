@@ -35,7 +35,7 @@ Die SSD ist trotz 5 Jahren Laufzeit technisch intakt (SMART PASSED, 0 Fehler)
 <img width="733" height="88" alt="image" src="https://github.com/user-attachments/assets/dea38eb2-f24f-4989-acd5-96b10b30a5f7" />
 
 
-Optional: anstatt, oder zusätzlich:
+#### Optional: anstatt, oder zusätzlich:
 
 WD Blue 500 GB M.2 SATA SSD, Modell WDS500G2B0B m.2 (nicht 2,5 Zoll)
 
@@ -52,6 +52,7 @@ Crucial RAM CT2K16G4SFD824A 32GB (2x16GB) DDR4 2400MHz CL17 Laptop Arbeitsspeich
 
 <img width="385" height="234" alt="image" src="https://github.com/user-attachments/assets/99dc6a1f-104d-4aa2-91f0-50e961d570c6" />
 
+#### Optional: RAM 16 GB (2 x 8 GB im Dual Channel)
 
 ### OS
 keins, Platte wird formatiert
