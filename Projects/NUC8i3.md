@@ -52,7 +52,9 @@ Crucial RAM CT2K16G4SFD824A 32GB (2x16GB) DDR4 2400MHz CL17 Laptop Arbeitsspeich
 
 <img width="385" height="234" alt="image" src="https://github.com/user-attachments/assets/99dc6a1f-104d-4aa2-91f0-50e961d570c6" />
 
-#### Optional: RAM 16 GB (2 x 8 GB im Dual Channel)
+#### Optional: Crucial RAM 16 GB (2 x 8 GB im Dual Channel) anstatt 32 GB RAM
+
+Auf Wunsch RAM Test
 
 ### OS
 keins, Platte wird formatiert
