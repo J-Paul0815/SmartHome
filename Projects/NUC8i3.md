@@ -15,6 +15,7 @@ Akasa Plato lüfterlos, hält die Core Temperaturen bei ca. <40 Grad (mit Lüfte
 
 ### NUC
 Intel BOXNUC7I3BNH Desktop PC Core i3, HD Graphics 620
+4 x USB A, HDMI Ausgang
 
 ### Netzteil
 Original
