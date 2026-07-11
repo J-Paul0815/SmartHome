@@ -1,4 +1,4 @@
-Auf dem Weg zum Hybriden Smarthome war ich schon eine Weile unterwegs
+Auf dem Weg zum Hybriden Smarthome war ich schon eine Weile unterwegs.
 Nun bin ich über ein Youtube Video von Matthias Kleine von Hausautomatisierung auf das Projekt
 
 ## ha-app-iobroker
@@ -10,7 +10,7 @@ hier mal meine Notizen dazu, die ich nach und nach ergänzen werde.
 
 <img width="658" height="751" alt="image" src="https://github.com/user-attachments/assets/35d72673-1446-4fab-ba60-25fbf91bee30" />
 
-####  Aus Homeassistant und Iobroker wird EINS
+####  Aus Homeassistant und Iobroker wird EIN EINZIGES HYBRIDES SYSTEM
 
 Der Iobroker läuft hierbei bei HomeAssistant  als Docker im Hintergrund, aber in der gleichen Maschine.
 
