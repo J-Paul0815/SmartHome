@@ -171,17 +171,28 @@ Einstellungen, Label, Label erstellen
 Es gibt sogar ein Iobroker Symbol ;-)
 
 
-### (4) Automatisierungen hinzufügen:
+### (4) Automatisierungen hinzufügen: Hinfällig, siehe Abschnitt Hier drunter
 
-Alle 4 hinzufügen:
+Alle 4 hinzufügen: (NICHT mehr hinzufügen)
 
 [https://github.com/BenAhrdt/SmartHome/tree/main/Home%20Assistant/Automationen](https://github.com/BenAhrdt/SmartHome/tree/main/Home%20Assistant/Automationen)
 
+### (4) Neu Benachrichtigung ist nun in der HACS Intergration "Iobroker LoRaWAN Bridge" enthalten
+es müssen/sollen keine Automatisierungen mehr erstellt werden
+
+Einfach in HACS Repository hinzufügen:
+[https://github.com/BenAhrdt/home-assistant-lorawan-iobroker](https://github.com/BenAhrdt/home-assistant-lorawan-iobroker)
+
+HA neu starten
+In Einstellungen, Integrationen, "Iobroker LoRaWAN Bridge" hinzufügen
+
+<img width="1399" height="894" alt="image" src="https://github.com/user-attachments/assets/41eab6ee-0e17-435f-a415-ff3c23463ddd" />
+
+In der linken Seitenleiste ist nun "Iobroker LoRaWAN Bridge"
+
+<img width="1400" height="769" alt="image" src="https://github.com/user-attachments/assets/6409e882-bbe5-46bc-adcc-c19af39b9619" />
 
 
-Siehe Youtube Video ab Minute 4
-
-[https://youtu.be/-IeHOPwHzwo](https://youtu.be/-IeHOPwHzwo)
 
 
 
