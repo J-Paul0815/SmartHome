@@ -94,6 +94,8 @@ Einstellungen, Apps, Hinzufügen, Mosquitto
 
 
 ## ha-app-iobroker Installieren
+#### Dies natürlich nur dann machen, wenn man Iobroker nicht sowieso separat laufen lassen möchte
+Ist, oder soll Iobroker separat betrieben werden, kann dieser Schritt übersprungen werden
 
 #### Repository hinzufügen
 
