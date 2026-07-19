@@ -60,7 +60,18 @@ In this example, ChirpStack is set up as a HACS integration. A non-admin user is
 
 <img width="852" height="872" alt="image" src="https://github.com/user-attachments/assets/437a9e75-ffba-4e98-8b85-ad1f72fd8f34" />
 
+### Example 2 (MClimate PIR MIni)
 
+- Go to Configutation (after the first uplink) and add ```MC-PIR-MINI```
+
+<img width="595" height="868" alt="image" src="https://github.com/user-attachments/assets/a948ce8d-9113-44c9-b0ea-52af9217d02a" />
+
+Downlink Configutation comes up:
+
+<img width="1113" height="698" alt="image" src="https://github.com/user-attachments/assets/196faa36-8d20-445e-9c83-7b55feb1f2f1" />
+
+
+- 
 
 
 
