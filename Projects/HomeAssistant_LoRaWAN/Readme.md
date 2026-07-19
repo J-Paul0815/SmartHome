@@ -1,5 +1,24 @@
 ## LoRaWAN Integration in HomeAssistant over HACS
+
+Was lange währt wird endlich gut.
+
+(Good things come to those who wait)
+
+Special thanks to Benjamin Schmidt. 
+
+Here is the link to the project page:
+
+[https://github.com/BenAhrdt/home-assistant-lorawan](https://github.com/BenAhrdt/home-assistant-lorawan)
+
+
+
+### Prerequisites:
+- Installed Home Assistant
+- with HACS set up
+- with MQTT set up
+
 ### Integration Install
+
 - Go to HACS
 - klick the 3 dots in upper right corner
 - go to Custom Repositories
