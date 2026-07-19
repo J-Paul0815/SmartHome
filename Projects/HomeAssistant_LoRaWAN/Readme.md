@@ -41,6 +41,26 @@ Found in your TTN Account:
 
 <img width="642" height="879" alt="image" src="https://github.com/user-attachments/assets/9bf248e7-2feb-4e23-8e84-bc865be01834" />
 
+In this example, ChirpStack is set up as a HACS integration. A non-admin user is used for the MQTT broker configured in Home Assistant. See:
+
+``` https://github.com/databang-io/chirpstack-ha-addon ```
+
+### Result:
+
+<img width="1065" height="890" alt="image" src="https://github.com/user-attachments/assets/64951415-34ea-46dc-ba1c-d9b7b4a5e9c1" />
+
+#### Custom Setting for Climate devices
+
+<img width="840" height="824" alt="image" src="https://github.com/user-attachments/assets/e4728ead-c3e8-4109-85cf-db87b0a99294" />
+
+
+<img width="575" height="613" alt="image" src="https://github.com/user-attachments/assets/7be9796b-1bc8-4ced-a400-5919ac5e9c4a" />
+
+### Result:
+
+<img width="852" height="872" alt="image" src="https://github.com/user-attachments/assets/437a9e75-ffba-4e98-8b85-ad1f72fd8f34" />
+
+
 
 
 
