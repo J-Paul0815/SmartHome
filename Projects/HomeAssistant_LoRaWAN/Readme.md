@@ -117,17 +117,24 @@ Otherwise, it can also be entered manually:
 In the process, the defined controls are created and can be used immediately.
 
 Examples:
-Switch on Relay 1
+### Switch on Relay 1
 
 <img width="359" height="383" alt="image" src="https://github.com/user-attachments/assets/c369b219-e05e-4f4e-949c-50cc74a2687c" />
 
 
-Switch on Relay 2 for 25 seconds, then switch off:
+### Switch on Relay 2 for 25 seconds, then switch off:
 
 <img width="375" height="397" alt="image" src="https://github.com/user-attachments/assets/b7a7bf58-ffff-494c-9f59-fbc04d3dae3d" />
 
+### Level DO1 down for 2 seconds, then level up again:
+
+<img width="368" height="463" alt="image" src="https://github.com/user-attachments/assets/41db72ce-7a8c-47ae-8aae-598b8090e5b3" />
 
 
+## Create your own downlink configuration:
+
+
+<img width="1632" height="902" alt="image" src="https://github.com/user-attachments/assets/277ef344-be34-461b-a316-06ccb929ccba" />
 
 
 
