@@ -106,15 +106,18 @@ Use the decoders adapted by us, available here:
 
 [https://github.com/BenAhrdt/LoRaWANDeviceProfiles/tree/main/DeviceProfiles](https://github.com/BenAhrdt/LoRaWANDeviceProfiles/tree/main/DeviceProfiles)
 
+
 Otherwise, it can also be entered manually:
 
 <img width="407" height="211" alt="image" src="https://github.com/user-attachments/assets/786f7238-7dbf-4d13-bf89-509ae6b73696" />
 
 
+In the process, the defined controls are created and can be used immediately:
+
 
 <img width="383" height="889" alt="image" src="https://github.com/user-attachments/assets/013420b0-5a2a-478f-a6b7-4b9fe88a6ebc" />
 
-In the process, the defined controls are created and can be used immediately.
+
 
 Examples:
 ### Switch on Relay 1
