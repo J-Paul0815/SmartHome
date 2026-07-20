@@ -90,7 +90,53 @@ Downlink Configutation comes up:
 <img width="1113" height="698" alt="image" src="https://github.com/user-attachments/assets/196faa36-8d20-445e-9c83-7b55feb1f2f1" />
 
 
-- 
+### Use Downlinks
+there are ready to use Downlink Configurations (ZeroTouch)
+
+#### Example Dragino LT-22222
+see at Downlink Section:
+
+<img width="928" height="867" alt="image" src="https://github.com/user-attachments/assets/853cb923-a0b2-4473-89f7-60c4eff89910" />
+
+
+If the device type and its downlink configuration are already stored in the decoder, it is automatically detected and entered under the "Device Type" configuration (ZeroTouch). 
+
+Recommended: 
+Use the decoders adapted by us, available here:
+
+[https://github.com/BenAhrdt/LoRaWANDeviceProfiles/tree/main/DeviceProfiles](https://github.com/BenAhrdt/LoRaWANDeviceProfiles/tree/main/DeviceProfiles)
+
+Otherwise, it can also be entered manually:
+
+<img width="407" height="211" alt="image" src="https://github.com/user-attachments/assets/786f7238-7dbf-4d13-bf89-509ae6b73696" />
+
+
+
+<img width="383" height="889" alt="image" src="https://github.com/user-attachments/assets/013420b0-5a2a-478f-a6b7-4b9fe88a6ebc" />
+
+In the process, the defined controls are created and can be used immediately.
+
+Examples:
+Switch on Relay 1
+
+<img width="359" height="383" alt="image" src="https://github.com/user-attachments/assets/c369b219-e05e-4f4e-949c-50cc74a2687c" />
+
+
+Switch on Relay 2 for 25 seconds, then switch off:
+
+<img width="375" height="397" alt="image" src="https://github.com/user-attachments/assets/b7a7bf58-ffff-494c-9f59-fbc04d3dae3d" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
