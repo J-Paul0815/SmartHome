@@ -15,7 +15,7 @@ Here is the link to the project page:
 ### Prerequisites:
 - Installed Home Assistant
 - with HACS set up
-- with MQTT set up
+- with MQTT set up (only if use of Chirpstack as HA (intern) Integration)
 
 ### Integration Install
 
