@@ -15,6 +15,13 @@ Over LoRaWAN Adapter Bridge Function to HA
 
 <img width="1045" height="900" alt="image" src="https://github.com/user-attachments/assets/dcce4495-0362-46d1-bcb0-bb38fc87f290" />
 
+Automations (see other Channels)
+
+<img width="869" height="571" alt="image" src="https://github.com/user-attachments/assets/dab54749-d1f7-416d-bb47-680b600decd2" />
+
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/4f0e5a31-aef5-41d7-bd70-9205b7ce184f" />
+
 
 
 
