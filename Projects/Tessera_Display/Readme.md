@@ -1,5 +1,26 @@
 ## Tessera Tools & Tips
 
+### Alerts (Example)
+
+Iobroker Device Monitor Dapter: 
+
+<img width="1748" height="795" alt="image" src="https://github.com/user-attachments/assets/26e551b1-a367-4f9b-ab22-6d141c2bae8f" />
+
+
+
+<img width="943" height="266" alt="image" src="https://github.com/user-attachments/assets/c6bfe516-0869-4b1d-a163-5c00a2e9b008" />
+
+Over LoRaWAN Adapter Bridge Function to HA
+
+
+<img width="1045" height="900" alt="image" src="https://github.com/user-attachments/assets/dcce4495-0362-46d1-bcb0-bb38fc87f290" />
+
+
+
+
+
+
+
 ### Grafana Charts to Display
 - create a direct Link for rendering Chart
   
@@ -44,9 +65,17 @@ Settings → Devices & Services
 
 ## Tibber Price Graph
 
-<img width="552" height="638" alt="image" src="https://github.com/user-attachments/assets/b0413ecf-999e-45e8-87ba-bced94859505" />
+
 
 Install Tibber Price Graph Integration
+
+<img width="742" height="893" alt="image" src="https://github.com/user-attachments/assets/2fb72072-f2b5-431d-9d36-50a543a83c02" />
+
+
+ 
+<img width="552" height="638" alt="image" src="https://github.com/user-attachments/assets/b0413ecf-999e-45e8-87ba-bced94859505" />
+
+
 
 
 
