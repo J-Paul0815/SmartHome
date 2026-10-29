@@ -1,0 +1,25 @@
+alias: Geräteüberwachung – Gerät ist fertig
+description: >-
+  Zeigt eine ESPHome-Meldung an, wenn eine Meldung der Geräteüberwachung
+  eintrifft.
+triggers:
+  - trigger: state
+    entity_id: sensor.information_message
+conditions:
+  - condition: template
+    value_template: |-
+      {{ state_attr('sensor.information_message', 'type') == 'recovered'
+         and state_attr('sensor.information_message', 'function') == 'Geräteüberwachung' }}
+actions:
+  - action: esphome.wohnzimmer_show_alert
+    data:
+      title: '{{ state_attr(''sensor.information_message'', ''deviceName'') or ''Gerät'' }}'
+      subtitle: >-
+        {{ (state_attr('sensor.information_message', 'deviceName') or 'Gerät') ~
+        ' ist fertig' }}
+      icon: mdi:dishwasher
+      color: red
+      button_text: OK
+      timeout: 0
+      flash: true
+mode: queued
