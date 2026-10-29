@@ -42,6 +42,14 @@ Settings → Devices & Services
   <img width="583" height="683" alt="image" src="https://github.com/user-attachments/assets/754752ae-82ff-46db-b2a1-d47f5315c6b2" />
   
 
+## Tibber Price Graph
+
+<img width="552" height="638" alt="image" src="https://github.com/user-attachments/assets/b0413ecf-999e-45e8-87ba-bced94859505" />
+
+Install Tibber Price Graph Integration
+
+
+
 
  
     
