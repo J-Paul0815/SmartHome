@@ -2,7 +2,9 @@
 
 ### Grafana Charts to Display
 - create a direct Link for rendering Chart
-<img width="1052" height="725" alt="image" src="https://github.com/user-attachments/assets/7e01fca8-3d60-4c0e-b6b3-7cc521d88c01" />
+
+<img width="1052" height="725" alt="image" src="https://github.com/user-attachments/assets/7c313263-87f1-422d-8d8e-cfd3285f8a02" />
+
 
 - dont lock time range
 - light or dark
