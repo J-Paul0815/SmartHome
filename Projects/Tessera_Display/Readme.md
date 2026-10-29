@@ -37,7 +37,9 @@ Settings → Devices & Services
 
     <img width="1246" height="623" alt="image" src="https://github.com/user-attachments/assets/48d55896-fac3-41d7-aeeb-4b034205434f" />
 
- 
+
+
+  
 
     <img width="583" height="683" alt="image" src="https://github.com/user-attachments/assets/2b7dc754-094d-4430-94fb-3d1bd6dbca15" />
 
